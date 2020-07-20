@@ -1,0 +1,116 @@
+gene	group
+JAK1	JAK/STAT
+JAK2	JAK/STAT
+JAK3	JAK/STAT
+STAT1	JAK/STAT
+STAT2	JAK/STAT
+STAT3	JAK/STAT
+STAT5A	JAK/STAT
+STAT5B	JAK/STAT
+IL6	JAK/STAT
+IL6R	JAK/STAT
+EGFR	Receptor Tyrosine Kinase (RTK)
+ERBB2	Receptor Tyrosine Kinase (RTK)
+ERBB3	Receptor Tyrosine Kinase (RTK)
+ALK	Receptor Tyrosine Kinase (RTK)
+MET	Receptor Tyrosine Kinase (RTK)
+ROS1	Receptor Tyrosine Kinase (RTK)
+FLT1	Receptor Tyrosine Kinase (RTK)
+FLT4	Receptor Tyrosine Kinase (RTK)
+PDGFRA	Receptor Tyrosine Kinase (RTK)
+PDGFRB	Receptor Tyrosine Kinase (RTK)
+FGFR1	Receptor Tyrosine Kinase (RTK)
+FGFR2	Receptor Tyrosine Kinase (RTK)
+FGFR3	Receptor Tyrosine Kinase (RTK)
+FGFR4	Receptor Tyrosine Kinase (RTK)
+NTRK1	Receptor Tyrosine Kinase (RTK)
+NTRK2	Receptor Tyrosine Kinase (RTK)
+NTRK3	Receptor Tyrosine Kinase (RTK)
+FLT3	Receptor Tyrosine Kinase (RTK)
+KDR	Receptor Tyrosine Kinase (RTK)
+KIT	Receptor Tyrosine Kinase (RTK)
+CSF1R	Receptor Tyrosine Kinase (RTK)
+TEK	Receptor Tyrosine Kinase (RTK)
+CDK4	Cell Cycle
+CDK6	Cell Cycle
+CCND1	Cell Cycle
+CCND2	Cell Cycle
+CCND3	Cell Cycle
+CCNE1	Cell Cycle
+CDK2	Cell Cycle
+PIK3CA	PI3K/AKT/mTOR
+PIK3CB	PI3K/AKT/mTOR
+PIK3CG	PI3K/AKT/mTOR
+PIK3CD	PI3K/AKT/mTOR
+PIK3R1	PI3K/AKT/mTOR
+PIK3R2	PI3K/AKT/mTOR
+PIK3R3	PI3K/AKT/mTOR
+PIK3R4	PI3K/AKT/mTOR
+PIK3R5	PI3K/AKT/mTOR
+PIK3R6	PI3K/AKT/mTOR
+PIK3C2A	PI3K/AKT/mTOR
+PIK3C2B	PI3K/AKT/mTOR
+PIK3C2G	PI3K/AKT/mTOR
+PIK3C3	PI3K/AKT/mTOR
+AKT1	PI3K/AKT/mTOR
+AKT3	PI3K/AKT/mTOR
+TSC1	PI3K/AKT/mTOR
+TSC2	PI3K/AKT/mTOR
+MTOR	PI3K/AKT/mTOR
+RPTOR	PI3K/AKT/mTOR
+MLST8	PI3K/AKT/mTOR
+DEPTOR	PI3K/AKT/mTOR
+NRAS	RAS/RAF/MEK
+KRAS	RAS/RAF/MEK
+HRAS	RAS/RAF/MEK
+BRAF	RAS/RAF/MEK
+RAF1	RAS/RAF/MEK
+ARAF	RAS/RAF/MEK
+MAP2K1	RAS/RAF/MEK
+MAP2K2	RAS/RAF/MEK
+PTCH1	Sonic Hedgehog (SHH)
+GLI1	Sonic Hedgehog (SHH)
+SMO	Sonic Hedgehog (SHH)
+BCL2	BCL2/MDM2
+BCL6	BCL2/MDM2
+MDM2	BCL2/MDM2
+HSP90AA1	Heat Shock Proteins
+HSP90AA2P	Heat Shock Proteins
+HSP90N	Heat Shock Proteins
+HSP90AA2	Heat Shock Proteins
+HSP90AA6P	Heat Shock Proteins
+HSP90AA3P	Heat Shock Proteins
+HSP90AA4P	Heat Shock Proteins
+HSP90AA5P	Heat Shock Proteins
+HSP90AB1	Heat Shock Proteins
+HSP90AB3P	Heat Shock Proteins
+HSP90AB2P	Heat Shock Proteins
+HSP90AB6P	Heat Shock Proteins
+HSP90AB4P	Heat Shock Proteins
+HSP90AB5P	Heat Shock Proteins
+HSP90B1	Heat Shock Proteins
+HSP90B2P	Heat Shock Proteins
+HSP90B3P	Heat Shock Proteins
+BTK	B-cell receptor signaling
+MS4A1	B-cell receptor signaling
+AURKA	Aurora kinases
+AURKB	Aurora kinases
+AURKC	Aurora kinases
+PARP1	DNA repair
+CDK9	NA
+IGF2	NA
+MAP2K4	NA
+NOTCH3	NA
+VEGFA	NA
+WEE1	NA
+PARP2	NA
+ETV1	NA
+IGF1R	NA
+IGF1	NA
+AKT2	NA
+HDAC4	NA
+HDAC7	NA
+PDCD1	NA
+HMOX1	NA
+VEGFC	NA
+GATA2	NA
