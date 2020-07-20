@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	DLX2	Up	1.54596836911	1.03957295418	32.75587166259599	99.94186046511628	99.70930232558139	100	100	100	99.70930232558139	100	100

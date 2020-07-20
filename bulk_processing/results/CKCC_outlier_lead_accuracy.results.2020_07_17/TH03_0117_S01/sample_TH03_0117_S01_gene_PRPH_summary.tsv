@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0117_S01	PRPH	Up	10.0413442977	3.48741221428	65.26946879932399	NaN	Inf	-Inf	NA	NA	NA	NA	NA

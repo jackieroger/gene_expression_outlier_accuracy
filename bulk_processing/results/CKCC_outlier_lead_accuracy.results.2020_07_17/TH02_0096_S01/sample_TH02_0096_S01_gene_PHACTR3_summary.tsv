@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	PHACTR3	Up	4.01703108053	3.75166463852	6.60603407566834	99.872874478516	99.77064220183486	100	99.7867803837953	100	99.8069498069498	99.77064220183486	100

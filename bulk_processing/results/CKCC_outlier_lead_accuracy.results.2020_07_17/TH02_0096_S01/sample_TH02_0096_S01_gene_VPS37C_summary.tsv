@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	VPS37C	Down	1.70929063572	2.1367213726	25.006322970929656	99.83848428715349	99.57264957264957	100	100	100	100	99.57264957264957	99.61977186311786

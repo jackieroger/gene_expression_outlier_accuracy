@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	TMEM147	Down	4.91504279137	5.04464435577	2.636834914795829	87.00718158959651	78.13765182186235	92.95774647887323	78.13765182186235	90.99526066350711	92.95774647887323	87.39837398373984	85.546875

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	MCM7	Down	2.53356334821	3.20203971863	26.384829528430327	99.82098696234094	99.69325153374233	100	99.69325153374233	99.70238095238095	99.70930232558139	100	100

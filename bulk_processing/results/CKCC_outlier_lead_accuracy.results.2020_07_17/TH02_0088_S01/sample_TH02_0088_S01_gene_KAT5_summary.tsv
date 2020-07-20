@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	KAT5	Down	3.64038956005	3.72853517532	2.421323702202604	93.32265713783015	90.3954802259887	96.98189134808854	90.76923076923077	96.98189134808854	96.8476357267951	91.61904761904762	90.3954802259887

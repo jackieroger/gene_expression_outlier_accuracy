@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	FABP1	Up	11.5755345198	0.687809228897	94.05807802896273	NaN	Inf	-Inf	NA	NA	NA	NA	NA

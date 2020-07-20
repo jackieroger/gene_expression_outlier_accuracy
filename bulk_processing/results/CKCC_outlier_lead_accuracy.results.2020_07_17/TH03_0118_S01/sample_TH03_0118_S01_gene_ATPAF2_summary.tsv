@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0118_S01	ATPAF2	Up	5.89360490486	5.76216745377	2.2301707225337375	99.47341573416843	99.13419913419914	100	99.13419913419914	100	99.55156950672645	99.13793103448276	99.54337899543378

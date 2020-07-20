@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	EXOC4	Down	2.27202318906	2.88955521584	27.17982940286321	99.93020673842517	99.85955056179775	100	99.909338168631	100	100	99.85955056179775	99.88214496169712

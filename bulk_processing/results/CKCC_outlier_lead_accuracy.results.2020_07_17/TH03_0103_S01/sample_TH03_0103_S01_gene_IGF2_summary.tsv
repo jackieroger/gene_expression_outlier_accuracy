@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0103_S01	IGF2	Up	12.1196123146	9.62102127075	20.616097107661194	NaN	Inf	-Inf	NA	NA	NA	NA	NA

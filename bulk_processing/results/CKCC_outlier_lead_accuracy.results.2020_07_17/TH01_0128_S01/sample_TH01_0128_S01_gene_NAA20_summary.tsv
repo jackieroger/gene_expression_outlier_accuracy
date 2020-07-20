@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	NAA20	Down	3.06350294231	4.36088609695	42.3496624312599	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

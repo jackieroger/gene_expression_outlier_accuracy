@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0159_S01	LYVE1	Up	4.66505161429	4.27616119385	8.336251184204475	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	CHD4	Down	4.88313201566	4.95386838913	1.4485861378138325	84.30216974990498	77.04918032786885	92.25	81.38138138138137	92.25	90.15544041450777	80.67484662576688	77.04918032786885

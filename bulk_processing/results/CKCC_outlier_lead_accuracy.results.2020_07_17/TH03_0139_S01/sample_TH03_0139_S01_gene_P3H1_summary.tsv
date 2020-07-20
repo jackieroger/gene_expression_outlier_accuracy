@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0139_S01	P3H1	Up	7.43521185901	7.09212779999	4.614314501398504	99.6875	98.4375	100	100	100	100	98.4375	100

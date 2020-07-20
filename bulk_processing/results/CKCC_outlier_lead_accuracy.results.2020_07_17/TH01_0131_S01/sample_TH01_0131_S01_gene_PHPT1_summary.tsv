@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0131_S01	PHPT1	Down	4.56864019542	4.5946097374	0.5684304490870953	33.134978684268354	27.93522267206478	39.7887323943662	27.93522267206478	32.22748815165877	39.7887323943662	32.52032520325203	33.203125

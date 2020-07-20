@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0064_S01	ICAM3	Up	6.81698362326	6.69589042664	1.7763457169945591	98.62209963486909	97.7961432506887	100	98.5632183908046	98.27089337175792	100	97.7961432506887	98.48024316109422

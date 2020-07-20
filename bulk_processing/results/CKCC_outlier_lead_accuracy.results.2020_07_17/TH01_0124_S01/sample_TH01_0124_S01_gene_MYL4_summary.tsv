@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0124_S01	MYL4	Up	2.53356334821	2.01375460625	20.516903290665795	97.08397783184625	95.8	99.1686460807601	96.76375404530745	97.76422764227642	99.1686460807601	95.92326139088729	95.8

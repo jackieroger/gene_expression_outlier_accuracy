@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	IGBP1	Down	3.52356195606	4.03662204742	14.560836385397257	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

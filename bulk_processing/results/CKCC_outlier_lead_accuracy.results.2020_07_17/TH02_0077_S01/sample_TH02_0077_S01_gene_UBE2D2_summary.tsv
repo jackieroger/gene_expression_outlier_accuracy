@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	UBE2D2	Down	4.57652213792	5.08600234985	11.132475634905507	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

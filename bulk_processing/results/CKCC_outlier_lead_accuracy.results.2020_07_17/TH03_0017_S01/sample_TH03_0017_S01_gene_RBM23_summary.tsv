@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	RBM23	Down	3.44757919655	3.5661380291	3.438900915420371	98.35499538789327	97.64453961456103	98.84169884169884	98.29424307036247	98.6	98.84169884169884	98.39449541284404	97.64453961456103

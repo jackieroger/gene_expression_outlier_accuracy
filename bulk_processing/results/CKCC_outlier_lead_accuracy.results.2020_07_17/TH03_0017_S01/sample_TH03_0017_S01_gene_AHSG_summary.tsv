@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	AHSG	Up	11.0694497674	0.344080448151	96.89162103463957	NaN	Inf	-Inf	NA	NA	NA	NA	NA

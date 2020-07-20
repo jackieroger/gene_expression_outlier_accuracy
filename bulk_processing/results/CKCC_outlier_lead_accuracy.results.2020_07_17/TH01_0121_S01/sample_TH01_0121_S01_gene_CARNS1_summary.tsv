@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0121_S01	CARNS1	Up	3.44360665148	2.39511632919	30.447447354051832	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

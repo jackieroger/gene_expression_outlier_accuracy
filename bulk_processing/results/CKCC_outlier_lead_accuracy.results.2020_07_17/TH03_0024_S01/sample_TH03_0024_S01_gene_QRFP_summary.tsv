@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	QRFP	Up	1.344828497	1.22194540501	9.13745449803626	83.08597042074443	75.8	90.61757719714964	78.80258899676376	89.63414634146342	90.61757719714964	80.57553956834532	75.8

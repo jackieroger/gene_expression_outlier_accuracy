@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0014_S01	ATP1A1	Up	11.9223428184	10.860701561	8.904636224363106	NaN	Inf	-Inf	NA	NA	NA	NA	NA

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0107_S01	BPI	Up	2.47248777146	2.2195892334	10.228505110488939	86.23031085588629	80	92.75534441805226	83.33333333333334	90.65040650406505	92.75534441805226	84.41247002398082	80

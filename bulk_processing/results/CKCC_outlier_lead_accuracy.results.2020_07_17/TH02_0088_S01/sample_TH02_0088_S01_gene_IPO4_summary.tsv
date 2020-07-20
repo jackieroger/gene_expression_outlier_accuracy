@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	IPO4	Down	2.16671544497	2.35866713524	8.859109336005034	95.21965662497054	92.6829268292683	98.88888888888889	92.6829268292683	98.88888888888889	96.07142857142857	95.2991452991453	93.15589353612167

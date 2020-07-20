@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S01	SNAP23	Up	7.00303997975	6.99323987961	0.13994065674817852	61.47607706605536	52.73972602739726	70.6896551724138	52.73972602739726	70.6896551724138	70	53.78151260504202	60.16949152542372

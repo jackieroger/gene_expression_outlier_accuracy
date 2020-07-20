@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	LYPD1	Up	10.7855260315	7.48062372208	30.642013192196337	NaN	Inf	-Inf	NA	NA	NA	NA	NA

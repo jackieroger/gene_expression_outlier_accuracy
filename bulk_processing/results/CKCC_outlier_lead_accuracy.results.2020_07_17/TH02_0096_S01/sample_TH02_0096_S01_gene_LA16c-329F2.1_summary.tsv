@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	LA16c-329F2.1	Up	1.13750352375	0.909121990204	20.077435258670338	93.17360158841369	89.41018766756032	96.89922480620154	89.41018766756032	96	96.89922480620154	93.96751740139212	89.59107806691449

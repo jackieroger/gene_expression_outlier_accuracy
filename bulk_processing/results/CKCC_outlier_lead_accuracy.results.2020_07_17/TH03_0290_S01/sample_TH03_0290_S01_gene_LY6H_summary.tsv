@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0290_S01	LY6H	Up	3.80632405739	3.51266264915	7.71509214171753	99.88620176120176	99.71509971509973	100	99.71509971509973	100	100	100	99.7159090909091

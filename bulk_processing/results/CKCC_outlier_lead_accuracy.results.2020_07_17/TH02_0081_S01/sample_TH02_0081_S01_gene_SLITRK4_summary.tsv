@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	SLITRK4	Up	3.496973581	2.80311655998	19.841643207998843	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

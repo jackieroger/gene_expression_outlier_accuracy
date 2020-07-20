@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	PRPF19	Down	3.94579495674	4.55146217346	15.34968804411469	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

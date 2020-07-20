@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	MDH2	Down	5.13996056955	5.40835762024	5.221772561447838	99.94082840236686	99.70414201183432	100	100	100	100	99.70414201183432	100

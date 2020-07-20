@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	LPCAT4	Down	1.28095631383	1.68287932873	31.376793303611482	99.67095831897355	99.06759906759906	100	100	99.74937343358395	99.79959919839679	99.73821989528795	99.06759906759906

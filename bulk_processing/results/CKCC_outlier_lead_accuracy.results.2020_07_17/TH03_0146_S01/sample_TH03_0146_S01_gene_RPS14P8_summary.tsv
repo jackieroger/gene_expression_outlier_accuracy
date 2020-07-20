@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0146_S01	RPS14P8	Up	1.13093086983	0.717490196228	36.557554898483566	98.94581777264393	98.3271375464684	99.52	98.39142091152814	99.52	99.4186046511628	99.07192575406032	98.3271375464684

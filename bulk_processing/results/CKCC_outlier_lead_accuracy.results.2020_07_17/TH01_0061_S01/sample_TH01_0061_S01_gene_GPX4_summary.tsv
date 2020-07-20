@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	GPX4	Down	6.54997714277	6.69181966782	2.1655422905798716	99.29076733234194	98.63013698630137	100	99.13419913419914	100	99.55156950672645	99.13793103448276	98.63013698630137

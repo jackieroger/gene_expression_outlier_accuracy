@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	MARK3	Down	3.56559717585	3.66819405556	2.877410841720843	96.78598877312213	93.812375249501	98.88682745825604	93.812375249501	98.80239520958084	98.88682745825604	96.93654266958424	95.49180327868852

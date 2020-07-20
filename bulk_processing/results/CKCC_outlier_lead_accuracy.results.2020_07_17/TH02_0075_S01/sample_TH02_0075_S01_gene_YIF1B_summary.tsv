@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0075_S01	YIF1B	Down	3.35332329116	3.633456707	8.35390421730243	99.94301994301995	99.71509971509973	100	99.71509971509973	100	100	100	100

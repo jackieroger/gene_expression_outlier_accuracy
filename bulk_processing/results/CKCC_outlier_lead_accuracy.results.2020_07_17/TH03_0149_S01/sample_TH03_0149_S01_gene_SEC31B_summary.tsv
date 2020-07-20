@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	SEC31B	Up	4.98002530024	4.61047935486	7.420563613646523	99.94700578660647	99.87347110923662	100	100	99.95757318625371	100	99.90398463754201	99.87347110923662

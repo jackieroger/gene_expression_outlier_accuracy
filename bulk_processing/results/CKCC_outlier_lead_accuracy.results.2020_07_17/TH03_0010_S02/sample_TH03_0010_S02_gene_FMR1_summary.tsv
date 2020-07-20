@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	FMR1	Down	2.266036894	2.32871961594	2.7661827618946044	75.0355627620805	65.2327637006482	83.2443970117396	72.7107887579329	82.43087557603687	83.2443970117396	71.55898876404494	65.2327637006482

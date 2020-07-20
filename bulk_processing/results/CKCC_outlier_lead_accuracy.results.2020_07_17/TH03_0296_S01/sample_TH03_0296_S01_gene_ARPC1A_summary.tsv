@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S01	ARPC1A	Down	5.12680770314	5.22909593582	1.9951642152942886	99.54142333821837	98.89807162534436	100	99.76190476190476	100	99.58333333333333	98.89807162534436	99.46380697050938

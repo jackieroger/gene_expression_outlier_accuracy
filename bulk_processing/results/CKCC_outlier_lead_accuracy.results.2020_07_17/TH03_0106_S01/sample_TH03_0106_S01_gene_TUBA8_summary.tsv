@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0106_S01	TUBA8	Up	3.7300964656	3.6967291832	0.8945420770675089	60.4166461528197	51.60075329566855	73.73029772329247	52.5	69.01408450704226	73.73029772329247	55.23809523809524	51.60075329566855

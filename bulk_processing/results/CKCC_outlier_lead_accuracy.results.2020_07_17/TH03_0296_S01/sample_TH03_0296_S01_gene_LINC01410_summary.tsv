@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S01	LINC01410	Up	3.7387678368	3.66140389442	2.0692363301759835	63.8050123845733	59.09090909090909	69.17808219178082	61.58940397350994	69.17808219178082	66.66666666666666	62.5	59.09090909090909

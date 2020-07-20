@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0285_S01	ACTR2	Up	8.43904128837	8.43897438049	7.928374528903602e-4	0.43478260869565216	0	2.1739130434782608	0	2.1739130434782608	0	0	0

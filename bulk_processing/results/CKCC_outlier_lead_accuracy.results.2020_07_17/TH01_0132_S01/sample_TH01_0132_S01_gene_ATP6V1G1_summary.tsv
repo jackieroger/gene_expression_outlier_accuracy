@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0132_S01	ATP6V1G1	Down	5.26077843189	5.28828716278	0.5229022899585685	74.96772697971934	64.44444444444444	86	64.44444444444444	86	85.78811369509044	71.64179104477611	66.96428571428571

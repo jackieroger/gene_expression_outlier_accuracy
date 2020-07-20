@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	RPA3	Down	2.97452931248	3.02360725403	1.649939751613383	24.535851312483896	18.465227817745802	32.52032520325203	20.06472491909385	32.52032520325203	31.828978622327792	18.465227817745802	19.8

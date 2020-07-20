@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0005_S01	UQCR11	Up	9.13893730896	9.10497760773	0.37159354618512286	92.23335700436311	87.28813559322035	97	90.41095890410958	96.55172413793103	97	89.91596638655463	87.28813559322035

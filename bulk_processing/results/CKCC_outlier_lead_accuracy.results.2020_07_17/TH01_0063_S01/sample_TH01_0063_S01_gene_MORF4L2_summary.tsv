@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0063_S01	MORF4L2	Up	9.47771779757	9.35321998596	1.313584285469235	99.68367091772943	99.19354838709677	100	100	100	99.19354838709677	99.2248062015504	100

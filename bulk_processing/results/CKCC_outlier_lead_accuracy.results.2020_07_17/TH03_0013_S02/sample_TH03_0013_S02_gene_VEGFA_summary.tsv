@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	VEGFA	Down	0.992768430769	1.53015828133	54.1304330300609	88.15781648670118	86.13251155624036	92	86.25180897250362	92	88.57142857142857	87.83333333333333	86.13251155624036

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0124_S01	DUSP23	Down	2.51853513898	2.88051605225	14.372676706690754	92.82012746442513	89.2	97.14964370546319	91.2621359223301	95.1219512195122	97.14964370546319	91.36690647482014	89.2

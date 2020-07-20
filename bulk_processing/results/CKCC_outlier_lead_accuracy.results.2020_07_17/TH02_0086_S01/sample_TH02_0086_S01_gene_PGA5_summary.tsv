@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	PGA5	Up	2.59215800213	0.862374007702	66.73142582383561	99.90325464009675	99.74937343358395	100	100	99.74937343358395	100	100	99.76689976689977

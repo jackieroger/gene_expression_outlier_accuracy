@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0082_S01	HBB	Up	11.8681975087	11.8681211472	6.434127839859478e-4	NaN	Inf	-Inf	NA	NA	NA	NA	NA

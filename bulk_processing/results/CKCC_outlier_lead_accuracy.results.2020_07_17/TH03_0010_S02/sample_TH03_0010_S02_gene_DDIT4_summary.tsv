@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	DDIT4	Down	2.33628338786	2.47829031944	6.078326470063903	83.20618987799804	75.57077625570776	90.2542372881356	75.57077625570776	87.61261261261262	90.2542372881356	84.688995215311	77.90432801822324

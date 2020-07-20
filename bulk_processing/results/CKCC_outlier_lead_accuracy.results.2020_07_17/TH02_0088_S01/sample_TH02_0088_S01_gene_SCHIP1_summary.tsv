@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	SCHIP1	Up	5.19731499947	4.96308946609	4.506664179559742	99.94082840236686	99.70414201183432	100	100	100	100	99.70414201183432	100

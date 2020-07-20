@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	NRBP2	Down	0.263034405834	0.585641741753	122.6483413438302	99.64579177313543	99.18032786885246	100	99.18032786885246	100	100	99.66974900924703	99.37888198757764

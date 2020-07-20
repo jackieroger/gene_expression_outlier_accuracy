@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0159_S02	ADAP2	Up	5.57015930164	5.49068307877	1.426821363019195	98.9102516855307	96.94915254237289	100	98.93617021276596	100	99.70760233918129	96.94915254237289	98.95833333333334

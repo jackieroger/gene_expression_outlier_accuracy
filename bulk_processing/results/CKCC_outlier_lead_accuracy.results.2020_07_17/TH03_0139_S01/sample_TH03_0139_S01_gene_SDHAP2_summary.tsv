@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0139_S01	SDHAP2	Up	1.23266075679	0.535311996937	56.572642230371784	99.90043590251635	99.74489795918367	100	99.75728155339806	99.74489795918367	100	100	100

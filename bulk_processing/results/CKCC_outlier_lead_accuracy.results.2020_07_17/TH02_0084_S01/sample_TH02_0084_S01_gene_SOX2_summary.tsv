@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0084_S01	SOX2	Up	7.37356121552	7.32146406174	0.7065399236171559	98.67200596014155	97.43589743589743	100	97.61904761904762	100	100	98.30508474576271	97.43589743589743

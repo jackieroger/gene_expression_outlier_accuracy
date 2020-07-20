@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	SERINC1	Down	3.25851892471	3.30952262878	1.565241916602923	90.4281769394205	84.39477013918179	94.750656167979	90.22595901208618	93.7632583792957	94.750656167979	89.00624099855978	84.39477013918179

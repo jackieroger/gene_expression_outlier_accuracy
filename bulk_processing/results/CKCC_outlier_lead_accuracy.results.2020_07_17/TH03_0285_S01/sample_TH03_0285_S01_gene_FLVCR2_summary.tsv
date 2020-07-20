@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0285_S01	FLVCR2	Up	4.98139603197	4.82435512543	3.152548111656454	98.38616968069347	94.80874316939891	100	99.09909909909909	99.25	100	98.77300613496932	94.80874316939891

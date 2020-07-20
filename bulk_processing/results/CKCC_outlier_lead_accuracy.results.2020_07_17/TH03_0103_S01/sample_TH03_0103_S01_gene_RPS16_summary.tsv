@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0103_S01	RPS16	Up	12.7780606978	12.6852254868	0.7265203476141261	NaN	Inf	-Inf	NA	NA	NA	NA	NA

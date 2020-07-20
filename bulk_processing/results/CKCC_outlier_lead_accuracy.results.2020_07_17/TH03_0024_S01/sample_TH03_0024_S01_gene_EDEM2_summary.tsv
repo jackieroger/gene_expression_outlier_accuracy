@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	EDEM2	Up	6.31867837374	6.20338869095	1.8245853954069955	98.7405267960334	97.7961432506887	100	98.5632183908046	98.55907780979827	100	97.7961432506887	98.78419452887537

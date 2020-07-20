@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0156_S01	MST1P2	Up	3.05137210172	2.98776459694	2.0845541828263383	92.56956322363892	88.0085653104925	96.33204633204633	92.11087420042644	95.8	96.33204633204633	90.59633027522935	88.0085653104925

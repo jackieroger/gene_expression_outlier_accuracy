@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Mend depth	Gene length	Percent difference	Probability >= 0.95	Probability of being an outlier	Minimum Probability	Maximum Probability	Sample 1 Probability	Sample 2 Probability	Sample 3 Probability	Sample 4 Probability	Sample 5 Probability
+TH34_2292_S01	P2RY11	Up	5.47	5.46	3.5	1200	0.18281535648994127	FALSE	0.07423468208457662	0.06359649122807018	0.08378378378378379	0.0825242718446602	0.08378378378378379	0.06359649122807018	0.07058823529411765	0.07068062827225131

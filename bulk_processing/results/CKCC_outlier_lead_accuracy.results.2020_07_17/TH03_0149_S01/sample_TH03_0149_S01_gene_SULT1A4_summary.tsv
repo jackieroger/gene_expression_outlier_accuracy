@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	SULT1A4	Up	6.44658708531	6.11431598663	5.154217173877232	99.94082840236686	99.70414201183432	100	100	100	100	99.70414201183432	100

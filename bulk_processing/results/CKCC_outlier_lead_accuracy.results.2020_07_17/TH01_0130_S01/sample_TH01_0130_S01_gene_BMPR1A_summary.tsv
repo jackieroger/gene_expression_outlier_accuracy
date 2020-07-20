@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0130_S01	BMPR1A	Down	0.0285691521968	0.161810278893	466.3811014704321	99.98678996036988	99.93394980184941	100	100	100	100	99.93394980184941	100

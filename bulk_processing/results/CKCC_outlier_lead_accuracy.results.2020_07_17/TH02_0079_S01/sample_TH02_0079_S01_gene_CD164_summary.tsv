@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	CD164	Down	4.41683974191	4.53045797348	2.572387458207114	96.75219571587925	92.07650273224044	98.75	97.2972972972973	98.75	98.70466321243524	96.93251533742331	92.07650273224044

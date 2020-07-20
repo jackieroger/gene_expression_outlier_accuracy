@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	DOCK10	Up	6.85049941376	6.74394607544	1.555409786708033	99.32492993211481	97.96610169491525	100	99.64539007092199	100	99.70760233918129	97.96610169491525	99.30555555555556

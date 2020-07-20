@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	RPS28P7	Down	6.75488750216	7.12026977539	5.4091540845522905	81.96214896214896	77.77777777777779	88.46153846153845	77.77777777777779	85	78.57142857142857	88.46153846153845	80

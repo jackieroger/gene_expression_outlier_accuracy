@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0018_S01	UBIAD1	Up	5.02547181462	4.92568254471	1.9856696762221522	99.79109015798956	99.38587512794268	100	99.79919678714859	100	99.88518943742825	99.38587512794268	99.88518943742825

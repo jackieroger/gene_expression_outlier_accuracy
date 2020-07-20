@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0139_S01	FCAR	Up	1.33342373373	1.14966714382	13.780809900238975	94.61002224323485	91.37931034482759	97.8622327790974	92.76018099547511	97.8622327790974	97.5	93.54838709677419	91.37931034482759

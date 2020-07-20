@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S01	CNIH1	Up	8.25365842165	8.19121646881	0.7565366731946435	99.36734183545886	98.38709677419355	100	100	100	98.38709677419355	98.44961240310077	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0092_S01	MECP2	Up	5.75968848843	5.53244113922	3.9454798582682344	99.95905834186284	99.79529170931423	100	100	100	100	99.79529170931423	100

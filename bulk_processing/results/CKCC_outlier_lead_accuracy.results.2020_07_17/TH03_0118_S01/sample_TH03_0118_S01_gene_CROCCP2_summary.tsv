@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0118_S01	CROCCP2	Up	3.66959375119	3.3586037159	8.474781035070974	99.92423997847726	99.80952380952381	100	100	100	100	99.80952380952381	99.81167608286252

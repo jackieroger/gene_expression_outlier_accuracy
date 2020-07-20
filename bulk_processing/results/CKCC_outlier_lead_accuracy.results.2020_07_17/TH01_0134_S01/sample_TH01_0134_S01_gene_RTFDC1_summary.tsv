@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	RTFDC1	Down	4.70487196446	4.85292005539	3.146697551991572	96.84879315702793	95	98.99396378269618	95	98.99396378269618	98.77408056042032	95.61904761904762	95.85687382297552

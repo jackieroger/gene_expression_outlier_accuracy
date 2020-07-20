@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	TMIGD2	Up	2	1.97398996353	1.3005018234999999	25.56791381748009	20.04662004662005	33.46693386773547	20.506912442396313	31.82957393483709	33.46693386773547	21.98952879581152	20.04662004662005

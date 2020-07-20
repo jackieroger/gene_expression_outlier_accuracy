@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	IDH1	Down	2.19219416528	2.64209222794	20.522728770356725	99.52860114993774	98.73817034700315	100	99.73821989528795	99.72527472527473	100	98.73817034700315	99.4413407821229

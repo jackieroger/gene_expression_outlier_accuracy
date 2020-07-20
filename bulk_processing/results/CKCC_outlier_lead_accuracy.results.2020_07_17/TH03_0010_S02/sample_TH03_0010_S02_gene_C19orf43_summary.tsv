@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	C19orf43	Up	8.70932510337	8.63666439056	0.8342863763563592	99.50618851158363	98.26086956521739	100	99.27007299270073	100	100	98.26086956521739	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0146_S01	TEPP	Up	1.64154602909	1.09264409542	33.438107975216916	99.71103847929419	99.06759906759906	100	100	99.74937343358395	100	99.73821989528795	99.06759906759906

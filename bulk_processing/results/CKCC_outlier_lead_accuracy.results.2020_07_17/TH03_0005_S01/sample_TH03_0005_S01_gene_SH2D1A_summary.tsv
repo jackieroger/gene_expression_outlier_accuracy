@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0005_S01	SH2D1A	Up	3.62175885671	3.2631611824	9.90120238528938	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

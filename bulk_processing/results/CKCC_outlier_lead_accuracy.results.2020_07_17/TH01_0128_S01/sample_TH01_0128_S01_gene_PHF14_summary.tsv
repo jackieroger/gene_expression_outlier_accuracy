@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	PHF14	Down	2.23572705984	2.54761505127	13.95018189082171	98.89709019431731	97.90940766550523	100	97.90940766550523	100	98.57142857142858	99.14529914529915	98.85931558935361

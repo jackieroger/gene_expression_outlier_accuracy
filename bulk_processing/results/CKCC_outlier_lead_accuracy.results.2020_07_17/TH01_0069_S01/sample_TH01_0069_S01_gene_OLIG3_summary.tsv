@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	OLIG3	Up	0.333423733725	0	100	92.88926655776362	88.48346636259977	97.53390875462392	90.44665012406948	95.12516469038208	97.53390875462392	92.85714285714286	88.48346636259977

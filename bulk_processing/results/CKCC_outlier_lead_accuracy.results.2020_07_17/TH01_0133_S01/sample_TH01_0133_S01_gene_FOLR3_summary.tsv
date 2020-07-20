@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	FOLR3	Up	1.53605290024	1.35026311874	12.095272335410542	90.02366294342436	85	95.84323040380048	87.2168284789644	93.08943089430895	95.84323040380048	88.96882494004797	85

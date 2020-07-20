@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	CETN3	Down	2.0071955014	2.59858560562	29.46350287291451	98.92127652847425	98.2200647249191	99.8812351543943	98.2200647249191	98.98373983739837	99.8812351543943	98.32134292565947	99.2

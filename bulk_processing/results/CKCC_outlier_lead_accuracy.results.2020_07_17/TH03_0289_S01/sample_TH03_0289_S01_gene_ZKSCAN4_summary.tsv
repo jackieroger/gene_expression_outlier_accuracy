@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0289_S01	ZKSCAN4	Up	3.62410089463	3.50906252861	3.1742594746867567	98.10239939070581	97.4304068522484	98.64864864864865	97.86780383795309	98.4	98.64864864864865	98.1651376146789	97.4304068522484

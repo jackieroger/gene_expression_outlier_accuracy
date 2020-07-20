@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	YKT6	Down	3.75274859141	3.76736545563	0.38949756062683194	35.51497130379964	28.240740740740737	45	31.746031746031743	38.52813852813853	45	34.05994550408719	28.240740740740737

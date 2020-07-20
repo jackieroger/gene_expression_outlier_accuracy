@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0038_S01	ALS2CR11	Up	1.53106949273	1.07153296471	30.014086898212266	99.88233665559247	99.70238095238095	100	100	99.70238095238095	99.70930232558139	100	100

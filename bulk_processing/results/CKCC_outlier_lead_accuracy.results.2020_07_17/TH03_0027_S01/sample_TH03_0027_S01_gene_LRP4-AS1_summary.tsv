@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0027_S01	LRP4-AS1	Up	1.15704371015	0.784831106663	32.169277635911094	99.09072636666195	98.32134292565947	99.8812351543943	98.86731391585761	98.98373983739837	99.8812351543943	98.32134292565947	99.4

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0124_S01	GANAB	Down	5.23802251783	5.34821033478	2.10361480071774	99.81156098705813	99.48822927328557	100	99.79919678714859	100	99.88518943742825	99.48822927328557	99.88518943742825

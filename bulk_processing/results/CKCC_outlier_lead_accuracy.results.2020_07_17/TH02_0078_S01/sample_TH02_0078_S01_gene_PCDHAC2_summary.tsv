@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	PCDHAC2	Up	2.48284828307	2.43030118942	2.116403729068225	66.08975883827851	55.15615792575132	75.6136606189968	63.100634632819585	74.07834101382488	75.6136606189968	62.5	55.15615792575132

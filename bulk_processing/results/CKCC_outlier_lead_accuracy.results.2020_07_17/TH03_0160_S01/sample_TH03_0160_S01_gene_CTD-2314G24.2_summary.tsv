@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	CTD-2314G24.2	Up	0.871843648509	0.746955513954	14.324602211483658	56.1861993708057	49.46070878274268	65.23076923076923	51.085383502170764	65.23076923076923	61.65413533834586	53.5	49.46070878274268

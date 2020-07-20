@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	TDRG1	Up	0.432959407276	0.311149060726	28.134357286836632	65.58168862172595	54	83.67683429513603	54	71.4682723483094	83.67683429513603	62.12903225806452	56.63430420711975

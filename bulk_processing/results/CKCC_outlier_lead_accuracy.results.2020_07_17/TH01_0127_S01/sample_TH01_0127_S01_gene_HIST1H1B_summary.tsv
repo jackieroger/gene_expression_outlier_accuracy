@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0127_S01	HIST1H1B	Up	10.0325279226	1.22586190701	87.78112638741294	NaN	Inf	-Inf	NA	NA	NA	NA	NA

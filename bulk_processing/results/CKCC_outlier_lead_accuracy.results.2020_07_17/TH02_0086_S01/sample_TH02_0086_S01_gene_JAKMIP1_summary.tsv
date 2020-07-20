@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	JAKMIP1	Up	3.02147972741	2.65141749382	12.247715257954617	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

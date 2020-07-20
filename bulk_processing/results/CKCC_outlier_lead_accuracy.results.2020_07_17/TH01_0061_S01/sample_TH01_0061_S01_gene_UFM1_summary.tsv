@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	UFM1	Down	3.01970191444	3.19465637207	5.793765828122966	99.74391966898779	99.1825613079019	100	100	100	100	99.1825613079019	99.53703703703704

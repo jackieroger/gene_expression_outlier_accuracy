@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0131_S01	UBB	Down	8.77958804586	8.82689571381	0.5388369898779835	97.88239617921097	95.8904109589041	100	95.8904109589041	99.42528735632183	100	96.63865546218487	97.45762711864407

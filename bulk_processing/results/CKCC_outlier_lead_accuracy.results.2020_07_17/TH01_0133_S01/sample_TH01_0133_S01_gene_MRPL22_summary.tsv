@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	MRPL22	Down	2.79908730607	4.10205698013	46.54980468935096	99.76536223069851	99.39024390243902	100	99.67637540453075	99.39024390243902	100	99.76019184652279	100

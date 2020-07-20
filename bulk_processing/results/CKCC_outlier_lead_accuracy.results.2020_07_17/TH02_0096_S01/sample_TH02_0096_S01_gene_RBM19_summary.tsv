@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	RBM19	Down	1.61353165292	2.17035317421	34.50948856704009	99.94186046511628	99.70930232558139	100	100	100	99.70930232558139	100	100

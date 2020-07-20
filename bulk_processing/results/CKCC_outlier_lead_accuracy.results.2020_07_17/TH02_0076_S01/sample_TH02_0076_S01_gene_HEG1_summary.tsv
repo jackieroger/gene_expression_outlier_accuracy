@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0076_S01	HEG1	Up	7.31224766667	7.30808448792	0.056934323614010504	42.999833416625016	36.206896551724135	54.347826086956516	40	54.347826086956516	44.44444444444444	36.206896551724135	40

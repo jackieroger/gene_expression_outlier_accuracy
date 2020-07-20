@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	RPL12P4	Up	4.71149490665	4.45984363556	5.34121921122759	93.04736305312612	89.40397350993378	97.26027397260275	89.40397350993378	97.26027397260275	95	93.42105263157895	90.15151515151516

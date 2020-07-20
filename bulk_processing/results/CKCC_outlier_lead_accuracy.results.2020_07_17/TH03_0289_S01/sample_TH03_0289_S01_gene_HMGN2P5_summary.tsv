@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0289_S01	HMGN2P5	Up	9.36339012861	9.24905967712	1.221036931278354	92.5	62.5	100	62.5	100	100	100	100

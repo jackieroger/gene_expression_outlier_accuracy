@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	MOB2	Down	2.21412480535	3.05663490295	38.05160827267907	99.80427857253429	99.53379953379954	100	100	99.74937343358395	100	99.73821989528795	99.53379953379954

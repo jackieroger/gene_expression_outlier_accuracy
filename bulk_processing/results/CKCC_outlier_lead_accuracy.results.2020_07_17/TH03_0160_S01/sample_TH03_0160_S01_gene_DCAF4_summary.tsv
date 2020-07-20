@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	DCAF4	Up	5.16430358309	5.05071496964	2.1994952779680483	99.19776679329313	98.5632183908046	100	98.5632183908046	99.13544668587896	100	98.89807162534436	99.3920972644377

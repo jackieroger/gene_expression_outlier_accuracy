@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	STAP1	Up	3.76659516173	2.05222129822	45.51521440182031	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

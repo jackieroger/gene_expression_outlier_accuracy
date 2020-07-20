@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0143_S02	RANBP3L	Up	2.92409988564	2.13388729095	27.02413137699793	99.86144596454618	99.76076555023924	100	99.77168949771689	99.77477477477478	100	99.76076555023924	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	POLG	Up	6.48429928116	6.31770563126	2.56918508348365	99.53817593471045	99.13793103448276	100	99.13793103448276	99.71181556195965	100	99.44903581267218	99.3920972644377

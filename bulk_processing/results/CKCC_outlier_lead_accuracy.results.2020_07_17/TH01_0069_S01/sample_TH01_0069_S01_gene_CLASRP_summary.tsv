@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	CLASRP	Down	0.887525270742	2.83880257607	219.85597139072652	99.44738265533039	98.9406779661017	100	99.13419913419914	99.77553310886644	100	99.38650306748467	98.9406779661017

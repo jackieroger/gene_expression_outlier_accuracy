@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0285_S01	COTL1	Up	10.0129736484	9.38676452637	6.253977529742759	NaN	Inf	-Inf	NA	NA	NA	NA	NA

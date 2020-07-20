@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	MESDC2	Down	2.32192809489	2.81177425385	21.096525772612523	99.87472318717367	99.78932584269663	100	99.81867633726202	99.94239631336406	100	99.78932584269663	99.82321744254567

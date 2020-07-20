@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0287_S01	NDUFA12	Up	8.001633378	7.99423551559	0.09245440350140861	33.90370705048353	18.64406779661017	46.808510638297875	23.18840579710145	43.87755102040816	46.808510638297875	37	18.64406779661017

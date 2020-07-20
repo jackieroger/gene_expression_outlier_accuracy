@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0140_S01	ZIC1	Up	5.57228336665	5.5701880455	0.037602559168834024	7.5092421259013085	5.603448275862069	9.417040358744394	6.926406926406926	8.75	9.417040358744394	5.603448275862069	6.8493150684931505

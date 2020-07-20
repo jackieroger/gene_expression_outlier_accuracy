@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0126_S01	RMRP	Up	14.1002500346	6.69673585892	52.5062616443881	NaN	Inf	-Inf	NA	NA	NA	NA	NA

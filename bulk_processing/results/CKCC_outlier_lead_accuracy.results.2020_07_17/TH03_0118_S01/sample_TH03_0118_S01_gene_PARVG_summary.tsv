@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0118_S01	PARVG	Up	7.18913268991	6.8043346405	5.352496135591813	99.6875	98.4375	100	100	100	100	98.4375	100

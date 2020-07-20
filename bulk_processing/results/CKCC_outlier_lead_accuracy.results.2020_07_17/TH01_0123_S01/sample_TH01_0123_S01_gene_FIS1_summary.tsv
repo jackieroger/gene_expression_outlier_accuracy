@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0123_S01	FIS1	Down	5.27127625918	5.30379962921	0.616992326542551	78.00297646270616	69.26406926406926	88.75	69.26406926406926	88.75	83.40807174887892	73.70689655172413	74.88584474885845

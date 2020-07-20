@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0132_S01	PSENEN	Down	4.23189316165	4.6691660881	10.332796924379544	99.75675586715381	99.19028340080972	100	99.19028340080972	100	100	99.59349593495935	100

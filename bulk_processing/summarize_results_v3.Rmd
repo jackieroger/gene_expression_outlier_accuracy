@@ -1,0 +1,176 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+
+```{r setup, echo=FALSE}
+
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(janitor)
+
+```
+
+## Summarize results of bulk processing for outlier lead accuracy project
+
+This data comes from the CKCC1 outlier results.
+
+## Load data and create summary tsv (only run once)
+
+```{r, echo=FALSE}
+
+samples <- list.files(path="/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/")
+first <- TRUE
+
+for (s in samples[61:80]) {
+  curr_wd <- paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/", s, "/")
+  setwd(curr_wd)
+  leads <- list.files(path=curr_wd) %>%
+    lapply(read_tsv) %>%
+    bind_rows
+  if (first == TRUE) {
+    results_all <- leads
+    first <- FALSE
+  } else {
+    results_all <- bind_rows(results_all, leads)
+  }
+}
+
+# start of scratch
+
+results_all <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results_all.tsv")
+
+for (s in samples[100:115]) {
+  curr_wd <- paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/", s, "/")
+  setwd(curr_wd)
+  leads <- list.files(path=curr_wd) %>%
+    lapply(read_tsv) %>%
+    bind_rows
+  results_all <- bind_rows(results_all, leads)
+  bind_rows(mutate_all(results_all, as.character), mutate_all(leads, as.character))
+}
+
+write_tsv(results_all, paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results_all.tsv"))
+
+# end of scratch
+
+names(results_all) <- gsub(" ", "_", names(results_all))
+
+# Add depth data
+
+input_data <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/outlier_probability_input_CKCC_2020_07_13_batch1.tsv")
+depth_data <- unique(input_data %>% select(sample_id, MEND))
+depth_data <- rename(depth_data, c("Sample"="sample_id", "MEND_depth"="MEND"))
+length_data <- input_data %>% select(sample_id, Gene, effective_length)
+length_data <- rename(length_data, c("Sample"="sample_id"))
+results_all_with_depth_and_length <- merge(results_all, depth_data) %>% merge(length_data)
+
+# Add bin info
+
+exp_bins <- c(0, 1, 3, 5, 7, 10)
+expression_bins_all <- c("0-1", "1-3", "3-5", "5-7", "7-10", "10-20")
+
+results_all_long <- results_all_with_depth_and_length %>%
+  mutate(MEND_bin = round((MEND_depth/1e6) / 4) * 4,
+         MEND_bin = ifelse(MEND_depth>44*1e6, 44, MEND_bin),
+         Expression_bin = expression_bins_all[findInterval(Expression, exp_bins)],
+         Length_bin = round(effective_length/300)*300,
+         Length_bin = ifelse(effective_length>3000, 3000, Length_bin))
+
+# Save data to file to load it in the future
+
+write_tsv(results_all_long, paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results_all_long.tsv"))
+
+```
+
+## Load summary tsv
+
+```{r, echo=FALSE}
+
+bulk_results <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results_all_long.tsv", col_types=cols())
+
+bulk_results <- bulk_results[-c(8:14)]
+
+```
+
+## Number of outlier leads per sample
+
+```{r, echo=FALSE}
+
+# Histogram of number of outlier leads per sample (split by outlier type & fill is depth)
+
+num_leads <- bulk_results %>% group_by(Sample, Type, MEND_bin) %>% tally()
+
+plot1 <- ggplot(num_leads, aes(x=n, fill=as.factor(MEND_bin))) +
+  geom_histogram() +
+  facet_wrap(~Type) +
+  ggtitle("Number of outlier leads per sample")
+
+plot1
+
+```
+
+## Look at bin sizes
+
+```{r, echo=FALSE}
+
+# Make sure (depth, expression, length) bins are relatively similar sizes
+
+all_bins <- bulk_results %>% tabyl(MEND_bin, Expression_bin, Length_bin)
+
+all_bins
+
+```
+
+## Spectrum of accuracies by depth, expression, and length
+
+```{r, echo=FALSE}
+
+plot2 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~MEND_bin) +
+  ggtitle("Spectrum of accuracies by MEND depth")
+
+plot2
+
+plot3 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~Expression_bin) +
+  ggtitle("Spectrum of accuracies by expression level")
+
+plot3
+
+plot4 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~Length_bin) +
+  ggtitle("Spectrum of accuracies by effective gene length")
+
+plot4
+
+```
+
+# Spectrum of accuracies by outlier type (histograms for figure 1)
+
+```{r, echo=FALSE}
+
+plot5 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~Type) +
+  ggtitle("Spectrum of accuracies by outlier type")
+
+plot5
+
+```
+
+# Distributions of accuracies for different expressions, depths, and lengths (boxplots for figure 1)
+
+```{r, echo=FALSE}
+
+plot6
+
+```

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0018_S01	DPF1	Up	3.63459326845	3.51255822182	3.3575984330715216	97.4214326185568	96.045197740113	99.19517102615694	96.34615384615385	99.19517102615694	98.9492119089317	96.57142857142857	96.045197740113

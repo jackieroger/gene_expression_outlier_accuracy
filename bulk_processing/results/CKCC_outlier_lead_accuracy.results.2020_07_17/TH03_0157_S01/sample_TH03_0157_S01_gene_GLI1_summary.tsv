@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	GLI1	Up	3.43829285158	3.09751629829	9.911213733100217	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0062_S01	YAE1D1	Down	2.20476675065	2.43381524086	10.388785577543416	86.63898632568029	80	93.34916864608076	83.65695792880258	91.05691056910568	93.34916864608076	85.13189448441247	80

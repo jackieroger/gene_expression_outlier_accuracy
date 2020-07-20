@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0122_S01	KIAA2013	Down	3.54966917073	3.7341735363	5.197790461471545	99.53714188727812	98.36512261580381	100	100	99.78354978354979	100	98.36512261580381	99.53703703703704

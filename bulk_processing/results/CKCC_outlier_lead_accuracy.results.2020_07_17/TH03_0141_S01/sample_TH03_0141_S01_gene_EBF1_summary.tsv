@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	EBF1	Up	4.55397480824	4.4790096283	1.6461483230947367	86.8598252710885	82.44111349036403	93.62934362934364	82.94243070362474	91.8	93.62934362934364	83.4862385321101	82.44111349036403

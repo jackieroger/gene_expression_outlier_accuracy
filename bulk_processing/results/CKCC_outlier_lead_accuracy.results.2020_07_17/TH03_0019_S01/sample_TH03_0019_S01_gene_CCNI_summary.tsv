@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	CCNI	Down	5.18586654531	5.2781662941	1.7798327045934976	99.16136582648	98.46743295019157	100	98.51485148514851	100	99.63099630996311	98.46743295019157	99.19354838709677

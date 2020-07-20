@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	REXO1	Up	6.12039341559	5.88925981522	3.776450052724571	99.76663031010007	99.42528735632183	100	99.42528735632183	99.71181556195965	100	100	99.69604863221885

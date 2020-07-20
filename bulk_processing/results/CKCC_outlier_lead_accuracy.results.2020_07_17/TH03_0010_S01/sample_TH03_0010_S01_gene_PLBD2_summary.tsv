@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S01	PLBD2	Down	2.11103131239	2.36564517021	12.061112325792047	98.830240790285	97.9964643488509	99.5197438633938	98.73073436083409	99.30875576036865	99.5197438633938	98.59550561797754	97.9964643488509

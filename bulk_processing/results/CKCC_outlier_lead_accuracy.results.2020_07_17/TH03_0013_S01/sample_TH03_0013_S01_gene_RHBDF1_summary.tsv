@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	RHBDF1	Down	0.20163386117	0.960903048515	376.5583731518441	99.86513749788641	99.5702005730659	100	99.5702005730659	99.9219968798752	100	99.90817263544535	99.92531740104556

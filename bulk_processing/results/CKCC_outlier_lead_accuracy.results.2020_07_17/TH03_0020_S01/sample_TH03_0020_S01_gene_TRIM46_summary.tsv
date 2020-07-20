@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0020_S01	TRIM46	Up	3.93262815702	3.86783385277	1.6476082065968476	88.32278793820666	81.14754098360656	94.5	85.58558558558559	94.5	93.26424870466322	87.11656441717791	81.14754098360656

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	POLD4	Down	3.97361127552	4.02548503876	1.305456413403492	63.66508435460545	53.036437246963565	73.94366197183099	53.036437246963565	64.92890995260665	73.94366197183099	66.26016260162602	60.15625

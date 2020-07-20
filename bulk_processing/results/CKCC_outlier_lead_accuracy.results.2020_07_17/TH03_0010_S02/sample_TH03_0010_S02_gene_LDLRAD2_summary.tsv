@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	LDLRAD2	Up	3.56924802987	3.50502610207	1.799312551622783	90.35808216599824	84.97267759562843	95.75	87.38738738738738	95.75	95.33678756476684	88.34355828220859	84.97267759562843

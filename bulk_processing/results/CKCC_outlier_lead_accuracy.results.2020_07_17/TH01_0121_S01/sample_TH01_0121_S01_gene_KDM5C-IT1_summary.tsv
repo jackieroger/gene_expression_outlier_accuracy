@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0121_S01	KDM5C-IT1	Up	1.29278174923	0.141808778048	89.03072555499307	99.95934959349593	99.79674796747967	100	100	99.79674796747967	100	100	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	EPN2	Down	0.565597175854	1.39207649231	146.12507836661166	98.91797169576313	97	99.69924812030075	99.27641099855282	99.38461538461539	99.69924812030075	97	99.22958397534669

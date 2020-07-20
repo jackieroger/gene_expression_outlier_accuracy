@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	GPR18	Up	2.56559717585	2.01241278648	21.56162294599993	99.77073881904451	99.54337899543378	100	99.54337899543378	99.54954954954955	100	99.76076555023924	100

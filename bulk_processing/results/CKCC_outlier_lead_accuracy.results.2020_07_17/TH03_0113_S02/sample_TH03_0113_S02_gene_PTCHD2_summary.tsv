@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S02	PTCHD2	Up	1.9855004303	1.72126936913	13.308033437699923	98.50263019719571	97.90940766550523	100	97.90940766550523	100	98.21428571428571	98.29059829059828	98.09885931558935

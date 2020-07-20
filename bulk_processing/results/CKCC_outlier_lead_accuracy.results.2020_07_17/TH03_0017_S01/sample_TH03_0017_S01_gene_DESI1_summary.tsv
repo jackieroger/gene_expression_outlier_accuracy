@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	DESI1	Up	6.19219416528	5.996986866	3.1524738092765037	99.94047619047619	99.70238095238095	100	100	100	100	100	99.70238095238095

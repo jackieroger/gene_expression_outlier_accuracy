@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0016_S01	TWIST2	Up	5.32696871159	5.08514499664	4.5396120766367325	99.94082840236686	99.70414201183432	100	100	100	100	99.70414201183432	100

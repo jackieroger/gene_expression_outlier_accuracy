@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	TIAL1	Down	3.90496571868	3.98608922958	2.077444893099399	92.43782010437288	88.0085653104925	96.33204633204633	92.11087420042644	95.6	96.33204633204633	90.13761467889908	88.0085653104925

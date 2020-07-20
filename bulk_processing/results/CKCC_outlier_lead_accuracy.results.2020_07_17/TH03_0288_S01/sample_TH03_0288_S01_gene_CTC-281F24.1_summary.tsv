@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	CTC-281F24.1	Up	1.01435529298	0.923047721386	9.001537452006007	82.53160062865757	75.2	90.26128266033254	77.66990291262135	89.43089430894308	90.26128266033254	80.0959232613909	75.2

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	RN7SKP187	Up	1.464668267	0.535311996937	63.451655982589806	91.9893432148065	87.4074074074074	95.96774193548387	87.5	93.61702127659575	95.45454545454545	95.96774193548387	87.4074074074074

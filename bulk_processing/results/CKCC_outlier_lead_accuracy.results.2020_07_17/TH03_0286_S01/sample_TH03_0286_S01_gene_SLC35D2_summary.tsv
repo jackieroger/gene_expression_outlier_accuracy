@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0286_S01	SLC35D2	Up	6.72751208686	6.40994310379	4.720452062661732	99.94082840236686	99.70414201183432	100	100	100	100	99.70414201183432	100

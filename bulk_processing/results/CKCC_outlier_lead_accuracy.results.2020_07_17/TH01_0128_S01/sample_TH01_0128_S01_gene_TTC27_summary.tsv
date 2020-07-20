@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	TTC27	Down	1.64616265716	1.69920659065	3.2222777779148872	71.9261739836719	63.11787072243346	81.42857142857143	65.85365853658537	80	81.42857142857143	69.23076923076923	63.11787072243346

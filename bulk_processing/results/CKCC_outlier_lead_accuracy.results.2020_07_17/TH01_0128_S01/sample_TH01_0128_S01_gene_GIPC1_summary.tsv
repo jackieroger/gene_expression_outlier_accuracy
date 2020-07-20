@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	GIPC1	Down	2.83187724119	3.88986635208	37.35999200464693	99.9071080650028	99.76076555023924	100	100	99.77477477477478	100	99.76076555023924	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0122_S01	TSR2	Down	3.11935617704	3.40626049042	9.197549016420673	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

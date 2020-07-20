@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	PIWIL4	Up	3.69041709553	3.42273449898	7.253451022493611	99.91525271729382	99.78118161925602	100	100	100	100	99.78118161925602	99.79508196721312

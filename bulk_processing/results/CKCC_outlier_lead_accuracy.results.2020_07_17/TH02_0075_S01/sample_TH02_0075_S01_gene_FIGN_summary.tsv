@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0075_S01	FIGN	Up	3.50716034912	2.82096743584	19.5654844652933	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0012_S02	KRT8P36	Up	1.11103131239	0.703890621662	36.64529398835551	99.75765852591424	99.3006993006993	100	100	99.74937343358395	100	99.73821989528795	99.3006993006993

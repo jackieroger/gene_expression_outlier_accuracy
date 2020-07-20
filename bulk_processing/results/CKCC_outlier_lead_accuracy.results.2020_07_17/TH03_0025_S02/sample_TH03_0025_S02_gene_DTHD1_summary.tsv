@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0025_S02	DTHD1	Up	1.15055967658	0.847553312778	26.335562593561097	99.9069004972677	99.82321744254567	100	99.909338168631	99.94239631336406	100	99.85955056179775	99.82321744254567

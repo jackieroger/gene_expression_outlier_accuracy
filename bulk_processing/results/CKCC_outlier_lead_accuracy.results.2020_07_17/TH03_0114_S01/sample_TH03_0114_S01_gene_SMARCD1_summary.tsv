@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	SMARCD1	Down	3.53729606709	3.54240322113	0.14438016900861453	13.837714916597943	10.44776119402985	17.18146718146718	10.44776119402985	16.8	17.18146718146718	11.697247706422019	13.062098501070663

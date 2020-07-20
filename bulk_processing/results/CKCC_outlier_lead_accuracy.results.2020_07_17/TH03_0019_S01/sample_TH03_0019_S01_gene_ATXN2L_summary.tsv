@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	ATXN2L	Down	4.2735158897	4.36532878876	2.1484159982015636	93.13108010957558	89.07922912205566	96.52509652509652	92.53731343283582	96	96.52509652509652	91.5137614678899	89.07922912205566

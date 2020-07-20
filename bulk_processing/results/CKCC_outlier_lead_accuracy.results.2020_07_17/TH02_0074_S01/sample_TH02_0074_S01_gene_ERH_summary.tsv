@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0074_S01	ERH	Down	4.73063995592	5.22150611877	10.376316257924508	99.75675586715381	99.19028340080972	100	99.19028340080972	100	100	99.59349593495935	100

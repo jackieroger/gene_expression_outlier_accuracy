@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	MSL1	Down	3.25096157353	3.34356999397	2.848647033974096	97.06963632153959	95.71734475374733	98.2	96.80170575692964	98.2	98.06949806949807	96.55963302752293	95.71734475374733

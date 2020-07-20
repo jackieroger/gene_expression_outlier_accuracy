@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	SYNPO	Down	0.17632277264	0.476480096579	170.23174003271504	99.69998541932291	99.37888198757764	100	99.38524590163934	100	100	99.73579920739762	99.37888198757764

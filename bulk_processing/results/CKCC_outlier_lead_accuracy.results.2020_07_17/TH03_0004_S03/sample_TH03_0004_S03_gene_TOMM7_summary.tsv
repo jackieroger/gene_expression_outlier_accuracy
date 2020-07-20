@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	TOMM7	Down	7.02347715183	7.08898305893	0.9326706086447865	98.99475794017884	97.10144927536231	100	97.10144927536231	100	97.87234042553192	100	100

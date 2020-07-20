@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	POTEB2	Up	0.0143552929771	0	100	90.9815969277622	86.96461824953445	95.91836734693877	86.96461824953445	93.92430278884463	95.91836734693877	89.30232558139535	88.79837067209776

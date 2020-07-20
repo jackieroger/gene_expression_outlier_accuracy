@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0126_S01	MED16	Down	2.95977015521	3.55036640167	19.954125337076924	99.52860114993774	98.73817034700315	100	99.73821989528795	99.72527472527473	100	98.73817034700315	99.4413407821229

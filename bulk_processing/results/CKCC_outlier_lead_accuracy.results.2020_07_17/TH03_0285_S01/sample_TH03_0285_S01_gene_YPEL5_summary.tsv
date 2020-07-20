@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0285_S01	YPEL5	Up	7.5614788915	7.54457616806	0.22353726939581872	81.08922898338221	75	91.39784946236558	75.45454545454545	91.39784946236558	83.59375	75	80

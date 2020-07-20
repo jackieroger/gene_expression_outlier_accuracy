@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	APOBEC3H	Up	3.11270013275	2.95188546181	5.166404217611676	99.01596041549313	98.29059829059828	100	98.29059829059828	100	99.53271028037383	98.96103896103897	98.29545454545455

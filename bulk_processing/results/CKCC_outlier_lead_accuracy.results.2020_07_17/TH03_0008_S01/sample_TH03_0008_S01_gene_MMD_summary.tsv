@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	MMD	Up	6.29462074889	6.01858854294	4.385207893560161	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

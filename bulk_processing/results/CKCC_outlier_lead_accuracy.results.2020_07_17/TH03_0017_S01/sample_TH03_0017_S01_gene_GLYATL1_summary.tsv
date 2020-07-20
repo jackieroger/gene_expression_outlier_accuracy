@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	GLYATL1	Up	4.19770815796	3.83256673813	8.698589946935503	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

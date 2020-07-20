@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	PARN	Up	6.3094308781	6.16541147232	2.282605334181416	99.42560825160986	98.85057471264368	100	98.85057471264368	99.71181556195965	100	99.17355371900827	99.3920972644377

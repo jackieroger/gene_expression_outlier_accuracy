@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0014_S01	SDF2L1	Down	1.9855004303	2.68929958344	35.44694034811462	99.36341546322497	98.8009592326139	100	99.02912621359224	99.1869918699187	100	98.8009592326139	99.8

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0131_S01	PRKY	Up	3.53356334821	3.18765711784	9.789161712502644	99.94535519125684	99.72677595628416	100	100	100	100	100	99.72677595628416

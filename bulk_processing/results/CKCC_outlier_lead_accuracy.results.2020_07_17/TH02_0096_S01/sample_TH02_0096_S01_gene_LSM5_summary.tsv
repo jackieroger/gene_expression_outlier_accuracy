@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	LSM5	Down	3.66902676551	3.96372246742	8.031985612103778	99.34092915753891	97.97570850202429	100	97.97570850202429	99.52606635071089	100	99.59349593495935	99.609375

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	IRF3	Up	7.69821847822	7.68688249588	0.14725461965092812	63.37955351301532	49.56521739130435	82	56.934306569343065	82	76.85185185185185	49.56521739130435	51.546391752577314

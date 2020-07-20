@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	RPLP0	Down	9.2543909041	9.33155727386	0.8338352092498409	99.50618851158363	98.26086956521739	100	99.27007299270073	100	100	98.26086956521739	100

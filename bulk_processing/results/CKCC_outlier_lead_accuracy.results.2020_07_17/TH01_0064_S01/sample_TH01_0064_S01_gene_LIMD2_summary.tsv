@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0064_S01	LIMD2	Up	8.31908498942	8.30471992493	0.17267601555062553	68.23773723960672	57.391304347826086	84	60.58394160583942	84	81.48148148148148	57.391304347826086	57.73195876288659

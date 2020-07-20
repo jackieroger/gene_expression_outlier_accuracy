@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0287_S01	HTATSF1	Up	7.16259273809	7.13862228394	0.33466169341901875	92.8450545798502	83.33333333333334	100	83.33333333333334	97.05882352941177	100	91.52542372881356	92.3076923076923

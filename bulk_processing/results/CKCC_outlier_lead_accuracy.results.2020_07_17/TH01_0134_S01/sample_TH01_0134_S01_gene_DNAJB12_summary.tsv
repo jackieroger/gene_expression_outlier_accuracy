@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	DNAJB12	Down	3.14241343787	3.14651179314	0.1304206257715719	12.417292768863431	6.906906906906906	18.75	6.906906906906906	18.75	17.357512953367877	9.509202453987731	9.562841530054644

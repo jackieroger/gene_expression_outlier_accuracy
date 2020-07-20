@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S04	LILRB5	Up	3.55458885168	3.45417332649	2.8249547100937162	97.59610729977564	93.71584699453553	99.25	98.1981981981982	99.25	98.96373056994818	97.85276073619632	93.71584699453553

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	RASL10B	Up	4.26978123827	3.85655736923	9.677869801297536	99.98196320436998	99.951992318771	100	100	100	100	99.951992318771	99.95782370307887

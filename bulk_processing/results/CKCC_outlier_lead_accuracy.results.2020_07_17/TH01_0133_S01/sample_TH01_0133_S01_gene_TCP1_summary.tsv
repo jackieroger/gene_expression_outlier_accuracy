@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	TCP1	Down	4.81813476081	5.01685571671	4.12443747975602	99.08682530389854	98.34123222748815	100	98.34123222748815	100	99.800796812749	98.61660079051383	98.67549668874173

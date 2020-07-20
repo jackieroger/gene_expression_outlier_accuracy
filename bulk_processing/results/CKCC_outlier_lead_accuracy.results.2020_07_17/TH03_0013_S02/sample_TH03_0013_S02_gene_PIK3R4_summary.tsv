@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	PIK3R4	Down	2.57531233069	2.84197402	10.354537821769892	98.17988489320582	97.1714790807307	98.98612593383137	98.09610154125113	98.963133640553	98.98612593383137	97.68258426966293	97.1714790807307

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0122_S01	FBL	Down	5.57106999817	5.58801937103	0.3042390934877441	53.70847258722996	45	65.42857142857143	45	65.42857142857143	65.11627906976744	47.16417910447761	45.83333333333333

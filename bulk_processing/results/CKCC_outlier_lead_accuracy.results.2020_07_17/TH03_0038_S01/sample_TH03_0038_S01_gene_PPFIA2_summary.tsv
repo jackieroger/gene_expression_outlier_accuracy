@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0038_S01	PPFIA2	Up	3.07382023329	2.01303195953	34.51042003925542	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

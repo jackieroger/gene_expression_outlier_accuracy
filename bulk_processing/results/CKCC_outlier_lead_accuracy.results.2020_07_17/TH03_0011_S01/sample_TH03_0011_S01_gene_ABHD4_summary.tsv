@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	ABHD4	Up	6.76447355099	6.46977567673	4.35655298285363	99.95905834186284	99.79529170931423	100	100	100	100	99.79529170931423	100

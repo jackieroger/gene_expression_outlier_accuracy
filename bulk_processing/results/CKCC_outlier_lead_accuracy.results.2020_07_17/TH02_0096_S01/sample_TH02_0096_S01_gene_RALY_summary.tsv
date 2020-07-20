@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	RALY	Down	5.30231905095	5.51896095276	4.085795285577639	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

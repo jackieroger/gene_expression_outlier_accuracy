@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	TPM2	Down	1.41683974191	1.5398131609	8.679416263706944	90.85355781608334	86.0730593607306	95.33898305084746	86.0730593607306	92.11711711711712	95.33898305084746	92.58373205741627	88.15489749430525

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	GTF2F1	Up	7.32813634032	7.26967906952	0.7977099235772037	99.05753968253968	96.875	100	100	100	98.4126984126984	96.875	100

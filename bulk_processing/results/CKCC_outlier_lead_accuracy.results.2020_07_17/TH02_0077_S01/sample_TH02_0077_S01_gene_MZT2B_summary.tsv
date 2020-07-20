@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	MZT2B	Down	5.52825874276	5.66293144226	2.4360780811204146	97.0586189047034	94.69026548672566	98.4126984126984	96	98.07692307692307	98.4126984126984	94.69026548672566	98.11320754716981

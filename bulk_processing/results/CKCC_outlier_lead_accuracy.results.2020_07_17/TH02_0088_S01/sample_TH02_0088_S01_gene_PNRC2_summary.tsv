@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	PNRC2	Down	3.38818953716	3.67444205284	8.448539036571674	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0076_S01	AGBL5	Down	2.05658352837	2.15101313591	4.591576575294399	81.30508109872117	76.53631284916202	86.848635235732	78.79581151832461	85.16483516483517	86.848635235732	79.17981072555204	76.53631284916202

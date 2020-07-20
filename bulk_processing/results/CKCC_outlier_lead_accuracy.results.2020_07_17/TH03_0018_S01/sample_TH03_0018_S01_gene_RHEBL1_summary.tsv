@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0018_S01	RHEBL1	Up	3.70265754339	3.41357040405	7.807558110689428	99.88620176120176	99.71509971509973	100	99.71509971509973	100	100	100	99.7159090909091

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0126_S01	ELAC2	Down	3.1937717434	3.37387800217	5.63929651961489	99.74391966898779	99.1825613079019	100	100	100	100	99.1825613079019	99.53703703703704

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	DLEU2_6	Up	5.58155210969	5.37369346619	3.7240294350946104	70.03622303622303	48.148148148148145	88.46153846153845	48.148148148148145	75	78.57142857142857	88.46153846153845	60

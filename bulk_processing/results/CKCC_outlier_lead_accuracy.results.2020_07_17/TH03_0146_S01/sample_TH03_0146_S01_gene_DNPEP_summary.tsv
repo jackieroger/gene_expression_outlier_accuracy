@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0146_S01	DNPEP	Down	3.75488750216	3.99460482597	6.384141300427852	99.8103847188593	99.42857142857143	100	100	100	100	99.42857142857143	99.62335216572504

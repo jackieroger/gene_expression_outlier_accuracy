@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	ARHGAP24	Up	6.62351574149	6.18151140213	6.673258683319274	99.94252873563218	99.71264367816092	100	99.71264367816092	100	100	100	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	FAR2P1	Up	3.57410150809	2.67612600327	25.124510391980397	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

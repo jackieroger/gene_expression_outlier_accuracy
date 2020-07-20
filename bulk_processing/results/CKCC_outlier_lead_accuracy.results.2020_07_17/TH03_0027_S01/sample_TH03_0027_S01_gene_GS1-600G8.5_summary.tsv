@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0027_S01	GS1-600G8.5	Up	1.40053792958	0.746955513954	46.666527326539416	99.95073891625616	99.75369458128078	100	100	100	100	100	99.75369458128078

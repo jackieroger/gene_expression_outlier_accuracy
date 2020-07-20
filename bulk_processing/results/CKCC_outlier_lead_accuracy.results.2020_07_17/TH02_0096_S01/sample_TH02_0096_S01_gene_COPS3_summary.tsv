@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	COPS3	Down	3.62527048937	3.70826172829	2.289242669294513	92.35833654820519	89.23076923076924	96.8476357267951	89.23076923076924	95.97585513078471	96.8476357267951	90.0952380952381	89.6421845574388

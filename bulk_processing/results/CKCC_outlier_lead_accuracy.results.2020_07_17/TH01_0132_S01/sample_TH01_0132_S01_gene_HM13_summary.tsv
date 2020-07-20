@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0132_S01	HM13	Down	5.36632221425	5.54819154739	3.3890870856963256	99.903236914600555	99.72451790633609	100	100	100	99.79166666666667	99.72451790633609	100

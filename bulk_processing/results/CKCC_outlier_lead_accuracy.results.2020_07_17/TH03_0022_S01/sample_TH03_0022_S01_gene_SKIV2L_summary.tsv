@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0022_S01	SKIV2L	Down	3.13257684267	3.20716738701	2.381124169851946	96.06292894072604	90.7103825136612	98.75	96.3963963963964	98.75	98.44559585492227	96.0122699386503	90.7103825136612

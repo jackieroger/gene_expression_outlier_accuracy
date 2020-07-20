@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	SCNM1	Up	7.2394553266	7.21448659897	0.3448978756489773	90.18887393872546	84.7457627118644	95.97701149425288	86.98630136986301	95.97701149425288	95	88.23529411764706	84.7457627118644

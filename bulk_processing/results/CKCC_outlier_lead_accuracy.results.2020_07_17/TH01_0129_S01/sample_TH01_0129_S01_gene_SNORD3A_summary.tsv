@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0129_S01	SNORD3A	Up	14.9800569953	13.2477912903	11.563812511150651	NaN	Inf	-Inf	NA	NA	NA	NA	NA

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	TUBB4B	Down	4.95977015521	5.24556255341	5.762210531062387	99.61746017172133	99.23809523809524	100	99.61538461538461	99.79879275653923	100	99.23809523809524	99.43502824858757

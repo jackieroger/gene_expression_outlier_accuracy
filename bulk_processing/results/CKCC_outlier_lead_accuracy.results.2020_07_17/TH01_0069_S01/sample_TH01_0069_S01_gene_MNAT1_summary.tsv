@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	MNAT1	Down	1.61353165292	2.53883838654	57.346673797534585	99.88633672744494	99.59349593495935	100	99.83818770226537	99.59349593495935	100	100	100

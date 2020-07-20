@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0143_S02	BMP6	Up	3.71369581484	3.57549214363	3.7214591097562524	98.94550834652414	96.44808743169399	100	99.69969969969969	99.5	100	99.079754601227	96.44808743169399

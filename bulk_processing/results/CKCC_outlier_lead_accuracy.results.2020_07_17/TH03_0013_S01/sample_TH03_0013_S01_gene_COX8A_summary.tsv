@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	COX8A	Down	7.00764403088	7.22565364838	3.1110258531871073	99.57446808510639	97.87234042553192	100	100	100	97.87234042553192	100	100

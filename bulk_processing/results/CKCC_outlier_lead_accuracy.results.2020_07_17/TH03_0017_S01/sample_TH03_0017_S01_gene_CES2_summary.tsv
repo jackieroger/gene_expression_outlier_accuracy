@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	CES2	Up	7.09180559969	7.06218004227	0.41774350697508084	97.56944444444444	90.625	100	100	100	90.625	97.22222222222221	100

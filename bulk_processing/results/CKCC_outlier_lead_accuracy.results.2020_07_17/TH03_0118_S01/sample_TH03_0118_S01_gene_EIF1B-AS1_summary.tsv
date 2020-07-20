@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0118_S01	EIF1B-AS1	Up	2.82171021503	1.71949160099	39.062076898221854	99.80427857253429	99.53379953379954	100	100	99.74937343358395	100	99.73821989528795	99.53379953379954

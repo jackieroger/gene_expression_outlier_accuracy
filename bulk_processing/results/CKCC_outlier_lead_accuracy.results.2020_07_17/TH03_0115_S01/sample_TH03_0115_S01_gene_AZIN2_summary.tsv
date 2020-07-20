@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0115_S01	AZIN2	Up	5.32264926213	5.26675319672	1.0501549633881289	94.561565672582	91.73553719008265	97.56756756756756	94.04761904761905	97.56756756756756	97.5	91.73553719008265	91.95710455764075

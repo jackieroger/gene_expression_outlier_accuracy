@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0022_S01	TGFBR3L	Up	3.02502879449	2.80939435959	7.128343217518173	98.93574170485466	96.35627530364373	100	96.35627530364373	99.52606635071089	100	99.1869918699187	99.609375

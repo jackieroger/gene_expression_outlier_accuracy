@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	DFFB	Up	3.63691458036	3.59911680222	1.0392814377361164	70.84345924882679	64.66809421841542	79.15057915057915	65.88486140724946	78	79.15057915057915	66.5137614678899	64.66809421841542

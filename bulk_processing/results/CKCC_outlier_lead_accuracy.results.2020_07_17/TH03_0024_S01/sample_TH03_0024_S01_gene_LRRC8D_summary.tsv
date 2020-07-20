@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	LRRC8D	Up	6.36299581197	6.2432384491	1.8820908642547638	99.39928450155107	98.51485148514851	100	98.51485148514851	100	99.63099630996311	98.85057471264368	100

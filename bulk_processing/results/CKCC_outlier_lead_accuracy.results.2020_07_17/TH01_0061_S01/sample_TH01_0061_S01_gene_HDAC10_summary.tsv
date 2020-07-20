@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	HDAC10	Down	2	2.12179112434	6.089556217000003	80.35121909623524	71.0955710955711	89.17835671342685	75.34562211981567	84.46115288220551	89.17835671342685	81.67539267015707	71.0955710955711

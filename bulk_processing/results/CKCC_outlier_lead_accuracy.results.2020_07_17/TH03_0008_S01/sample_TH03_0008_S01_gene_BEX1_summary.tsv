@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	BEX1	Up	10.5686116969	9.53758525848	9.755552271093675	NaN	Inf	-Inf	NA	NA	NA	NA	NA

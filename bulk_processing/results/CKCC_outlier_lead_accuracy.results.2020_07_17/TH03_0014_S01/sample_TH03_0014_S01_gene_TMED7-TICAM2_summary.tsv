@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0014_S01	TMED7-TICAM2	Up	3.70708299177	3.26907038689	11.815559723168336	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

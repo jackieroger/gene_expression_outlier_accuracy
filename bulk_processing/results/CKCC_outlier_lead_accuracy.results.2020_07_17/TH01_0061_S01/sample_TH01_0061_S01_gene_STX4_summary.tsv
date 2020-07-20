@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	STX4	Down	2.92789645373	3.81383347511	30.258481998274185	99.62433827235351	98.83449883449883	100	100	99.74937343358395	99.79959919839679	99.73821989528795	98.83449883449883

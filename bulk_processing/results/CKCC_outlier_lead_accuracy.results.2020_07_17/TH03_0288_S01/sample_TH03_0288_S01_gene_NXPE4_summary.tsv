@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	NXPE4	Up	0.411426245726	0.141808778048	65.53239383215205	86.09897496758437	80.08658008658008	94.36936936936937	80.08658008658008	88.7766554433221	94.36936936936937	86.0122699386503	81.25

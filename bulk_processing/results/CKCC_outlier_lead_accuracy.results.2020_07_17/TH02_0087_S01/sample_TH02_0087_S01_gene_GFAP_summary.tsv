@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0087_S01	GFAP	Up	12.7622948265	1.85125505924	85.49434028591786	NaN	Inf	-Inf	NA	NA	NA	NA	NA

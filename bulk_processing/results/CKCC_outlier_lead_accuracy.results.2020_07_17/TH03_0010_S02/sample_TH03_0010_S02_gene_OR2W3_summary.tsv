@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	OR2W3	Up	2.67129337248	1.41422963142	47.05824354638201	99.95073891625616	99.75369458128078	100	100	100	100	100	99.75369458128078

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0287_S01	KCNC4-AS1	Up	1.45943161864	0.682469725609	53.23729341666773	99.8383750967495	99.59349593495935	100	99.83818770226537	99.59349593495935	100	99.76019184652279	100

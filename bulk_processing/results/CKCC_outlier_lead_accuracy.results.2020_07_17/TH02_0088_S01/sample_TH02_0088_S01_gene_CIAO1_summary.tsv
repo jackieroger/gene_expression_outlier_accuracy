@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	CIAO1	Down	3.86294724802	3.87102818489	0.20919097132745765	19.437337083501152	14.925373134328357	24	14.925373134328357	24	23.745173745173744	16.743119266055047	17.77301927194861

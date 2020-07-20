@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	RNF25	Up	6.19396881942	6.1538734436	0.6473293132230283	79.50187211686689	71.42857142857143	89.16666666666667	71.42857142857143	89.16666666666667	85.20179372197309	75	76.71232876712328

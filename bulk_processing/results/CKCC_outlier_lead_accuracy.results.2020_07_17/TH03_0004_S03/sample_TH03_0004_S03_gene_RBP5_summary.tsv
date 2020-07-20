@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	RBP5	Up	6.37434398904	6.25602245331	1.8562151012471402	98.94082244177353	97.84482758620689	100	99.13419913419914	100	99.55156950672645	97.84482758620689	98.17351598173516

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S02	ADH4	Up	2.88752527074	0.344080448151	88.08389829042706	99.94897959183673	99.74489795918367	100	100	99.74489795918367	100	100	100

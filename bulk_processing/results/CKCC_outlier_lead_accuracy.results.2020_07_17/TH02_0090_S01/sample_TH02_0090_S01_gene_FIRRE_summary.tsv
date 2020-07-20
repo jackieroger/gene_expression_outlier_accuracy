@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0090_S01	FIRRE	Up	1.58496250072	1.37435090542	13.288112192201737	98.50263019719571	97.90940766550523	100	97.90940766550523	100	98.21428571428571	98.29059829059828	98.09885931558935

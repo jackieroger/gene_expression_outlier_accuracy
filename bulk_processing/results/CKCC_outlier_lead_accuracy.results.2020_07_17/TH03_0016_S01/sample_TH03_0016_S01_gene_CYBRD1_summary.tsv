@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0016_S01	CYBRD1	Up	8.82001936343	8.80372047424	0.18479425632077578	85.26801750639832	80	95.65217391304348	81.81818181818183	95.65217391304348	86.11111111111111	82.75862068965517	80

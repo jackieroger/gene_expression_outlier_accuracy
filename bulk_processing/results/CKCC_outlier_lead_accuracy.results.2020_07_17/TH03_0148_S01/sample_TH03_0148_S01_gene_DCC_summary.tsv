@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	DCC	Up	1.124328135	0.575541138649	48.81021645438056	99.9909338168631	99.95466908431551	100	99.95466908431551	100	100	100	100

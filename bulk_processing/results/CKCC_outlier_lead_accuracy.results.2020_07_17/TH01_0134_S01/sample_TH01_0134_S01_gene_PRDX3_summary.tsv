@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	PRDX3	Down	4.6264391367	4.716796875	1.953073100718477	88.49198104509463	84.38095238095238	94.22066549912435	85.57692307692307	93.158953722334	94.22066549912435	84.38095238095238	85.12241054613936

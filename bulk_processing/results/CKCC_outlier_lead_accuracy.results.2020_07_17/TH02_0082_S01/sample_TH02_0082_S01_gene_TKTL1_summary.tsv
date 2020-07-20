@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0082_S01	TKTL1	Up	1.3840498068	0.958525717258	30.74485379437575	99.74967690283955	99.51456310679612	100	99.51456310679612	99.74489795918367	100	99.71671388101983	99.77220956719817

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	SYNE2	Down	1.64616265716	1.9125379324	16.181588987054113	99.34083587232062	98.60627177700349	100	98.60627177700349	100	99.28571428571429	99.57264957264957	99.23954372623575

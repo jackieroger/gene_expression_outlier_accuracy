@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	RBAKDN	Up	1.9855004303	1.89209008217	4.7046249250062395	44.55094985736769	36.32707774798928	53.76	36.32707774798928	53.76	53.68217054263565	41.067285382830626	37.9182156133829

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	PKI55	Up	4.75328361646	4.44551467896	6.474870054760378	99.91290099870206	99.78911851539435	100	100	99.91514637250742	99.95625546806649	99.90398463754201	99.78911851539435

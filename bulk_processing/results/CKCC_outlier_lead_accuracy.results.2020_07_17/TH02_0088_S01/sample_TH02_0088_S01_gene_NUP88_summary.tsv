@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	NUP88	Down	3.41548827105	3.47595477104	1.7703618104187246	75.22951015820296	63.1578947368421	84.15492957746478	63.1578947368421	80.56872037914692	84.15492957746478	75.60975609756098	72.65625

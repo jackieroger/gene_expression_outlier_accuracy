@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0005_S01	SIGLEC8	Up	3.06867081067	3.02082753181	1.5590880160115301	86.6565791840421	79.78142076502732	94	83.48348348348348	94	91.96891191709845	84.04907975460122	79.78142076502732

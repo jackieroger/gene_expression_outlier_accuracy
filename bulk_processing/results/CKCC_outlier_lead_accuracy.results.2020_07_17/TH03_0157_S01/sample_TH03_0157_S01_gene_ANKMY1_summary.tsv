@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	ANKMY1	Up	4.64096791045	4.59014797211	1.0950288672664505	73.06476411892423	66.38115631691649	82.04633204633205	68.23027718550107	79.4	82.04633204633205	69.26605504587155	66.38115631691649

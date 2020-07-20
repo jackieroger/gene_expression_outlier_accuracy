@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	SKP1	Down	6.4419481905	6.49079608917	0.7582783534651287	88.30025220611377	83.10991957104558	95.94594594594594	83.57142857142857	95.94594594594594	93.75	85.12396694214877	83.10991957104558

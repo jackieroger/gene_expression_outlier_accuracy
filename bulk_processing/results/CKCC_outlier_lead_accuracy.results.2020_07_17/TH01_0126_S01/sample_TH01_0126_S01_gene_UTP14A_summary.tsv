@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0126_S01	UTP14A	Down	1.55581615506	2.0647983551	32.714803634390286	99.94186046511628	99.70930232558139	100	100	100	99.70930232558139	100	100

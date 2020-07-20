@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	RPS4XP22	Up	1.19534759832	0.956333220005	19.995387002987453	96.94851026290853	95.6	98.93111638954869	96.76375404530745	97.76422764227642	98.93111638954869	95.68345323741008	95.6

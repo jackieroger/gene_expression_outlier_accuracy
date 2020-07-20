@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	FUBP1	Down	3.4262647547	3.94746041298	15.21177420878076	99.91902834008097	99.59514170040485	100	99.59514170040485	100	100	100	100

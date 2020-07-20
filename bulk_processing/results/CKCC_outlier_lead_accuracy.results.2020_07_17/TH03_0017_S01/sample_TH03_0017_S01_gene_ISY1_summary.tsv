@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	ISY1	Down	2.49057013045	2.80176067352	12.494751272624214	96.84838296796468	95.662100456621	98.9406779661017	95.662100456621	96.62162162162163	98.9406779661017	96.88995215311004	96.12756264236903

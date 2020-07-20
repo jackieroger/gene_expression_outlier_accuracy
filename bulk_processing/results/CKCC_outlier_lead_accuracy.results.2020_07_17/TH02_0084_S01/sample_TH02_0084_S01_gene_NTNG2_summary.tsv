@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0084_S01	NTNG2	Up	3.04439411936	2.83093380928	7.011585941601886	99.93008516447298	99.83129481231548	100	100	99.91514637250742	100	99.90398463754201	99.83129481231548

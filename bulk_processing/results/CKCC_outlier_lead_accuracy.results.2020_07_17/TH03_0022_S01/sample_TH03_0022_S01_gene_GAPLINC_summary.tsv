@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0022_S01	GAPLINC	Up	4.02059109477	3.66187334061	8.92201533815815	98.540797616004	97.72727272727273	100	98.01324503311258	98.63013698630137	98.33333333333333	100	97.72727272727273

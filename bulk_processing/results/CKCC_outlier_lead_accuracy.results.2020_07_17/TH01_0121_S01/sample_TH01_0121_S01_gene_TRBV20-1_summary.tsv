@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0121_S01	TRBV20-1	Up	5.32517051238	4.96266365051	6.807422617308519	99.62264150943396	98.11320754716981	100	100	100	100	100	98.11320754716981

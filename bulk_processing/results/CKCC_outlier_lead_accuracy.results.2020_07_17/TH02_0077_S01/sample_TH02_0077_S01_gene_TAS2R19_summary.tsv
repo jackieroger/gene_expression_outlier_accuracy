@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	TAS2R19	Up	1.07724299893	0.653314113617	39.35313441202018	99.85397189427003	99.50738916256158	100	100	99.7624703087886	100	100	99.50738916256158

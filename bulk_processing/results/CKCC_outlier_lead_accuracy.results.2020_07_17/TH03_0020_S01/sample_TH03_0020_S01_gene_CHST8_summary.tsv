@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0020_S01	CHST8	Up	2.72683121703	2.23198342323	18.147356928786245	99.24906578182767	98.42271293375394	100	99.21465968586386	99.72527472527473	100	98.42271293375394	98.88268156424581

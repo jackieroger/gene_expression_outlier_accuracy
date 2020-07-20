@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0105_S01	GJA4	Up	6.56071495447	6.27690315247	4.32592795098697	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

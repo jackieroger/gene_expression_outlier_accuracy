@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	KDM4B	Up	6.07660184862	5.99497079849	1.3433667724756204	98.98618686023732	97.81859931113662	100	99.19678714859438	100	99.65556831228473	98.25997952917092	97.81859931113662

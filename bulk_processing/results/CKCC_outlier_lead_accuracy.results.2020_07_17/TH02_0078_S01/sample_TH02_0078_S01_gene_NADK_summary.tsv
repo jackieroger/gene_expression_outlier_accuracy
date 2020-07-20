@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	NADK	Down	3.14241343787	3.38725829124	7.791618073526363	99.9554410459907	99.90398463754201	100	100	99.95757318625371	100	99.90398463754201	99.91564740615773

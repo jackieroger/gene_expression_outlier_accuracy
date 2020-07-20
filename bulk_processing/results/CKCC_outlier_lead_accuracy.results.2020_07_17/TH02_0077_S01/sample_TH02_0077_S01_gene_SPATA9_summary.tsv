@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	SPATA9	Up	1.79077203786	1.52551841736	14.812249403725453	93.31773142133984	90	97.38717339667458	92.23300970873787	95.1219512195122	97.38717339667458	91.84652278177458	90

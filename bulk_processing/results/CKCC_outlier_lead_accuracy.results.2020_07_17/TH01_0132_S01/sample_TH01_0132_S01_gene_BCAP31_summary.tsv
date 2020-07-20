@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0132_S01	BCAP31	Down	4.85598969731	5.74220561981	18.249954751570492	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

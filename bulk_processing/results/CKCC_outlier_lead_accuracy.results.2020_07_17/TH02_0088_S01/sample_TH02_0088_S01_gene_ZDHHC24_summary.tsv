@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	ZDHHC24	Down	1.45943161864	1.81004238129	24.02378831402347	99.89783431413079	99.82321744254567	100	99.86400725294651	99.94239631336406	100	99.85955056179775	99.82321744254567

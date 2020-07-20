@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	INVS	Up	4.39231742278	4.16027975082	5.282807448218022	99.72471588051896	99.18032786885246	100	100	99.75	100	99.69325153374233	99.18032786885246

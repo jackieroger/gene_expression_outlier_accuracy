@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0074_S01	VAMP8	Down	2.85598969731	4.32363033295	51.388162815234985	99.8383750967495	99.59349593495935	100	99.83818770226537	99.59349593495935	100	99.76019184652279	100

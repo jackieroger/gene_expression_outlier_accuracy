@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	BAD	Down	3.57046293103	4.05416154861	13.547224181388254	99.83805668016194	99.19028340080972	100	99.19028340080972	100	100	100	100

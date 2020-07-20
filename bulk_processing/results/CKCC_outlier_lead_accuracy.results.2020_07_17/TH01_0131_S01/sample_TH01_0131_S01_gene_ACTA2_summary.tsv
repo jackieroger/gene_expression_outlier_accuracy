@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0131_S01	ACTA2	Down	1.48026512205	1.77049732208	19.6067714969911	99.58850647280306	99.08883826879271	100	99.54337899543378	99.54954954954955	100	99.76076555023924	99.08883826879271

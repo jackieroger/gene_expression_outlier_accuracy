@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0129_S01	IFRD2	Down	2.94298359819	3.5206387043	19.62821357432201	99.63406455936342	99.31662870159454	100	99.54337899543378	99.54954954954955	100	99.76076555023924	99.31662870159454

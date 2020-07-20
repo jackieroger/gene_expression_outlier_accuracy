@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	PRUNE	Up	6.13339912542	6.08885002136	0.7263362965466551	87.13078546045277	81.76943699731903	94.5945945945946	82.14285714285714	94.5945945945946	93.125	84.02203856749311	81.76943699731903

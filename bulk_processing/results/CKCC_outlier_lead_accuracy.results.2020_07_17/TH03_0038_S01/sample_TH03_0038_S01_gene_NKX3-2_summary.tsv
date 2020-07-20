@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0038_S01	NKX3-2	Up	1.49057013045	1.29731667042	12.965069947541291	98.35689815866947	97.5609756097561	100	97.5609756097561	100	98.21428571428571	98.29059829059828	97.71863117870723

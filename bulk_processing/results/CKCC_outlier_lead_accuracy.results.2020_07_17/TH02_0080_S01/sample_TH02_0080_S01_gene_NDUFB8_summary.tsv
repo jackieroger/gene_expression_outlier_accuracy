@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	NDUFB8	Down	5.75515464318	5.89198732376	2.37756739937735	96.35654320262769	94.69026548672566	98.11320754716981	96	96.15384615384616	96.82539682539682	94.69026548672566	98.11320754716981

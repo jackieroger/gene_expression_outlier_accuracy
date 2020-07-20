@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	MAST2	Up	6.47848651208	6.27532625198	3.1359216341838554	99.95905834186284	99.79529170931423	100	100	100	100	99.79529170931423	100

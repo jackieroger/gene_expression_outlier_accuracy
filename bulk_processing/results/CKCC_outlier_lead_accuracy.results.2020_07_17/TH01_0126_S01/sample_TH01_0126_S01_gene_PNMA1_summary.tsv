@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0126_S01	PNMA1	Down	1.06350294231	1.36804914474	28.636141031119784	99.88233665559247	99.70238095238095	100	100	99.70238095238095	99.70930232558139	100	100

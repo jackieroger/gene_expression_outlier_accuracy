@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	CTB-75G16.1	Up	1.09085343045	0.690765023232	36.67664198048634	99.47610201301426	99.04076738609112	100	99.35275080906149	99.1869918699187	100	99.04076738609112	99.8

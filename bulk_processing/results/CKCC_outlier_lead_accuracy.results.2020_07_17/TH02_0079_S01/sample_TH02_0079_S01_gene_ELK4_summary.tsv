@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	ELK4	Up	5.21955576917	5.16061687469	1.129193691695586	97.57658267688564	94.68599033816425	100	97.61904761904762	98.87005649717514	100	96.70781893004116	94.68599033816425

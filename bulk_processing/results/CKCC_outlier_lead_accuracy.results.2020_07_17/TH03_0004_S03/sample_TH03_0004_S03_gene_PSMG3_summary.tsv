@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	PSMG3	Down	3.26303440583	3.31090688705	1.4671154289537045	68.65966820531234	57.48987854251012	78.87323943661971	57.48987854251012	72.98578199052133	78.87323943661971	69.10569105691057	64.84375

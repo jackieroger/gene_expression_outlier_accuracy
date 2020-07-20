@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0084_S01	KLHDC8A	Up	3.78450398293	3.49393057823	7.677978567617602	99.95370370370371	99.76851851851852	100	100	100	100	100	99.76851851851852

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	CACNB2	Up	3.64731450955	3.61777472496	0.8099050551482289	63.010648197296696	54.629629629629626	72.5	57.14285714285714	70.56277056277057	72.5	60.217983651226156	54.629629629629626

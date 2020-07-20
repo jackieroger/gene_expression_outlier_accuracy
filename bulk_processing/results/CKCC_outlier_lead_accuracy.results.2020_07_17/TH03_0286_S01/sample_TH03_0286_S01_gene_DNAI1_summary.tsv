@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0286_S01	DNAI1	Up	1.83187724119	1.76328980923	3.744106341724355	49.33471019842287	41.007194244604314	60.16260162601627	43.52750809061489	60.16260162601627	59.97624703087886	41.007194244604314	42

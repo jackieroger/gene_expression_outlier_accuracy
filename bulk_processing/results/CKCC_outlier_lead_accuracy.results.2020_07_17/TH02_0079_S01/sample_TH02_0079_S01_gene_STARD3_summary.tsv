@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	STARD3	Down	3.31614574229	3.5292429924	6.426052009488689	99.84847995695453	99.61904761904762	100	100	100	100	99.61904761904762	99.62335216572504

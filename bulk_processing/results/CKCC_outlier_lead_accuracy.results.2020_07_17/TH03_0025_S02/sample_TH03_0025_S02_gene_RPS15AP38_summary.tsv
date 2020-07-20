@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0025_S02	RPS15AP38	Up	1.18269229752	1.02883481979	13.009087659793295	82.78347250959825	76.54155495978551	90.50387596899225	76.54155495978551	89.92	90.50387596899225	79.81438515081206	77.13754646840148

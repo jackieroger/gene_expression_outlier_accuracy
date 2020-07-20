@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0156_S01	ALDH7A1	Up	8.6116519197	8.42632198334	2.1520834572521452	99.84496124031008	99.2248062015504	100	100	100	100	99.2248062015504	100

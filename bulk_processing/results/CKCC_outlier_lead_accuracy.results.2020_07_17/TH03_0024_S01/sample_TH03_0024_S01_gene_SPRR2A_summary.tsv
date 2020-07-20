@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	SPRR2A	Up	2.70487196446	1.13557434082	58.01744571496914	99.88633672744494	99.59349593495935	100	99.83818770226537	99.59349593495935	100	100	100

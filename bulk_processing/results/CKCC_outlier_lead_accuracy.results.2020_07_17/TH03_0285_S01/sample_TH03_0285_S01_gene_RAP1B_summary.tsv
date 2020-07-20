@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0285_S01	RAP1B	Up	8.48143618999	8.428565979	0.6233638950487884	98.87465961549074	98.38709677419355	100	98.50746268656717	100	98.38709677419355	98.44961240310077	99.02912621359224

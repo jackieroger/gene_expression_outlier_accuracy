@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	SON	Down	4.50652577904	4.56245040894	1.2409699320950762	84.87144747608104	77.64656263180093	90.5949256342957	83.28954282711508	90.15697921086127	90.5949256342957	82.6692270763322	77.64656263180093

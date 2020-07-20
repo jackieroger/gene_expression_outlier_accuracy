@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S02	TNXB	Up	6.36929198168	6.231133461	2.169134671128058	99.81156098705813	99.48822927328557	100	99.79919678714859	100	99.88518943742825	99.48822927328557	99.88518943742825

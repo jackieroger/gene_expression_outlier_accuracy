@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0064_S01	CKLF	Up	7.76573363362	7.71328210831	0.6754226681549225	97.42285513336711	95.65217391304348	98.9795918367347	95.65217391304348	98.9795918367347	97.87234042553192	98	96.61016949152543

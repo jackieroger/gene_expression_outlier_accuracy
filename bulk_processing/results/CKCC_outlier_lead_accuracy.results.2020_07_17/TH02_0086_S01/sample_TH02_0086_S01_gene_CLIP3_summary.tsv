@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	CLIP3	Up	7.40386417661	7.36344766617	0.545884006998431	98.69260556887332	96.36363636363636	100	96.36363636363636	100	100	98.27586206896551	98.82352941176471

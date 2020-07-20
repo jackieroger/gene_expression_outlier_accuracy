@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	PDPK2P	Up	3.32337006906	3.26466727257	1.7663635186617601	88.76714869542502	84.79657387580299	94.78764478764478	85.50106609808103	93.2	94.78764478764478	85.55045871559633	84.79657387580299

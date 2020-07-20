@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	RP11-439E19.9	Up	0.475084882949	0.460804104805	3.0059424445069123	29.83275565680674	24.04092071611253	34.82849604221636	25	33.05555555555556	34.82849604221636	32.23880597014925	24.04092071611253

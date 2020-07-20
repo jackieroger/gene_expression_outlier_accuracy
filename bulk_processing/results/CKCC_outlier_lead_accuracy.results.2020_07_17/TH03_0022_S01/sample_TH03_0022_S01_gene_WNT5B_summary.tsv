@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0022_S01	WNT5B	Up	6.23706652081	5.96583509445	4.348701836913798	99.82426719770814	99.42528735632183	100	99.42528735632183	100	100	100	99.69604863221885

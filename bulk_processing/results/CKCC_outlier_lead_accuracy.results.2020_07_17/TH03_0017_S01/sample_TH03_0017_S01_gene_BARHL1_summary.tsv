@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	BARHL1	Up	0.163498732283	0.0362440273166	77.83222731423677	91.35970125334192	89.98459167950693	94.61538461538461	91.17221418234442	94.61538461538461	90.52631578947368	90.5	89.98459167950693

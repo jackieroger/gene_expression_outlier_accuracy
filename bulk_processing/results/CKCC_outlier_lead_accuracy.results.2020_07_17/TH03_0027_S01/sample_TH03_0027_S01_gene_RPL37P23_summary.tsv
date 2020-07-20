@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0027_S01	RPL37P23	Up	1.31034012061	1.26498711109	3.4611631595991272	11.63972890654428	9.659090909090908	12.903225806451612	9.659090909090908	12.76595744680851	12.5	12.903225806451612	10.37037037037037

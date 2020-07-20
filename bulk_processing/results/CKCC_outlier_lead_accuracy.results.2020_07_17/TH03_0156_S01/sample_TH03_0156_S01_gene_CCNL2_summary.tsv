@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0156_S01	CCNL2	Up	8.47893137019	8.46265888214	0.19191673265821588	75.07866511597855	68.75	84.0909090909091	77.61194029850746	84.0909090909091	76.19047619047619	68.75	68.75

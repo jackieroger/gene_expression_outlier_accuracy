@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	TMEM256-PLSCR3	Up	6.21091481607	5.85719347	5.695156938150041	99.94082840236686	99.70414201183432	100	100	100	100	99.70414201183432	100

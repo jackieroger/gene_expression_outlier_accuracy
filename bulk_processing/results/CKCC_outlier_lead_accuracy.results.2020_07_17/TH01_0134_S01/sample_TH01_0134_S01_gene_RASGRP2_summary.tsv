@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	RASGRP2	Up	6.61559285651	6.15112924576	7.020740556803612	99.94252873563218	99.71264367816092	100	99.71264367816092	100	100	100	100

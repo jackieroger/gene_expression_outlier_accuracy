@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0121_S01	GLUD1P3	Up	2.23572705984	2.03978466988	8.764146280629737	81.76894034283985	74	89.78622327790974	76.86084142394822	88.8211382113821	89.78622327790974	79.37649880095923	74

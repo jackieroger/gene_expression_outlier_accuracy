@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0074_S01	RPL35	Down	8.82534043955	8.8530330658	0.3137853597794069	81.58530930520816	71.1864406779661	89.79591836734694	79.71014492753623	89.79591836734694	87.2340425531915	80	71.1864406779661

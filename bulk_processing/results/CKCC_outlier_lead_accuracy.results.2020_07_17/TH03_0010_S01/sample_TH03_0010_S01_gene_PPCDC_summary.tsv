@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S01	PPCDC	Up	5.42660022617	5.40855455399	0.33254102804502794	56.92506101827518	47.5	70.80103359173127	47.5	68.85714285714286	70.80103359173127	48.95522388059702	48.51190476190476

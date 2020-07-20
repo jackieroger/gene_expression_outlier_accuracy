@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	ATP5F1	Down	6.23764019504	6.28889894485	0.8217650939654906	86.94757696350293	79.65367965367966	95	79.65367965367966	95	92.82511210762333	82.32758620689656	84.93150684931507

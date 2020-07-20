@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0092_S01	VEGFA	Up	10.7370783003	10.2217922211	4.799127516706323	NaN	Inf	-Inf	NA	NA	NA	NA	NA

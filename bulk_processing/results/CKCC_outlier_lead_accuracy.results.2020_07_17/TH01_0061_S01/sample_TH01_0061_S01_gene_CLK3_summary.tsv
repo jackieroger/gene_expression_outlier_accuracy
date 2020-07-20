@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	CLK3	Down	3.45549162063	3.93579483032	13.899706971433245	99.9206336708502	99.800796812749	100	100	100	99.800796812749	99.80237154150198	100

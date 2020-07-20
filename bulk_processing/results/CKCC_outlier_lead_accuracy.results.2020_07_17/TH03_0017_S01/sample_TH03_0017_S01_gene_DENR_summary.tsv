@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	DENR	Down	3.24184018356	3.33764743805	2.9553355213454724	98.04513848238199	94.53551912568307	99.48186528497409	98.7987987987988	99.25	99.48186528497409	98.15950920245399	94.53551912568307

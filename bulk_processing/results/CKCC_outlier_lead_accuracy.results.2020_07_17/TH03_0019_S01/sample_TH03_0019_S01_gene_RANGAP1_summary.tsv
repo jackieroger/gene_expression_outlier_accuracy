@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	RANGAP1	Down	2.84197311893	3.19852399826	12.545892040817083	98.2854695872409	97.5609756097561	100	97.5609756097561	100	97.85714285714285	98.29059829059828	97.71863117870723

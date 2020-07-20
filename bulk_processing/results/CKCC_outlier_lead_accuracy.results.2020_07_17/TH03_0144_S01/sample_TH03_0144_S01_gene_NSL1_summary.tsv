@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	NSL1	Up	6.40582222051	6.21184968948	3.028066099133124	99.79128181489271	99.54128440366972	100	100	99.71098265895954	99.54128440366972	99.70414201183432	100

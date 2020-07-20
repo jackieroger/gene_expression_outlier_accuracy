@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	UBXN6	Down	4.18586654531	4.41461038589	5.464671128521598	99.29063481516752	98.57954545454545	100	98.86039886039886	100	99.53271028037383	99.48051948051948	98.57954545454545

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0027_S01	AGER	Up	5.94626298433	5.7456073761	3.3744825743291442	99.8490852831008	99.54128440366972	100	100	100	99.54128440366972	99.70414201183432	100

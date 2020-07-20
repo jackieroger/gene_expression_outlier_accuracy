@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	ANKS6	Down	0.613531652918	0.800494909286	30.473286175014675	83.50327751328649	77.58328627893846	90.94964945825367	81.25	87.0201096892139	90.94964945825367	80.71334214002643	77.58328627893846

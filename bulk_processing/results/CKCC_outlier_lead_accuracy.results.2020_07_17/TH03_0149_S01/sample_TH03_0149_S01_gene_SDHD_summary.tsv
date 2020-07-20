@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	SDHD	Down	4.27649666564	4.48397064209	4.851493937010954	99.49901140592216	98.81422924901186	100	99.76303317535546	100	99.800796812749	98.81422924901186	99.11699779249447

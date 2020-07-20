@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	ZFP36L1	Down	3.67581593117	3.69774079323	0.5964624581465781	49.258523655463705	40.825688073394495	59.84555984555985	43.71002132196162	57.8	59.84555984555985	40.825688073394495	44.11134903640257

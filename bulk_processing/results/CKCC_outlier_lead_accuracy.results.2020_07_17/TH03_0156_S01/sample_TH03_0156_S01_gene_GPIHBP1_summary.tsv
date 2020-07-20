@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0156_S01	GPIHBP1	Up	3.86195536414	3.6332218647	5.9227380400067275	99.83287447851599	99.77064220183486	100	99.7867803837953	99.8	99.8069498069498	99.77064220183486	100

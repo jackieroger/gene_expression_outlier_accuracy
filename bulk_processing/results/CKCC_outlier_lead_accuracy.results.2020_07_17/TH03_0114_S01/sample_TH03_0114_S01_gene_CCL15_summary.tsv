@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	CCL15	Up	2.50080205306	1.43852698803	42.47737495777375	99.90323297801388	99.75369458128078	100	100	99.7624703087886	100	100	99.75369458128078

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0132_S01	GMIP	Up	5.58345891013	5.52160596848	1.1077889646108212	97.57658267688564	94.68599033816425	100	97.61904761904762	98.87005649717514	100	96.70781893004116	94.68599033816425

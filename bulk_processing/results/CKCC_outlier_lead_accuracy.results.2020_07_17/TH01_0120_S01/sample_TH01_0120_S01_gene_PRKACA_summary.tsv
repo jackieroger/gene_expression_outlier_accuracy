@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	PRKACA	Down	3.64385618977	3.78173732758	3.783934673302874	98.9773250043193	98.50107066381156	99.6	98.93390191897655	99.6	99.22779922779922	98.62385321100918	98.50107066381156

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	PPM1B	Up	6.39231742278	6.27073669434	1.901982026216786	98.79816368364146	97.7961432506887	100	98.5632183908046	98.84726224783861	100	97.7961432506887	98.78419452887537

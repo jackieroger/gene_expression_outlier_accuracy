@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	PDS5B	Up	6.07788386444	5.95834350586	1.9668088638448218	98.90835652110702	98.34710743801654	100	98.5632183908046	98.84726224783861	100	98.34710743801654	98.78419452887537

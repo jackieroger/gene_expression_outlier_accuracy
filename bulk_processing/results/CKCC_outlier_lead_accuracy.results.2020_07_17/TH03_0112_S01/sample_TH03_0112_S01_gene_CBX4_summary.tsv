@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	CBX4	Up	6.48912542875	6.36393451691	1.9292416707703592	99.39928450155107	98.51485148514851	100	98.51485148514851	100	99.63099630996311	98.85057471264368	100

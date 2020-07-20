@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S02	RNA5-8S5	Down	5.59395128395	5.71341133118	2.135521765674843	53.146520146520146	33.33333333333333	76.92307692307693	33.33333333333333	65	57.14285714285714	76.92307692307693	33.33333333333333

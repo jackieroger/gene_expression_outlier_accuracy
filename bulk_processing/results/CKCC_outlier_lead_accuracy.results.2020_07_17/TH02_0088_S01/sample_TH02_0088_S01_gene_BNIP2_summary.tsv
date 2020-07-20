@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	BNIP2	Down	2.71369581484	2.89307832718	6.610266020201553	94.92428203723436	91.101944608132	97.2926267281106	94.92293744333635	97.2926267281106	96.85165421558165	94.45224719101124	91.101944608132

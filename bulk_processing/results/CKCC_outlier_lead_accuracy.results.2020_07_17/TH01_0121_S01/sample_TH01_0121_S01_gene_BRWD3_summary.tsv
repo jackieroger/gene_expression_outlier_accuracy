@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0121_S01	BRWD3	Up	4.14323013478	3.87778067589	6.406823909241881	99.90329946245626	99.78911851539435	100	100	99.91514637250742	99.95625546806649	99.85597695631301	99.78911851539435

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0289_S01	UBA7	Up	7.53340760848	7.49974393845	0.4468584706887034	96.62884897360703	94.54545454545455	100	94.54545454545455	100	98.4375	95.16129032258065	95

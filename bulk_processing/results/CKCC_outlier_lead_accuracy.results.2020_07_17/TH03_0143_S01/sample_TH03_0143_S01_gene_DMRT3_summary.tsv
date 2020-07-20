@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0143_S01	DMRT3	Up	1.31034012061	1.08263778687	17.377345786680053	99.01929740065735	98.10725552050474	100	99.21465968586386	99.45054945054946	100	98.10725552050474	98.32402234636871

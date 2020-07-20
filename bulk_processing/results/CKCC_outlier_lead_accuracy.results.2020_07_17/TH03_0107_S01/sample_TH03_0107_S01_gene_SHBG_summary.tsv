@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0107_S01	SHBG	Up	2.46988597627	1.67843258381	32.04412673556882	99.57497229755641	98.76847290640394	100	99.77375565610859	99.5249406175772	99.8076923076923	100	98.76847290640394

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	CTBP1	Down	4.6340123564	4.96180963516	7.073724745409472	99.91551840175693	99.77064220183486	100	100	100	99.8069498069498	99.77064220183486	100

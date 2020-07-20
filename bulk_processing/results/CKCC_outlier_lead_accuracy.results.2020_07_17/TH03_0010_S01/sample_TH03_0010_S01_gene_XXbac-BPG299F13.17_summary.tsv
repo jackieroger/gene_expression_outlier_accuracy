@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S01	XXbac-BPG299F13.17	Up	2.93357263826	2.59105062485	11.675934283773564	97.68062793561263	96.1977186311787	99.62962962962963	97.21254355400697	99.62962962962963	97.5	97.86324786324786	96.1977186311787

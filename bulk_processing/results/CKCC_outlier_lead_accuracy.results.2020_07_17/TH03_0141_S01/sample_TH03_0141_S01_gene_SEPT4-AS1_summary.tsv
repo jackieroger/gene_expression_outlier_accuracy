@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	SEPT4-AS1	Up	2.017921908	1.70970869064	15.27379311053101	93.75177712318433	90.4	97.74346793349169	93.20388349514563	95.32520325203252	97.74346793349169	92.08633093525181	90.4

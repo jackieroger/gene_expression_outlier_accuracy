@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	GUSBP11	Up	5.5734957155	5.44950771332	2.2246002959181777	99.70671259441671	99.46380697050938	100	99.76190476190476	100	99.58333333333333	99.72451790633609	99.46380697050938

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	CATSPER1	Up	2.39780296186	2.1062142849	12.160660471192834	90.0474159125455	85	95.96199524940617	87.2168284789644	93.08943089430895	95.96199524940617	88.96882494004797	85

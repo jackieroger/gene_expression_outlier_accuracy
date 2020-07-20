@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	EEF1G	Down	8.64925617752	8.67867279053	0.34010569702462157	91.49080522971651	86.36363636363636	97.84946236559139	86.36363636363636	97.84946236559139	94.53125	88.70967741935483	90

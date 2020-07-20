@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	CAMTA2	Down	2.49825086753	2.88644552231	15.538657859600976	98.84539494127475	97.79179810725552	100	99.21465968586386	99.17582417582418	100	97.79179810725552	98.04469273743017

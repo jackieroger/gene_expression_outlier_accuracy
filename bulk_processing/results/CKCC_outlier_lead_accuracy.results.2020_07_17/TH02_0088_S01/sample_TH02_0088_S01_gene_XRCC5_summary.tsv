@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	XRCC5	Down	4.60288440872	5.05076885223	9.73051686159008	99.98196320436998	99.951992318771	100	100	100	100	99.951992318771	99.95782370307887

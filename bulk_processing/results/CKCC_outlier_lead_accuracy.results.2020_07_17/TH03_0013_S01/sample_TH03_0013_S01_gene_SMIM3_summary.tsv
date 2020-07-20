@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	SMIM3	Up	6.94789988625	6.89016008377	0.8310396439975825	91.83355765766912	87.5	98.12734082397003	87.94326241134752	98.12734082397003	96.78362573099415	88.8135593220339	87.5

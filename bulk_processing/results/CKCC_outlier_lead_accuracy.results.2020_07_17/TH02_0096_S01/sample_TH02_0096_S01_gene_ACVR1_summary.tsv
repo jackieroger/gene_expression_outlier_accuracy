@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	ACVR1	Down	1.40599235968	1.5926605463	13.276614580073916	98.50263019719571	97.90940766550523	100	97.90940766550523	100	98.21428571428571	98.29059829059828	98.09885931558935

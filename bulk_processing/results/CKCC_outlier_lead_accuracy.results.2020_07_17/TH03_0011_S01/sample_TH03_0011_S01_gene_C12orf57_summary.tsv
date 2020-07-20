@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	C12orf57	Down	5.53075745746	5.54031991959	0.17289606719422937	31.7731089265285	25.541125541125542	40.35874439461883	25.541125541125542	37.5	40.35874439461883	27.155172413793103	28.31050228310502

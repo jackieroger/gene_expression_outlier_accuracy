@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	PDLIM7	Down	2.28983446518	2.42582559586	5.93890662176361	73.96485279386087	67.24137931034483	83.1353919239905	68.32579185520362	83.1353919239905	82.5	68.62170087976538	67.24137931034483

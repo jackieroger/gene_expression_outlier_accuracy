@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0285_S01	FDX1L	Down	2.44095219803	2.62428712845	7.5107956054183385	76.14964565615708	66	85.62945368171022	72.97734627831716	82.52032520325203	85.62945368171022	73.621103117506	66

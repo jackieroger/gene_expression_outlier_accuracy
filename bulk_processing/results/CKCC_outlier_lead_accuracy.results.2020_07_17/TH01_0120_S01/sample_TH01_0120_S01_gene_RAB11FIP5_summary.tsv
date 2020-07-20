@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	RAB11FIP5	Down	0.226508529809	1.18034958839	421.10602165194945	99.98678996036988	99.93394980184941	100	100	100	100	99.93394980184941	100

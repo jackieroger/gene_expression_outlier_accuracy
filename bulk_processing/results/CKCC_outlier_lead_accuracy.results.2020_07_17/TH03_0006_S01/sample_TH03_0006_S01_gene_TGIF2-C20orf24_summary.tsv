@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	TGIF2-C20orf24	Up	4.93498820178	4.5083656311	8.644854926423568	99.94301994301995	99.71509971509973	100	99.71509971509973	100	100	100	100

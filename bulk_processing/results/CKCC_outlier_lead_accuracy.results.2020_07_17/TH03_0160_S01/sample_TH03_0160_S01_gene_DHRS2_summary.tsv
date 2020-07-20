@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	DHRS2	Up	5.70818723602	5.20707321167	8.778864526164325	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

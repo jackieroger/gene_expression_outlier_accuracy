@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S04	CDHR5	Up	2.68929916054	1.80678677559	32.81570149944922	99.83848428715349	99.57264957264957	100	100	100	100	99.57264957264957	99.61977186311786

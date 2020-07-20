@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	MUC19	Up	1.83187724119	0.597287535667	67.39478376405845	99.95337995337995	99.76689976689977	100	100	100	100	100	99.76689976689977

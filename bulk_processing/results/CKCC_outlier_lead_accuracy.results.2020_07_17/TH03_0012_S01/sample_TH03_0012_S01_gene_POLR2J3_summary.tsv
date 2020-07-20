@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0012_S01	POLR2J3	Up	8.11982302667	8.10576343536	0.17315145002323554	67.8885983029834	60.50420168067227	78.73563218390804	61.64383561643836	78.73563218390804	75	60.50420168067227	63.559322033898304

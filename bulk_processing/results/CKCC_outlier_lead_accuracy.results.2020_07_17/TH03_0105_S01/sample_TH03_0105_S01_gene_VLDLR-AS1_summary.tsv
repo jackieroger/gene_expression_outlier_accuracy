@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0105_S01	VLDLR-AS1	Up	2.29572302454	1.88535559177	17.87530239420874	99.13010837739012	98.10725552050474	100	99.21465968586386	99.72527472527473	100	98.10725552050474	98.60335195530726

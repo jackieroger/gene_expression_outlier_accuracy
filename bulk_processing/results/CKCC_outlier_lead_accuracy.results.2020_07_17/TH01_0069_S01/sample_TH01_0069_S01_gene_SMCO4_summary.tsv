@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	SMCO4	Down	1.22650852981	1.28552436829	4.811694093080798	58.08399795865859	49.88009592326139	69.83372921615202	53.23624595469255	66.869918699187	69.83372921615202	49.88009592326139	50.6

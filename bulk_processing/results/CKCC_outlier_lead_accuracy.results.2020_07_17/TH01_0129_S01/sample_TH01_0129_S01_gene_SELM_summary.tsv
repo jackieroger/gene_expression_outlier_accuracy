@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0129_S01	SELM	Down	1.54596836911	1.5799498558	2.1980712781053184	31.15613686609528	23.980815347721823	41.56769596199525	25.40453074433657	39.22764227642276	41.56769596199525	23.980815347721823	25.6

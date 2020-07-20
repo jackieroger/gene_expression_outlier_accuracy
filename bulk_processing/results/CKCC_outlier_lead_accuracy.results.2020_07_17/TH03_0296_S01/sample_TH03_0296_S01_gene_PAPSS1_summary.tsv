@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S01	PAPSS1	Up	7.41218874716	7.36417865753	0.6477181203513627	98.74503968253968	95.3125	100	100	100	98.4126984126984	95.3125	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	GATA5	Up	1.09085343045	0.833834350109	23.56128451051157	99.76146315281713	99.40476190476191	100	99.69325153374233	99.40476190476191	99.70930232558139	100	100

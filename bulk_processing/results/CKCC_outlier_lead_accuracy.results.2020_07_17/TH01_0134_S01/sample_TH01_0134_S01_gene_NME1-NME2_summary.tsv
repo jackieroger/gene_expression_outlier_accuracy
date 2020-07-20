@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	NME1-NME2	Down	7.13832300406	7.20517587662	0.9365347088101346	99.83050847457628	99.15254237288136	100	100	100	100	100	99.15254237288136

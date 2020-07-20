@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	TCHP	Up	5.23610988989	5.14491224289	1.7417061314180218	99.5455358740383	98.55072463768117	100	100	100	100	99.1769547325103	98.55072463768117

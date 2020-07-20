@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	ZSWIM7	Down	1.96347412397	2.26712036133	15.464743520329652	93.94544039573938	90.8	97.74346793349169	93.36569579288026	95.73170731707317	97.74346793349169	92.08633093525181	90.8

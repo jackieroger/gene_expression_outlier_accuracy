@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	ST3GAL2	Up	6.16249203694	5.84952640533	5.078556365411611	99.97952917093143	99.89764585465711	100	100	100	100	99.89764585465711	100

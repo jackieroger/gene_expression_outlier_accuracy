@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	SCOC	Down	2.79701297784	3.05650401115	9.27743401142144	94.13916723526353	91.11617312072893	98.28693790149893	91.74757281553399	97.1938775510204	98.28693790149893	92.3512747875354	91.11617312072893

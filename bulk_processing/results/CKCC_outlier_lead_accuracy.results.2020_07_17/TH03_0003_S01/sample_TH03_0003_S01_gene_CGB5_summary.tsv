@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0003_S01	CGB5	Up	10.7226197125	0.376716196537	96.48671493872118	NaN	Inf	-Inf	NA	NA	NA	NA	NA

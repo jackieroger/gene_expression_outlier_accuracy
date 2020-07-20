@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	SERPINB9P1	Up	4.58195375085	3.49378156662	23.749087035811588	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

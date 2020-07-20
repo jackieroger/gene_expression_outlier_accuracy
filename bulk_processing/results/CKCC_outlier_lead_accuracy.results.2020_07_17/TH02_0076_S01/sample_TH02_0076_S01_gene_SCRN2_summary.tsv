@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0076_S01	SCRN2	Down	0.871843648509	2.15072345734	146.6868298023505	98.79065307859317	97.8584729981378	99.5019920318725	97.8584729981378	99.5019920318725	99.44341372912801	99.18604651162791	97.9633401221996

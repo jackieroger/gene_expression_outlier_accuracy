@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	HLF	Up	6.27686882998	6.03178977966	3.90447939822219	99.95905834186284	99.79529170931423	100	100	100	100	99.79529170931423	100

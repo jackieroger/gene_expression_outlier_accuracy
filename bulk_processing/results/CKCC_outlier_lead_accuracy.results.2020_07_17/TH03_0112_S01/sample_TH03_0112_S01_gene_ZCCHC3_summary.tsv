@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	ZCCHC3	Up	5.32696871159	5.19083595276	2.555538922798881	99.89515457121134	99.59058341862846	100	100	100	100	99.59058341862846	99.88518943742825

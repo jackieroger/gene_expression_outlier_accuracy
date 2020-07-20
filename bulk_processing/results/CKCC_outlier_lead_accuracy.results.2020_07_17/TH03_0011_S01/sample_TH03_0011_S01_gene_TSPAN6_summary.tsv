@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	TSPAN6	Down	0.263034405834	1.76594471931	571.3740408638712	99.96666666666667	99.83333333333333	100	100	100	100	99.83333333333333	100

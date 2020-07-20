@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0140_S01	SNAI1	Up	5.35579154675	5.24875020981	1.9986090945782768	99.54142333821837	98.89807162534436	100	99.76190476190476	100	99.58333333333333	98.89807162534436	99.46380697050938

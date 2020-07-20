@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0139_S01	ZBTB8OS	Up	6.54086421622	6.47685575485	0.978593336508537	91.52026566508414	85.71428571428571	97.30941704035875	85.71428571428571	96.66666666666667	97.30941704035875	87.5	90.41095890410958

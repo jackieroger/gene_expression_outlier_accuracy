@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	DEFA3	Up	1.99276843077	0.535611569881	73.12223730511221	99.80870137126256	99.62825278810409	100	99.86595174262735	99.83999999999999	99.70930232558139	100	99.62825278810409

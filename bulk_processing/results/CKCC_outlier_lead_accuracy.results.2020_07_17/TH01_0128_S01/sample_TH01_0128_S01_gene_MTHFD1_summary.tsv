@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	MTHFD1	Down	3.26753579807	3.37187051773	3.193070439247412	98.14522594316833	97.64453961456103	98.64864864864865	97.86780383795309	98.4	98.64864864864865	98.1651376146789	97.64453961456103

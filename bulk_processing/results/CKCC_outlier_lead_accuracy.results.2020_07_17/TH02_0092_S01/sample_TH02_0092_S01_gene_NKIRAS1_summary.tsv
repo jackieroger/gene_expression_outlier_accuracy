@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0092_S01	NKIRAS1	Up	5.02680005934	5.02036571503	0.12800080039080303	26.78676161213329	20.9366391184573	33.24324324324324	22.857142857142858	33.24324324324324	32.5	20.9366391184573	24.396782841823057

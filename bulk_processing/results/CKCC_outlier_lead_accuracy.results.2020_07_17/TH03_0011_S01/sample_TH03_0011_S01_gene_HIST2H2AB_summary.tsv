@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	HIST2H2AB	Up	1.13750352375	0.776138663292	31.76824096919638	98.52227452488907	97.72117962466488	99.52	97.72117962466488	99.52	99.2248062015504	98.37587006960557	97.76951672862454

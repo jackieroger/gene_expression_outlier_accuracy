@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	IGLON5	Up	2	1.76555347443	11.722326278499995	97.71895961702192	96.40522875816994	99.12790697674419	97.54601226993866	98.51190476190477	99.12790697674419	97.00374531835206	96.40522875816994

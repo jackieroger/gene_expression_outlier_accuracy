@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0131_S01	NARFL	Up	6.00225245173	5.96045637131	0.6963399283206336	85.79281057236211	79.08847184986595	94.05405405405406	80.95238095238095	94.05405405405406	92.5	82.36914600550963	79.08847184986595

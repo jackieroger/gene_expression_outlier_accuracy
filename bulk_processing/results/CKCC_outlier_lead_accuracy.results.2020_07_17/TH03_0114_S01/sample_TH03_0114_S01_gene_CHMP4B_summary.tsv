@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	CHMP4B	Down	5.18863829456	5.23885011673	0.9677263921565867	93.24698419223766	89.80716253443526	97.56756756756756	91.9047619047619	97.56756756756756	96.875	89.80716253443526	90.0804289544236

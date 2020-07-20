@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	PSMC6	Down	3.93451650159	4.45390129089	13.200727181855978	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

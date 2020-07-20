@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	HSD17B7	Up	5.84272746929	5.63088655472	3.625719592150383	99.89495684273383	99.70414201183432	100	100	100	99.77064220183486	99.70414201183432	100

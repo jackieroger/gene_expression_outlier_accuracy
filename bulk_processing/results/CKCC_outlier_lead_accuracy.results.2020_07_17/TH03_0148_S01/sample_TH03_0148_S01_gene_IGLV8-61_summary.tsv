@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	IGLV8-61	Up	8.37716714041	8.298412323	0.9401127623453955	98.99475794017884	97.10144927536231	100	97.10144927536231	100	97.87234042553192	100	100

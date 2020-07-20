@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	NPM1P37	Up	0.565597175854	0.408735066652	27.73389187545935	65.20757948300891	53.6	83.38829348722176	53.6	71.28300138953219	83.38829348722176	61.54838709677419	56.21821544151642

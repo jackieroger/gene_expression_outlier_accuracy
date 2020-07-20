@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0121_S01	GHRLOS	Up	1.65764000521	0.929499387741	43.92634197898443	99.90323297801388	99.75369458128078	100	100	99.7624703087886	100	100	99.75369458128078

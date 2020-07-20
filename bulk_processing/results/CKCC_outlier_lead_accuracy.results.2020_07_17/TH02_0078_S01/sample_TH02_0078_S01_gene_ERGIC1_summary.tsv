@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	ERGIC1	Down	3.68369645431	3.84511351585	4.381931669509268	99.21408758149681	97.54098360655738	100	99.69969969969969	99.75	100	99.079754601227	97.54098360655738

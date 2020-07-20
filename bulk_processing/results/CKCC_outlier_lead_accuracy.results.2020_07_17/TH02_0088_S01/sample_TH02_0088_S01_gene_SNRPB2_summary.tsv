@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	SNRPB2	Down	3.66675659188	4.22272825241	15.16249160801112	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	ITGAE	Down	2.45680614923	2.69846081734	9.83613087201601	85.21329132610741	78.4	91.80522565320665	82.20064724919094	90.4471544715447	91.80522565320665	83.21342925659472	78.4

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	KLF13	Down	0.863938450424	2.46679139137	185.52860335818588	99.71319545895304	99.37888198757764	100	99.38524590163934	100	100	99.80184940554821	99.37888198757764

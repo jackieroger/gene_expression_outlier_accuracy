@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	MGAT4B	Down	3.83592407425	4.22315740585	10.09491648177923	99.95901639344262	99.79508196721312	100	100	100	100	100	99.79508196721312

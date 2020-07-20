@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0289_S01	FSTL5	Up	2.0071955014	0.409074544907	79.61959636609018	99.94897959183673	99.74489795918367	100	100	99.74489795918367	100	100	100

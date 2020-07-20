@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	VTA1	Down	2.33628338786	2.56752085686	9.89766353694831	96.11120749305738	94.1340782122905	98.75930521091811	96.59685863874346	96.42857142857143	98.75930521091811	94.6372239747634	94.1340782122905

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	DKFZp779M0652	Up	1.87184364851	1.70612537861	8.85321111257946	82.00162943940288	74.2	89.90498812351544	77.02265372168284	89.02439024390245	89.90498812351544	79.85611510791367	74.2

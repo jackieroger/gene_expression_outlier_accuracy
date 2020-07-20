@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	MTA2	Down	3.3840498068	3.72927212715	10.201455062992899	99.95370370370371	99.76851851851852	100	100	100	100	100	99.76851851851852

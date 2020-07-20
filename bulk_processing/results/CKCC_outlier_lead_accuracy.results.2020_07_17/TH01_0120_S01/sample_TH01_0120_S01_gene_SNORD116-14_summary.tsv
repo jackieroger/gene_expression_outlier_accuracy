@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	SNORD116-14	Up	4.96670731415	0	100	93.80188439011968	90.47619047619048	100	90.47619047619048	100	93.93939393939394	90.47619047619048	94.11764705882352

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S04	NT5C3A	Down	2.3476656563	2.50634741783	6.759129482691663	83.45337233198379	75.990675990676	91.18236472945893	78.57142857142857	86.96741854636592	91.18236472945893	84.55497382198953	75.990675990676

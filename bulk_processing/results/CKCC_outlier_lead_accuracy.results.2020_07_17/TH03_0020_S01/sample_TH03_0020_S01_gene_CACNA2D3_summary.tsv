@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0020_S01	CACNA2D3	Up	3.19219416528	2.97785973549	6.714329351303727	99.91551840175693	99.77064220183486	100	100	100	99.8069498069498	99.77064220183486	100

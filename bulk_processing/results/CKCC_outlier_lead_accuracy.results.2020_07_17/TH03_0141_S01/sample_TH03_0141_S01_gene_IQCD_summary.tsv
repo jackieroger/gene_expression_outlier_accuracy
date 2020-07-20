@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	IQCD	Up	3.69932952567	3.49296569824	5.578411601292123	99.54090339516455	99.04761904761905	100	99.42307692307692	99.79879275653923	100	99.04761904761905	99.43502824858757

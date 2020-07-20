@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0014_S01	EPC1	Up	5.95907460114	5.83777046204	2.0356204145656136	99.8612814040149	99.64539007092199	100	99.64539007092199	100	100	99.66101694915255	100

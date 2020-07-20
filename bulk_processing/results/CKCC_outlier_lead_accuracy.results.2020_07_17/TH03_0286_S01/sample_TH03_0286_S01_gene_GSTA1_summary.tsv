@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0286_S01	GSTA1	Up	10.4465147172	8.3035068512	20.514094164550166	NaN	Inf	-Inf	NA	NA	NA	NA	NA

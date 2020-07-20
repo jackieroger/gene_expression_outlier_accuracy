@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	TMEM230	Down	3.2779847473	5.03703165054	53.66244930483237	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

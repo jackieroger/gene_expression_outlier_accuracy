@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	TTI2	Down	1.28095631383	1.54796099663	20.844167745398632	99.43705976625031	98.86685552407933	100	99.02912621359224	99.74489795918367	100	98.86685552407933	99.54441913439635

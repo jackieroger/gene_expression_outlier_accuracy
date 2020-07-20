@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	ERI3	Down	3.69376571222	3.84747266769	4.161253513223509	99.08682530389854	98.34123222748815	100	98.34123222748815	100	99.800796812749	98.61660079051383	98.67549668874173

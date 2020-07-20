@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	DEDD2	Up	6.25455625191	6.19007825851	1.0308963706307777	94.45885020623017	91.46005509641874	97.56756756756756	93.80952380952381	97.56756756756756	97.5	91.46005509641874	91.95710455764075

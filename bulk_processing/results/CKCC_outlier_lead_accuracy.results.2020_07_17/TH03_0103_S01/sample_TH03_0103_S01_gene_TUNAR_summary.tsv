@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0103_S01	TUNAR	Up	0.641546029088	0.535611569881	16.51237080488095	63.964930239516306	54.47570332480819	74.14248021108179	58.333333333333336	67.5	74.14248021108179	65.3731343283582	54.47570332480819

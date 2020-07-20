@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0126_S01	TIMM23	Down	2.99457972422	4.32425928116	44.402877177909915	99.85089861915434	99.73821989528795	100	100	99.74937343358395	100	99.73821989528795	99.76689976689977

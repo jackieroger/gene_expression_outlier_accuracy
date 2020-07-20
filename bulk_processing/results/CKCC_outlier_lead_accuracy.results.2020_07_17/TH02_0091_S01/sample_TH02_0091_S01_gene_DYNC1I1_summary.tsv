@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0091_S01	DYNC1I1	Up	4.8058083487	4.73137712479	1.5487763662097458	86.38593987330422	79.23497267759562	93.5	83.48348348348348	93.5	91.96891191709845	83.74233128834356	79.23497267759562

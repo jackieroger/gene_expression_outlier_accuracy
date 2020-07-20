@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0003_S03	MYO7B	Up	4.64443315241	4.32577514648	6.861074225272221	99.92164990508876	99.78911851539435	100	100	99.91514637250742	100	99.90398463754201	99.78911851539435

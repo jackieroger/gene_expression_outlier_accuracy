@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	SRP54	Down	3.14893410453	3.44501924515	9.402709958079386	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

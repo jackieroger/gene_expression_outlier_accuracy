@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	CLTC	Down	5.31070365723	5.41044807434	1.8781770467310308	99.76812804547521	99.38587512794268	100	99.79919678714859	100	99.77037887485649	99.38587512794268	99.88518943742825

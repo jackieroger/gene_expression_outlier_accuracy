@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	CMTM7	Up	8.41476978689	8.33716583252	0.9222350264519986	99.68010155506188	99.1304347826087	100	99.27007299270073	100	100	99.1304347826087	100

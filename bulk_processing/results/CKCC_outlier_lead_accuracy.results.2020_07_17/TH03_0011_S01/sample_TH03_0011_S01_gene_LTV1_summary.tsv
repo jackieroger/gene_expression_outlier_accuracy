@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	LTV1	Up	5.98025384599	5.85133504868	2.1557412215276632	99.14267037456034	98.5632183908046	100	98.5632183908046	99.13544668587896	100	98.62258953168043	99.3920972644377

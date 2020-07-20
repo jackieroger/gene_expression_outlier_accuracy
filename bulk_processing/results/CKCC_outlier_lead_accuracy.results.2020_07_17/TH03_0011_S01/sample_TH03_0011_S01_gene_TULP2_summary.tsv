@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	TULP2	Up	0.650764559117	0.376716196537	42.111752820689375	70.63061834548606	56.575682382134	85.6	56.575682382134	76.9406392694064	85.6	70.6601466992665	63.37662337662338

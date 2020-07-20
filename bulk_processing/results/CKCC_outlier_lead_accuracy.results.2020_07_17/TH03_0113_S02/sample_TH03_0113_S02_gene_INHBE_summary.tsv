@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S02	INHBE	Up	1.14404636962	0.923047721386	19.317280671709636	99.47624512899534	98.73817034700315	100	99.47643979057592	99.72527472527473	100	98.73817034700315	99.4413407821229

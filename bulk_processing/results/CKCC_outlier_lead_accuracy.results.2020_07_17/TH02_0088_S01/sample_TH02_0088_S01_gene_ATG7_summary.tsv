@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	ATG7	Down	2.12763327973	2.31065988541	8.602356779417656	97.03856918928369	94.99116087212728	98.2924226254002	97.0081595648232	98.27188940092167	98.2924226254002	96.62921348314607	94.99116087212728

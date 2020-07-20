@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0285_S01	FNBP1	Up	6.70639240967	6.59543228149	1.6545427317972932	98.98572757299947	98.01980198019803	100	98.01980198019803	100	99.63099630996311	98.08429118773945	99.19354838709677

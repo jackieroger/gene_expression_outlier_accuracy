@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	CCR2	Up	3.86393845042	3.7132165432	3.9007326114011165	99.15472122851041	98.92933618843684	99.6	98.93390191897655	99.6	99.22779922779922	99.08256880733946	98.92933618843684

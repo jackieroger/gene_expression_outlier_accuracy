@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	BTLA	Up	2.68706068834	1.99294269085	25.831869019631593	99.81640091950113	99.54954954954955	100	99.77168949771689	99.54954954954955	100	99.76076555023924	100

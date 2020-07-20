@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	COX6C	Down	6.50874555424	6.52652215958	0.2731187629299732	38.97777928644518	30.08849557522124	52.38095238095239	38	44.230769230769226	52.38095238095239	30.08849557522124	30.18867924528302

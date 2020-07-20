@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	CARD8-AS1	Up	3.32337006906	2.98766136169	10.101454258597025	99.95901639344262	99.79508196721312	100	100	100	100	100	99.79508196721312

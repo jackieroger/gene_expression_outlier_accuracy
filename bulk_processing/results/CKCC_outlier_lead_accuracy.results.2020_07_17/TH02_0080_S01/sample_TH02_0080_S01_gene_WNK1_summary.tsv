@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	WNK1	Up	8.03771166711	8.00180530548	0.44672368351963515	98.57766304013768	96.36363636363636	100	96.36363636363636	100	100	97.70114942528735	98.82352941176471

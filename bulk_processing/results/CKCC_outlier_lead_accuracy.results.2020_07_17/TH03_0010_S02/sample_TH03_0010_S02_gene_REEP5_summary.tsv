@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	REEP5	Down	3.93828579188	4.0527048111	2.905300053538787	97.28564258434075	96.1456102783726	98.26254826254826	96.80170575692964	98.2	98.26254826254826	97.01834862385321	96.1456102783726

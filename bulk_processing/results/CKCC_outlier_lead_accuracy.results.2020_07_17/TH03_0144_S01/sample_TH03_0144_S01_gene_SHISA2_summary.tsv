@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	SHISA2	Up	6.15765009686	6.05909729004	1.6004937804156067	99.06038192454307	97.10144927536231	100	100	99.43502824858757	100	98.76543209876543	97.10144927536231

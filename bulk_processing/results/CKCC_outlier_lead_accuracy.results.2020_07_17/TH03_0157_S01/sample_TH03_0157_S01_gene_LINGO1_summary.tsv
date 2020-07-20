@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	LINGO1	Up	7.80748372836	7.77501869202	0.41581945565988354	94.97932415842862	92.53731343283582	97.91666666666666	92.53731343283582	95.45454545454545	95.23809523809523	93.75	97.91666666666666

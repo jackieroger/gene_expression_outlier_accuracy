@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	SIAH1	Down	2.11436702495	2.50431132317	18.442602141377108	99.36802318626522	98.73817034700315	100	99.21465968586386	99.72527472527473	100	98.73817034700315	99.16201117318437

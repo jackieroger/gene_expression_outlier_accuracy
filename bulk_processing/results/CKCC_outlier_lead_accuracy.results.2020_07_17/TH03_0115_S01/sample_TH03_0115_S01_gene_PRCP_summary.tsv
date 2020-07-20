@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0115_S01	PRCP	Up	8.16299547242	8.1476984024	0.18739530202711033	73.01339622235145	64.58333333333334	84.0909090909091	74.6268656716418	84.0909090909091	73.01587301587301	68.75	64.58333333333334

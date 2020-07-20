@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	TRAV3	Up	2.80941444424	1.58088183403	43.72913411649884	99.45677950794196	98.69888475836431	100	99.19571045576407	99.68	99.70930232558139	100	98.69888475836431

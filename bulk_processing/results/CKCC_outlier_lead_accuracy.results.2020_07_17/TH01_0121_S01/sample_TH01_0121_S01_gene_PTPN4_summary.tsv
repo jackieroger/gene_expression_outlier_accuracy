@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0121_S01	PTPN4	Up	5.37399614213	4.84340620041	9.873284752856181	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

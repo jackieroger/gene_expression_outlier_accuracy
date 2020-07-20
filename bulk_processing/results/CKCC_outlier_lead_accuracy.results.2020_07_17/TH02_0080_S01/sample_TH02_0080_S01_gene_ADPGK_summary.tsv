@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	ADPGK	Down	2.67581593117	3.31224274635	23.78440190023544	99.55037421384239	99.02912621359224	100	99.02912621359224	99.74489795918367	100	99.43342776203966	99.54441913439635

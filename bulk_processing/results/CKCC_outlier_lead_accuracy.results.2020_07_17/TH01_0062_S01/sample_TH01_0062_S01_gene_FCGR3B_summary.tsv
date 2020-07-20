@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0062_S01	FCGR3B	Up	10.9006177858	3.75096845627	65.58939566566305	NaN	Inf	-Inf	NA	NA	NA	NA	NA

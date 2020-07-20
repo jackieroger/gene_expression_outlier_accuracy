@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	LDHAP2	Up	1.25096157353	0.756487250328	39.52753894803322	99.85397189427003	99.50738916256158	100	100	99.7624703087886	100	100	99.50738916256158

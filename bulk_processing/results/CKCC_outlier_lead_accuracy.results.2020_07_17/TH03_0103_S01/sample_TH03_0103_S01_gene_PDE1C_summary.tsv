@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0103_S01	PDE1C	Up	3.07382023329	2.63425087929	14.300424899263417	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

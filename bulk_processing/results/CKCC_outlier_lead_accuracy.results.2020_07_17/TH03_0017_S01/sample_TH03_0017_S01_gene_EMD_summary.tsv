@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	EMD	Down	4.64385618977	4.71171665192	1.461295513403067	80.1900293949784	74.40758293838863	88.54625550660793	74.40758293838863	88.54625550660793	87.05179282868527	75.8893280632411	75.05518763796908

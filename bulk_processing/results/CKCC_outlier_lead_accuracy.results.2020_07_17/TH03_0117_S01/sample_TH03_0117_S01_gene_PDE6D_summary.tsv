@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0117_S01	PDE6D	Up	6.11270013275	6.03660535812	1.244863529658633	96.76259428218818	93.75	99.74160206718346	94.72222222222221	98.28571428571429	99.74160206718346	97.31343283582089	93.75

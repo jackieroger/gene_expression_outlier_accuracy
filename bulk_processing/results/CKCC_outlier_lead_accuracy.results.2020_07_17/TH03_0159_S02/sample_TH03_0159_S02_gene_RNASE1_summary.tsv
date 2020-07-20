@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0159_S02	RNASE1	Up	11.533680142	11.3428869247	1.6542267077896875	NaN	Inf	-Inf	NA	NA	NA	NA	NA

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	GDAP1	Up	5.39985467357	5.33505916595	1.199949101170203	97.92011461462047	95.16908212560386	100	97.61904761904762	98.87005649717514	100	97.94238683127571	95.16908212560386

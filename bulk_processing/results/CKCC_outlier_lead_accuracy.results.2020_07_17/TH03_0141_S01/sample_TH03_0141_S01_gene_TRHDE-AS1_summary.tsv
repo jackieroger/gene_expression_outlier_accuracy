@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	TRHDE-AS1	Up	2.72246602447	1.46486794949	46.1933432291345	99.9909338168631	99.95466908431551	100	99.95466908431551	100	100	100	100

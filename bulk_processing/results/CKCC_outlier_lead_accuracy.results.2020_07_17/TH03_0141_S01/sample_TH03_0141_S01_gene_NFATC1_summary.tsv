@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	NFATC1	Up	5.72928084603	5.62774181366	1.7722823352316452	99.5455358740383	98.55072463768117	100	100	100	100	99.1769547325103	98.55072463768117

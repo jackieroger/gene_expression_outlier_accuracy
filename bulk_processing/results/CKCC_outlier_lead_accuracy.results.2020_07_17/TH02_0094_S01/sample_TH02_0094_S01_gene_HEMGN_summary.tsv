@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0094_S01	HEMGN	Up	0.62293035092	0.141808778048	77.23521131398336	91.35970125334192	89.98459167950693	94.61538461538461	91.17221418234442	94.61538461538461	90.52631578947368	90.5	89.98459167950693

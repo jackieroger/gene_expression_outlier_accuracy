@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	EID2	Down	0.516015147004	1.60248601437	210.55018901559066	99.3223262570921	98.2896237172178	99.8766954377312	99.37965260545906	99.60474308300395	99.8766954377312	99.46091644204851	98.2896237172178

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	PRPSAP1	Down	3.33913738492	3.42740464211	2.643414960661009	94.69196349995846	92.09039548022598	97.98792756539235	92.5	97.98792756539235	97.54816112084063	93.33333333333333	92.09039548022598

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0018_S02	COLQ	Up	3.18586654531	3.15990900993	0.8147715860293371	61.429066733376246	52.459016393442624	73.25	57.35735735735735	73.25	69.17098445595855	54.90797546012271	52.459016393442624

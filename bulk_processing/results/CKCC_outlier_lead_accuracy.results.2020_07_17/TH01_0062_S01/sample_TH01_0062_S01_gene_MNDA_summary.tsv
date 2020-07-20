@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0062_S01	MNDA	Up	10.6915428886	6.35980892181	40.51551784362919	NaN	Inf	-Inf	NA	NA	NA	NA	NA

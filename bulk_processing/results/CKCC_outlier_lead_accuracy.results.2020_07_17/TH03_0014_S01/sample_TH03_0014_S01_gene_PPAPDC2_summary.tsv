@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0014_S01	PPAPDC2	Up	4.73930807086	4.6143860817	2.6358697787150027	96.86690058468248	92.34972677595628	98.75	97.5975975975976	98.75	98.70466321243524	96.93251533742331	92.34972677595628

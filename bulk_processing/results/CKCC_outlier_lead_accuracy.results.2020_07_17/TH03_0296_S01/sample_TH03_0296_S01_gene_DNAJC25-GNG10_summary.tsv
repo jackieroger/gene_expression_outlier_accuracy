@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S01	DNAJC25-GNG10	Up	5.1866590172	5.03631353378	2.8986961148096473	99.79128181489271	99.54128440366972	100	100	99.71098265895954	99.54128440366972	99.70414201183432	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	C7orf55-LUC7L2	Down	3.22958792274	3.63322591782	12.498126842682497	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

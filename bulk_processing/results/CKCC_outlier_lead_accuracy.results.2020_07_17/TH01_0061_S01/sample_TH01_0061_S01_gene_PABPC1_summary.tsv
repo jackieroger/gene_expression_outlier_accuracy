@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	PABPC1	Down	7.34234139743	7.38698577881	0.6080401191318361	98.72540588414746	97.76119402985076	100	97.76119402985076	100	98.38709677419355	98.44961240310077	99.02912621359224

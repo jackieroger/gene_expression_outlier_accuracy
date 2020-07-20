@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	MFSD10	Down	3.50080205306	3.66046118736	4.560644443191076	99.36007456568906	98.81422924901186	100	99.28909952606635	100	99.800796812749	98.81422924901186	98.89624724061811

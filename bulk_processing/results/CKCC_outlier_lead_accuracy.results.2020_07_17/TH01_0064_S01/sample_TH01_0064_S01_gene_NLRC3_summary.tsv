@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0064_S01	NLRC3	Up	3.3434078223	2.55539417267	23.56917527003658	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

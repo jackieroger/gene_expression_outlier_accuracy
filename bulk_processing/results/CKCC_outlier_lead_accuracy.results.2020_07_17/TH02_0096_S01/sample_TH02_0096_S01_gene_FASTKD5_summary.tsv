@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	FASTKD5	Down	0.992768430769	1.4919128418	50.27803015899307	89.29951285353009	86.18925831202046	94.9868073878628	87.37373737373737	87.5	94.9868073878628	90.44776119402985	86.18925831202046

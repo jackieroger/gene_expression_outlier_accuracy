@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0062_S01	NKG7	Up	8.55872682298	8.55319499969	0.06463371719200321	32.49197506789078	28.57142857142857	39.08045977011494	29.45205479452055	39.08045977011494	34	28.57142857142857	31.35593220338983

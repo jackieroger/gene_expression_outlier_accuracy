@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	SPIDR	Down	2.5210507369	2.58573412895	2.565731466774752	61.88093108407404	54.601226993865026	68.75	54.601226993865026	68.75	68.6046511627907	62.546816479400746	54.90196078431373

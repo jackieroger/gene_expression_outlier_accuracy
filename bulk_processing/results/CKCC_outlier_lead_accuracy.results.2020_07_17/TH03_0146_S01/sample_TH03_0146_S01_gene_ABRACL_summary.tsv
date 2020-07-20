@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0146_S01	ABRACL	Down	1.94110631095	2.29247355461	18.101391030357153	95.88202787609019	93.28537170263789	98.812351543943	95.9546925566343	97.35772357723577	98.812351543943	93.28537170263789	94

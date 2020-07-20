@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	ACVR2A	Up	4.55213110825	4.33200025558	4.8357757594250534	99.39014214355157	97.81420765027322	100	100	99.75	100	99.38650306748467	97.81420765027322

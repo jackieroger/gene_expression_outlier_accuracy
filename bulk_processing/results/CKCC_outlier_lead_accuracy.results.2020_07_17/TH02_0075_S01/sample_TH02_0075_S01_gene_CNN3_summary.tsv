@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0075_S01	CNN3	Up	9.83016657297	9.75368976593	0.7779807846826197	99.36734183545886	98.38709677419355	100	100	100	98.38709677419355	98.44961240310077	100

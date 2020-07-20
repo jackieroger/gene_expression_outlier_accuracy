@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0020_S01	KLF7	Up	5.80426011563	5.55765533447	4.248685900480764	99.95905834186284	99.79529170931423	100	100	100	100	99.79529170931423	100

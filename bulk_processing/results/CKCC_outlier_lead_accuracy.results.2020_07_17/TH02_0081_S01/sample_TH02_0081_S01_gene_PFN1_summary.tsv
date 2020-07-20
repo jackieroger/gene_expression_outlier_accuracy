@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	PFN1	Down	7.34793135415	7.36356735229	0.21279455926284113	74.70173995462349	65.0485436893204	85	75.3731343283582	85	80.64516129032258	67.44186046511628	65.0485436893204

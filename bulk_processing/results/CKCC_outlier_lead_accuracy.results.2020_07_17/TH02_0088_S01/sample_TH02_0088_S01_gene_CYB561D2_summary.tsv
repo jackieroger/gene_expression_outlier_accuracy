@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	CYB561D2	Down	1.37016428054	1.52059984207	10.979381353505381	87.77169393144457	81.2	93.82422802850357	84.30420711974111	92.47967479674797	93.82422802850357	87.05035971223022	81.2

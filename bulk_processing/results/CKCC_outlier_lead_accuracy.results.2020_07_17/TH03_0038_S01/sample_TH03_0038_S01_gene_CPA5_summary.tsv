@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0038_S01	CPA5	Up	1.56071495447	1.11860585213	28.327344533591337	98.77590120287633	97.89644012944983	99.8812351543943	97.89644012944983	98.78048780487805	99.8812351543943	98.32134292565947	99

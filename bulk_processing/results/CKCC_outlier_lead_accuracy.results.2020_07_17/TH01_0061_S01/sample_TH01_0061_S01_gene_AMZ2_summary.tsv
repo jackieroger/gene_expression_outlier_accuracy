@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	AMZ2	Down	3.32048467802	4.22527551651	27.248758124959195	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

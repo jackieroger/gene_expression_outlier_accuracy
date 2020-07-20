@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	GNG3	Up	1.87184364851	1.57399523258	15.912034969752384	94.17812694552867	91.4	97.74346793349169	93.68932038834951	95.73170731707317	97.74346793349169	92.32613908872902	91.4

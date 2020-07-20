@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0064_S01	PKP4	Down	2.27202318906	2.32872796059	2.495783132982043	71.38505833733093	61.048909840895696	80.042689434365	68.6763372620127	79.32027649769586	80.042689434365	67.83707865168539	61.048909840895696

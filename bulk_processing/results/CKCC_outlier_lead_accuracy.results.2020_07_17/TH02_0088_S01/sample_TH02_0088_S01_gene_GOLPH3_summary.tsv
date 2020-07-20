@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	GOLPH3	Down	3.53853816363	3.73716473579	5.6132380936719715	99.68942375618124	98.9100817438692	100	100	100	100	98.9100817438692	99.53703703703704

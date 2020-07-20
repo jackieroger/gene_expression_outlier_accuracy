@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	BTBD1	Down	2.60880924268	2.80303525925	7.445006457063679	92.257620783062	88.8268156424581	95.7816377171216	92.14659685863874	93.68131868131869	95.7816377171216	90.85173501577287	88.8268156424581

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0146_S01	LRIF1	Down	1.20789285164	1.23667061329	2.382476360459241	59.74321124038271	48.669201520912544	70	54.00696864111498	69.62962962962963	70	56.41025641025641	48.669201520912544

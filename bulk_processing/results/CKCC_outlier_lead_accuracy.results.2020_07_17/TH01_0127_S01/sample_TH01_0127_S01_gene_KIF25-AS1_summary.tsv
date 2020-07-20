@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0127_S01	KIF25-AS1	Up	0.389566811763	0.244370207191	37.27129729427079	81.11886735127975	76.8451519536903	86.01503759398497	76.8451519536903	85.53846153846155	86.01503759398497	80	77.19568567026194

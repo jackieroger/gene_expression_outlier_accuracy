@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	TPD52L2	Down	4.51790555353	4.5643029213	1.0269663059633487	70.24796072625836	64.45396145610277	78.95752895752895	65.0319829424307	77.2	78.95752895752895	65.59633027522935	64.45396145610277

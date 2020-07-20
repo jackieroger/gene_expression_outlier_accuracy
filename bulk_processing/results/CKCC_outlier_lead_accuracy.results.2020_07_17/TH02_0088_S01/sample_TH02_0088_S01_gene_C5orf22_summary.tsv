@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	C5orf22	Down	1.55581615506	1.70137739182	9.355940693030425	96.04472412842068	93.72822299651567	99.25925925925925	93.72822299651567	99.25925925925925	96.78571428571429	96.15384615384616	94.29657794676805

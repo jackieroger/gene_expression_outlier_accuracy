@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	LIMD1-AS1	Down	0.310340120612	0.842256784439	171.39796903411792	98.1569540947552	96.42857142857143	100	96.42857142857143	98.09203142536475	100	99.01840490797545	97.2457627118644

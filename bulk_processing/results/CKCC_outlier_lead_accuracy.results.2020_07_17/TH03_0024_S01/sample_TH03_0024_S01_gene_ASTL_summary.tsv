@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	ASTL	Up	1.23878685959	0.584624230862	52.806713573350905	99.90325464009675	99.74937343358395	100	100	99.74937343358395	100	100	99.76689976689977

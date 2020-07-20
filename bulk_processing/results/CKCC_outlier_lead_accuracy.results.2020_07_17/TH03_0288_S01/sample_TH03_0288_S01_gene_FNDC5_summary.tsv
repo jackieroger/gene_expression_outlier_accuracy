@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	FNDC5	Up	5.19258872157	4.49046754837	13.521601860809632	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

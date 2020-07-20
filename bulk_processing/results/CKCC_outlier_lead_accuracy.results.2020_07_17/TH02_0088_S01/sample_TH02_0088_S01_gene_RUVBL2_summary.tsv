@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	RUVBL2	Down	4.14649230698	4.64685106277	12.067036877114678	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	RNF123	Down	2.344828497	2.61855101585	11.673455828441345	97.68062793561263	96.1977186311787	99.62962962962963	97.21254355400697	99.62962962962963	97.5	97.86324786324786	96.1977186311787

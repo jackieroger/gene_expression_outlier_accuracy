@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S01	CTSG	Up	4.017921908	3.84820222855	4.224066154996062	95.97683134622811	91.09311740890689	98.94366197183099	91.09311740890689	96.2085308056872	98.94366197183099	97.15447154471545	96.484375

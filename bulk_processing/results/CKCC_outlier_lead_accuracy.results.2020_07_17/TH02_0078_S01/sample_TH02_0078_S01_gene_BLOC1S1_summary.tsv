@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	BLOC1S1	Down	4.67863534782	5.44956731796	16.477710119024632	99.5835841862332	98.67549668874173	100	98.67549668874173	100	100	100	99.24242424242425

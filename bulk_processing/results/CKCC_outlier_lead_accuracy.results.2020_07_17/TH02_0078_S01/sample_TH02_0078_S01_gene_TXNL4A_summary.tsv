@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	TXNL4A	Down	4.67976157352	4.74217510223	1.3336903542941334	70.76915186339465	59.375	82.71028037383178	64.1025641025641	81.42414860681114	82.71028037383178	66.23376623376623	59.375

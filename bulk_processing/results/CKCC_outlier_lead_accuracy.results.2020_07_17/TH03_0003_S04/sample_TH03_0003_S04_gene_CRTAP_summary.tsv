@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0003_S04	CRTAP	Up	9.12729794621	9.05741500854	0.7656475999999335	99.66193181818181	99.0909090909091	100	99.0909090909091	100	99.21875	100	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	TCEAL2	Up	6.41481206057	6.26334571838	2.3611968793446017	99.82125088841507	99.40476190476191	100	100	100	100	99.70149253731343	99.40476190476191

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	TPM4	Down	4.06695024392	4.29566717148	5.623794584207824	99.79426443990596	99.61389961389962	100	99.7867803837953	99.8	99.61389961389962	99.77064220183486	100

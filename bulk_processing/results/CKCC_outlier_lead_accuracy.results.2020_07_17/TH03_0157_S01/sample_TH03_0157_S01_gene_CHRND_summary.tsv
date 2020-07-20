@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	CHRND	Up	0.286881147788	0.141808778048	50.568805534480745	89.35066374867075	86.44501278772378	94.9868073878628	87.37373737373737	87.5	94.9868073878628	90.44776119402985	86.44501278772378

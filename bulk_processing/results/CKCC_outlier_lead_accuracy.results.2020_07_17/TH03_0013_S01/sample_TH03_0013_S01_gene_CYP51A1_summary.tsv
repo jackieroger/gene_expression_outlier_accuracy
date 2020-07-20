@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	CYP51A1	Down	2.09423606985	2.12697529793	1.5633016999055425	43.43904962967231	36.27450980392157	50.2906976744186	36.809815950920246	50	50.2906976744186	43.82022471910113	36.27450980392157

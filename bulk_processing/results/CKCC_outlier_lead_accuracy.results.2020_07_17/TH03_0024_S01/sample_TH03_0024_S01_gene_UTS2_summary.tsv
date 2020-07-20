@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	UTS2	Up	1.464668267	1.32207250595	9.735703589869606	72.9541547390847	65.54959785522789	81.78294573643412	65.54959785522789	80.64	81.78294573643412	70.06960556844548	66.72862453531599

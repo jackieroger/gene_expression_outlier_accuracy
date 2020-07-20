@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0129_S01	COPB1	Down	4.07553263117	4.10891199112	0.8190183460859202	61.64918685349637	52.459016393442624	73.75	57.95795795795796	73.75	69.17098445595855	54.90797546012271	52.459016393442624

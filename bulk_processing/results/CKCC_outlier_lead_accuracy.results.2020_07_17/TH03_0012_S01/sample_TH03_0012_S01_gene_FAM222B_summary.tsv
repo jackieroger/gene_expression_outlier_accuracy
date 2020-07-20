@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0012_S01	FAM222B	Up	5.71506967938	5.64937973022	1.1494164173887491	97.57658267688564	94.68599033816425	100	97.61904761904762	98.87005649717514	100	96.70781893004116	94.68599033816425

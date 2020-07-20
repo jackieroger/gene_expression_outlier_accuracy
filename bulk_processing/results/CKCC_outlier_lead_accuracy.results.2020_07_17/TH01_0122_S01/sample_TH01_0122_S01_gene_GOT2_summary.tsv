@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0122_S01	GOT2	Down	3.57773093149	3.76706767082	5.292089957450983	99.79426443990596	99.61389961389962	100	99.7867803837953	99.8	99.61389961389962	99.77064220183486	100

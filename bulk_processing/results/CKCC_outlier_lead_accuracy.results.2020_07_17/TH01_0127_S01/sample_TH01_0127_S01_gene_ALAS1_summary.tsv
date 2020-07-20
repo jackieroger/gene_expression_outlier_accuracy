@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0127_S01	ALAS1	Down	3.23419472295	3.32349181175	2.7610300692887653	97.02376476190656	95.71734475374733	98.2	96.80170575692964	98.2	98.06949806949807	96.3302752293578	95.71734475374733

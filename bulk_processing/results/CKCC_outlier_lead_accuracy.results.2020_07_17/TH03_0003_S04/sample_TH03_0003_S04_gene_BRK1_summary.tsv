@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0003_S04	BRK1	Up	8.82190150739	8.77776145935	0.5003461895717759	96.27372663336824	92.23300970873787	100	96.26865671641791	100	95.96774193548387	96.89922480620154	92.23300970873787

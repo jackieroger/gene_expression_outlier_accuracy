@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	PALM2	Up	1.42760617278	1.06598436832	25.33064169621851	99.9069004972677	99.82321744254567	100	99.909338168631	99.94239631336406	100	99.85955056179775	99.82321744254567

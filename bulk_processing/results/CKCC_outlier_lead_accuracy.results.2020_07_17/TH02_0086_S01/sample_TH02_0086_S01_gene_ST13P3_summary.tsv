@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	ST13P3	Up	1.04963076772	0.600023627281	42.83479050596366	99.90323297801388	99.75369458128078	100	100	99.7624703087886	100	100	99.75369458128078

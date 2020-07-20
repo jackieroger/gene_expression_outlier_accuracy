@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	SAP30BP	Up	7.65176927142	7.45638513565	2.553450435310125	99.84496124031008	99.2248062015504	100	100	100	100	99.2248062015504	100

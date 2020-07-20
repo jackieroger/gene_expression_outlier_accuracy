@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0291_S01	FBXW9	Up	5.62848199438	5.18070363998	7.9555794057279385	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

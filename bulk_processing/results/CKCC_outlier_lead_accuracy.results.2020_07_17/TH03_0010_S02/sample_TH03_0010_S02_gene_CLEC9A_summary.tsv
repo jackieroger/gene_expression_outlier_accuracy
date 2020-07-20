@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	CLEC9A	Up	2.0071955014	1.45177257061	27.671591053417455	99.86144596454618	99.76076555023924	100	99.77168949771689	99.77477477477478	100	99.76076555023924	100

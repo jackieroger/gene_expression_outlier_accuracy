@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0103_S01	TENM2	Up	3.14893410453	2.43310427666	22.732448635245177	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	AKR1A1	Down	5.24906603386	5.28826570511	0.7467932580221962	87.63541043398732	80.95238095238095	95.8656330749354	81.38888888888889	94	95.8656330749354	85.97014925373134	80.95238095238095

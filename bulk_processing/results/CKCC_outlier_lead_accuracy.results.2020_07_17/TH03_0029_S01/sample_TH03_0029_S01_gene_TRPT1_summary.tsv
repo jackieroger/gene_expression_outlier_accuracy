@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0029_S01	TRPT1	Down	3.31034012061	3.59840393066	8.701939968540705	99.94301994301995	99.71509971509973	100	99.71509971509973	100	100	100	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0122_S01	ROMO1	Down	4.91360751182	5.77102088928	17.449773417950787	99.73509933774835	98.67549668874173	100	98.67549668874173	100	100	100	100

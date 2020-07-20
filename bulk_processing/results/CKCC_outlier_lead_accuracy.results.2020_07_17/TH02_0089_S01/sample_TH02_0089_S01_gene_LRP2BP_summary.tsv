@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0089_S01	LRP2BP	Up	3.00539998774	2.33903121948	22.17238207820371	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

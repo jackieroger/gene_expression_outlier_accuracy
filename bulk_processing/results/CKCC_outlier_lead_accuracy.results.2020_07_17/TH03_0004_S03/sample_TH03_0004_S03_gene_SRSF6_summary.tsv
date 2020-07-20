@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	SRSF6	Down	3.97911075502	4.01584243774	0.923112850620202	66.03633477442969	56.557377049180324	77	62.76276276276276	77	74.35233160621762	59.50920245398773	56.557377049180324

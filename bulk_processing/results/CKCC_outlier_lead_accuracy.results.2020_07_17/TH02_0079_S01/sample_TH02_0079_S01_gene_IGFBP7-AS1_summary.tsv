@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	IGFBP7-AS1	Up	1.21412480535	0.523526370525	56.880349679201125	99.88633672744494	99.59349593495935	100	99.83818770226537	99.59349593495935	100	100	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S02	SNHG25	Up	5.39025495632	4.42082881927	17.984791905128	99.23076923076923	96.15384615384616	100	100	100	100	96.15384615384616	100

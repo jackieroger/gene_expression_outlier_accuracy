@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	RNASEK	Down	6.54859075055	6.58333063126	0.5304939953238397	62.229914346427954	53.09734513274337	68.25396825396825	64	67.3076923076923	68.25396825396825	53.09734513274337	58.490566037735846

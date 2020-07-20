@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0140_S01	COX6A2	Up	1.9855004303	1.95626139641	1.4726279301577412	15.63831471338198	12.064343163538874	19.68	12.064343163538874	19.68	19.282945736434108	14.153132250580047	13.011152416356877

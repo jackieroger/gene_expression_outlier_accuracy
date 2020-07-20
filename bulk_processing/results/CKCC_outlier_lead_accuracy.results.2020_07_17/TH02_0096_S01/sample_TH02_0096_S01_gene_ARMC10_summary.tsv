@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	ARMC10	Down	2.37016428054	3.19407224655	34.76163963715997	99.9071080650028	99.76076555023924	100	100	99.77477477477478	100	99.76076555023924	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	VWA1	Down	1.9221978484	2.01005387306	4.570602590837859	81.25013604377611	76.53631284916202	86.848635235732	78.79581151832461	84.89010989010988	86.848635235732	79.17981072555204	76.53631284916202

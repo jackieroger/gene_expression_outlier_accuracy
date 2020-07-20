@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	MLANA	Up	0.815575428863	0.720043897629	11.713390062177483	44.492244959759084	33.15677966101695	58.8963963963964	37.77056277056277	52.637485970819306	58.8963963963964	40	33.15677966101695

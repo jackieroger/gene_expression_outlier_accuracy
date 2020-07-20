@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	7SK	Up	0.0565835283664	0.0537581555545	4.993277891058026	0.9490543719962012	0	1.8181818181818181	1.7369727047146404	0.45662100456621	0	0.7334963325183375	1.8181818181818181

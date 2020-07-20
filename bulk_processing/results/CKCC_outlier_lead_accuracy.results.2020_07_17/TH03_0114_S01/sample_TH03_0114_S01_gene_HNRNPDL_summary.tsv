@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	HNRNPDL	Down	5.10391721075	5.42240715027	6.240107869484804	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

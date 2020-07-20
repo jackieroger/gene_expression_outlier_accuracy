@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	TAF1	Up	6.001351893	5.90827131271	1.550993541947927	98.75182570672831	97.31800766283524	100	98.01980198019803	100	99.63099630996311	97.31800766283524	98.79032258064517

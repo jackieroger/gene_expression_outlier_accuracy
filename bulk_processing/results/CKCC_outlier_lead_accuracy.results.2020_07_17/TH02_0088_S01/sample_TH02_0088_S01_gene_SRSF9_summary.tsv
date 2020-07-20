@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	SRSF9	Down	5.40087943628	5.40279340744	0.03543813896571411	7.667823121380914	5	12.571428571428573	5	12.571428571428573	10.335917312661499	5.074626865671641	5.357142857142857

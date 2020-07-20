@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	NOP56	Down	3.94485844581	4.26139783859	8.02410015792099	99.88657519504977	99.62335216572504	100	100	100	100	99.80952380952381	99.62335216572504

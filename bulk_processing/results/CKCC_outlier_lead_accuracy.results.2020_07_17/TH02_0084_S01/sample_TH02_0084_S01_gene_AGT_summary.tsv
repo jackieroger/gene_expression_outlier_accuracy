@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0084_S01	AGT	Up	10.1588368664	10.1200828552	0.3814807906619462	NaN	Inf	-Inf	NA	NA	NA	NA	NA

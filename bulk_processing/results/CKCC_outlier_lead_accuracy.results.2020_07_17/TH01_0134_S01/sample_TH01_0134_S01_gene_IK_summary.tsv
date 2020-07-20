@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	IK	Down	4.81301154861	4.84680318832	0.7020893128702231	53.89332588021229	42.00819672131148	63.67265469061876	47.90419161676647	63.67265469061876	62.708719851577	53.17286652078774	42.00819672131148

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	RALY-AS1	Up	3.86987140618	3.6644217968	5.308951844030445	98.0496691740932	94.73684210526315	99.64788732394366	94.73684210526315	99.0521327014218	99.64788732394366	98.3739837398374	98.4375

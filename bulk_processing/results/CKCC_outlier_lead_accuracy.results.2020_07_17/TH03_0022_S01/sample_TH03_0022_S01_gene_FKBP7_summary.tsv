@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0022_S01	FKBP7	Up	6.25927248704	6.16430950165	1.517156915386303	98.48817815683488	96.42857142857143	100	97.77777777777777	99.42857142857143	100	98.80597014925372	96.42857142857143

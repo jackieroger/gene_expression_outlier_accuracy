@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0012_S01	PIANP	Up	3.26303440583	3.03784370422	6.90126653913474	99.84471187809062	99.45504087193461	100	100	100	100	99.45504087193461	99.76851851851852

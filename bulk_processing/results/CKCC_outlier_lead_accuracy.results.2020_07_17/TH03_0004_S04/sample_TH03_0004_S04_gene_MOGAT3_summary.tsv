@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S04	MOGAT3	Up	0.214124805353	0.124209456146	41.992028461517165	83.19393362072591	79.35285053929123	87.23076923076924	80.31837916063675	87.23076923076924	87.06766917293233	82	79.35285053929123

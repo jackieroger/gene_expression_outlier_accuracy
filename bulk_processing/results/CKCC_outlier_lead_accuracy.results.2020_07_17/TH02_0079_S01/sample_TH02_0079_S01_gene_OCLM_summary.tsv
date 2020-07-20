@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	OCLM	Up	1.50589092973	1.19827795029	20.427308071717633	97.08397783184625	95.8	99.1686460807601	96.76375404530745	97.76422764227642	99.1686460807601	95.92326139088729	95.8

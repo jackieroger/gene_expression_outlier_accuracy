@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	TVP23A	Up	2.78659636189	2.32644915581	16.512876151460517	99.34083587232062	98.60627177700349	100	98.60627177700349	100	99.28571428571429	99.57264957264957	99.23954372623575

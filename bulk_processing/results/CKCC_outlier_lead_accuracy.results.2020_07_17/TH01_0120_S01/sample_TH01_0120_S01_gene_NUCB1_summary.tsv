@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	NUCB1	Down	5.56376827845	5.81011772156	4.427744485049434	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

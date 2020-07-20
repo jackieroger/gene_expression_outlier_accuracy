@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0139_S01	PCOLCE	Up	9.62773449815	9.55777454376	0.7266502249666518	99.50064149560117	99.0909090909091	100	99.0909090909091	100	99.21875	99.19354838709677	100

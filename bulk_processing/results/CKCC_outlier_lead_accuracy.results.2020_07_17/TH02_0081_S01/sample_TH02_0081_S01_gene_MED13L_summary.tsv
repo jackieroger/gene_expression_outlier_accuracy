@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	MED13L	Up	6.29333369531	6.18514537811	1.7190939244271466	99.55423563657321	98.97645854657114	100	99.59839357429718	100	99.77037887485649	98.97645854657114	99.42594718714122

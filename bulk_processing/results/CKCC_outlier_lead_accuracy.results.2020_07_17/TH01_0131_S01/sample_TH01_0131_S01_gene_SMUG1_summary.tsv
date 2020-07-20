@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0131_S01	SMUG1	Down	2.81557542886	3.53183293343	25.43911618308184	99.28918537052604	98.0295566502463	100	99.3212669683258	99.2874109263658	99.8076923076923	100	98.0295566502463

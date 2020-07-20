@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	BSG	Down	7.02314443975	7.04292678833	0.28167366839324043	85.88068181818181	79.0909090909091	93.54838709677419	79.0909090909091	93.54838709677419	89.0625	81.45161290322581	86.25

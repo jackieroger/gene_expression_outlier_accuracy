@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	RNF8	Down	2	2.0243999958	1.2199997900000037	30.04864399755076	23.058252427184467	38.97216274089936	23.058252427184467	34.43877551020408	38.97216274089936	30.31161473087819	23.462414578587698

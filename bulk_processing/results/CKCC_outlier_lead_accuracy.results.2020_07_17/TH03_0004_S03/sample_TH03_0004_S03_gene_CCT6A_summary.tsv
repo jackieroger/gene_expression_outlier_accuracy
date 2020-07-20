@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	CCT6A	Down	4.81813476081	5.06484174728	5.120383690316818	99.75426443990595	99.6	100	99.7867803837953	99.6	99.61389961389962	99.77064220183486	100

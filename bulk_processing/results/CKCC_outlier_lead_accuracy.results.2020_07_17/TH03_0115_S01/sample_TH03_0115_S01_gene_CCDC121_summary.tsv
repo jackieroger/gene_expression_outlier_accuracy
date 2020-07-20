@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0115_S01	CCDC121	Up	3.93451650159	3.69857907295	5.996605390895024	99.91525271729382	99.78118161925602	100	100	100	100	99.78118161925602	99.79508196721312

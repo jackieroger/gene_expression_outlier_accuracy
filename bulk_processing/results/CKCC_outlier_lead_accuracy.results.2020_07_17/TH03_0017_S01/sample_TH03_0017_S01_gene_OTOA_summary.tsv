@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	OTOA	Up	1.40053792958	0.862083613873	38.446250139649855	99.83848428715349	99.57264957264957	100	100	100	100	99.57264957264957	99.61977186311786

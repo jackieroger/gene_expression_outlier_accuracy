@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	ERAS	Up	1.24488705912	0.429846256971	65.47106391523945	99.90325464009675	99.74937343358395	100	100	99.74937343358395	100	100	99.76689976689977

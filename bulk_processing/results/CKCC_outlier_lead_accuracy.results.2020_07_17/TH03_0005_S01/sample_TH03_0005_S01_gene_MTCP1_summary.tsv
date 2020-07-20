@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0005_S01	MTCP1	Down	1.02147972741	1.71538484097	67.93136417101712	99.95337995337995	99.76689976689977	100	100	100	100	100	99.76689976689977

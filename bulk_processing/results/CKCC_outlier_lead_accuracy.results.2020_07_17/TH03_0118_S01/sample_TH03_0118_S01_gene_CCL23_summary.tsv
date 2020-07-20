@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0118_S01	CCL23	Up	2.86195536414	2.1643383503	24.375537878090896	97.91607995449971	96.88249400479616	99.8812351543943	97.24919093851133	97.96747967479675	99.8812351543943	96.88249400479616	97.6

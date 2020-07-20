@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0003_S01	PRR16	Up	4.47573343097	4.1170463562	8.01404016351938	99.88620176120176	99.71509971509973	100	99.71509971509973	100	100	100	99.7159090909091

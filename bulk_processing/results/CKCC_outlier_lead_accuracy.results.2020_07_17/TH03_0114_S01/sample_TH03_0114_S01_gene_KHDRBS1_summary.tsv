@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	KHDRBS1	Down	4.60880924268	4.76347112656	3.3557883552165664	98.77486903578627	95.90163934426229	100	99.69969969969969	99.5	100	98.77300613496932	95.90163934426229

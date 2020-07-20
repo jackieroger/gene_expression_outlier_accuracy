@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0132_S01	MMP25	Up	3.20789285164	3.04833865166	4.973800789463081	99.56078145428945	98.36065573770492	100	100	99.75	100	99.69325153374233	98.36065573770492

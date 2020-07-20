@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	MYO1A	Up	1.32192809489	1.08753859997	17.73088081159997	99.44451121866923	99.01960784313727	100	99.38650306748467	99.10714285714286	99.70930232558139	100	99.01960784313727

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0143_S01	HNRNPUP1	Up	1.66448284036	1.38978660107	16.50339869112666	89.04185778951499	83.51206434316354	94.57364341085271	83.51206434316354	93.92	94.57364341085271	88.63109048723898	84.5724907063197

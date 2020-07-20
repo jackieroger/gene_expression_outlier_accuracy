@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	LKAAEAR1	Up	1.49057013045	1.20081102848	19.439481313269198	96.64397496431813	94.96402877697841	98.93111638954869	96.76375404530745	97.5609756097561	98.93111638954869	94.96402877697841	95

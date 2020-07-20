@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0123_S01	CCT4	Down	4.90833256978	5.05840063095	3.0574142855345707	97.97446762098299	97.22814498933901	98.64864864864865	97.22814498933901	98.4	98.64864864864865	98.1651376146789	97.4304068522484

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	SRRT	Up	7.69856577248	7.69328784943	0.0685572248907369	34.06442448680352	27.27272727272727	45.16129032258064	27.27272727272727	45.16129032258064	42.96875	27.419354838709676	27.500000000000004

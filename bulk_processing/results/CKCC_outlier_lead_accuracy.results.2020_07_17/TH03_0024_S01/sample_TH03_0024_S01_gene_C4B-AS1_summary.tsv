@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	C4B-AS1	Up	2.67581593117	1.8103415966	32.34431503633254	99.79523498939993	99.51456310679612	100	99.51456310679612	99.74489795918367	100	99.71671388101983	100

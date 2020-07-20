@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0081_S01	FGF12	Up	5.75622271285	5.18587589264	9.908352207025903	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

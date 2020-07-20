@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	TCL6	Up	1.45943161864	0.985981047153	32.44075059359028	99.79523498939993	99.51456310679612	100	99.51456310679612	99.74489795918367	100	99.71671388101983	100

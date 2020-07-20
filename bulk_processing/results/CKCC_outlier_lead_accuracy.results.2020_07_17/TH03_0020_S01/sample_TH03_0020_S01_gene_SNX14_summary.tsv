@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0020_S01	SNX14	Down	3.29865831556	3.5644671917	8.05809061478605	99.95901639344262	99.79508196721312	100	100	100	100	100	99.79508196721312

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	CYB5B	Down	3.4944156104	4.10754823685	17.54607049674367	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

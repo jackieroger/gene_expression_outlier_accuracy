@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	PIN4	Down	1.94860084749	2.81795048714	44.614044008541434	99.85089861915434	99.73821989528795	100	100	99.74937343358395	100	99.73821989528795	99.76689976689977

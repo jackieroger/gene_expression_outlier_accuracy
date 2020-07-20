@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0103_S01	HOXC-AS3	Up	2.88947354253	2.55382061005	11.616404425911627	89.3266462811736	83.6	95.13064133016627	86.08414239482201	93.08943089430895	95.13064133016627	88.72901678657075	83.6

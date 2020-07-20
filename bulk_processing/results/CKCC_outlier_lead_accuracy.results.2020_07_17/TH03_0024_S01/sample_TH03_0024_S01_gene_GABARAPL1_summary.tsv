@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	GABARAPL1	Up	8.32674405922	8.31420993805	0.1505284788490676	65.97687561094818	58.75	78.49462365591397	61.81818181818181	78.49462365591397	69.53125	61.29032258064516	58.75

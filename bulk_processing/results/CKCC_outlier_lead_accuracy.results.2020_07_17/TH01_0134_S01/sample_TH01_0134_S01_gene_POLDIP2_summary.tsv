@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	POLDIP2	Down	4.29939120613	4.47694063187	4.129641087018382	99.403064886359	99.08256880733946	99.61389961389962	99.14712153518124	99.6	99.61389961389962	99.08256880733946	99.57173447537473

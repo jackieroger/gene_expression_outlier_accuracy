@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	GDPD1	Up	4.71204544855	4.43227624893	5.937319634853919	99.66960626462556	99.2094861660079	100	100	100	99.800796812749	99.2094861660079	99.33774834437085

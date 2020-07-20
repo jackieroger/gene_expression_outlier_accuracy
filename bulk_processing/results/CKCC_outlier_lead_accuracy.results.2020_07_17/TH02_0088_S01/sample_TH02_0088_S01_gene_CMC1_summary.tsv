@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	CMC1	Down	2.81147103053	3.27064538002	16.332174313865846	94.55476117849001	92.32613908872902	98.09976247030879	94.01294498381877	95.9349593495935	98.09976247030879	92.32613908872902	92.4

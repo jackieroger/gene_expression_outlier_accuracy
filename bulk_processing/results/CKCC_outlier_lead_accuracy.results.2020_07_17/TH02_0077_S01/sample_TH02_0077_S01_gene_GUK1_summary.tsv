@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	GUK1	Down	6.30396335625	6.4396739006	2.152781300916849	99.29076733234194	98.63013698630137	100	99.13419913419914	100	99.55156950672645	99.13793103448276	98.63013698630137

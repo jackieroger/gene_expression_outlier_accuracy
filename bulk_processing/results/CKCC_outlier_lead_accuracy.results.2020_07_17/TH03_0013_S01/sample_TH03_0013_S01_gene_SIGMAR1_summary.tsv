@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S01	SIGMAR1	Down	3.27202318906	3.69017863274	12.779721276979375	99.96190476190476	99.80952380952381	100	100	100	100	99.80952380952381	100

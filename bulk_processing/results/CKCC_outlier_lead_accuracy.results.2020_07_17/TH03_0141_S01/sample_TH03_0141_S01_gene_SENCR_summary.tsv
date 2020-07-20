@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0141_S01	SENCR	Up	3.3645724323	1.73160982132	48.53403051465049	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

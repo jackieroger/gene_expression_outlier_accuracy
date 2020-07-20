@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0287_S01	SUMO2	Up	9.72553667843	9.70954704285	0.16440877361003028	66.00861407499839	57.14285714285714	76.4367816091954	58.9041095890411	76.4367816091954	74	57.14285714285714	63.559322033898304

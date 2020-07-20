@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	NBPF6	Up	0.310340120612	0.176311850548	43.18754204248302	83.44352921078388	79.66101694915254	87.23076923076924	80.60781476121564	87.23076923076924	87.21804511278195	82.5	79.66101694915254

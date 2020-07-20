@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	WBSCR16	Down	3.61706334389	3.62020564079	0.08687425685558248	8.720460593478018	5.756929637526652	11.583011583011583	5.756929637526652	11	11.583011583011583	7.339449541284404	7.922912205567452

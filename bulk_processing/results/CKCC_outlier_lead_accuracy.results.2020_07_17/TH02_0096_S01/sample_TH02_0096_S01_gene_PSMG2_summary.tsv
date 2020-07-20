@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	PSMG2	Down	4.7414669864	4.86764431	2.661145252343127	87.22615166001904	78.13765182186235	93.66197183098592	78.13765182186235	90.99526066350711	93.66197183098592	87.39837398373984	85.9375

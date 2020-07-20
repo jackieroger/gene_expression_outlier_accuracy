@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0087_S02	SCD5	Up	8.31881392503	8.3139333725	0.05866885079993918	44.2979245671282	36.7816091954023	56.52173913043478	40	56.52173913043478	45.83333333333333	36.7816091954023	42.35294117647059

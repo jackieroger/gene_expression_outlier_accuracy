@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	CDYL	Down	1.13093086983	1.43842160702	27.18917180465872	99.93020673842517	99.85955056179775	100	99.909338168631	100	100	99.85955056179775	99.88214496169712

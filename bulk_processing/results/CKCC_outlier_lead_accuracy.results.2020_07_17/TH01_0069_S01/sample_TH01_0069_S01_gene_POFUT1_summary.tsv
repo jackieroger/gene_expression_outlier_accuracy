@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	POFUT1	Down	1.79077203786	2.24454164505	25.3393283788517	99.9069004972677	99.82321744254567	100	99.909338168631	99.94239631336406	100	99.85955056179775	99.82321744254567

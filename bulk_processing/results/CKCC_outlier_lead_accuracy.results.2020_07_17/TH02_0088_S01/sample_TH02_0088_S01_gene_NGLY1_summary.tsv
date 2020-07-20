@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	NGLY1	Down	2.53605290024	2.59846973419	2.46118028311212	57.855430475914055	50	66.75824175824175	51.30890052356021	66.75824175824175	66.00496277915633	55.20504731861199	50

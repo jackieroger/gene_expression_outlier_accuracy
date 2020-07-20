@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0146_S01	IMP3	Down	3.74953426767	4.31594467163	15.106153552024287	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

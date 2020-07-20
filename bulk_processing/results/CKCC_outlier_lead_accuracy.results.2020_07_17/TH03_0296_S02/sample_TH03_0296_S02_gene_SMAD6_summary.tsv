@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S02	SMAD6	Up	5.45055144331	5.37600231171	1.3677355837362464	99.02961980182026	97.93340987370837	100	99.19678714859438	100	99.65556831228473	98.36233367451382	97.93340987370837

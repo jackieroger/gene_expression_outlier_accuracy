@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	VPS13D	Down	0.650764559117	1.50005567074	130.50666323552923	99.66924771440489	99.23155737704919	100	99.23155737704919	100	100	99.73579920739762	99.37888198757764

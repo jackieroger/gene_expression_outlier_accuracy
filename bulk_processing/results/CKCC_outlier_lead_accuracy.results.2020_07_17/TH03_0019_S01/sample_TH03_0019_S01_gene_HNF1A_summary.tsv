@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	HNF1A	Up	2.59693514239	2.21897244453	14.554183186575663	99.03820517689572	98.25783972125436	100	98.25783972125436	100	98.92857142857143	99.14529914529915	98.85931558935361

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0025_S02	CD5L	Up	0.992768430769	0.344080448151	65.3413185303974	89.99382858769609	88.71201157742402	93.23076923076923	88.71201157742402	93.23076923076923	89.77443609022556	89.5	88.75192604006163

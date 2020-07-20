@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0083_S01	GDI1	Up	8.42336807078	8.35033607483	0.867016558416132	99.05753968253968	96.875	100	100	100	98.4126984126984	96.875	100

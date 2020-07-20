@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	CBWD1	Up	6.79908730607	6.66787481308	1.9298545096318656	99.46631130063966	98.21428571428571	100	100	99.71428571428571	100	99.40298507462687	98.21428571428571

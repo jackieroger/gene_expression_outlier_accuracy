@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0156_S01	ESPNL	Up	2.9221978484	1.8088747263	38.098827658420916	99.83848428715349	99.57264957264957	100	100	100	100	99.57264957264957	99.61977186311786

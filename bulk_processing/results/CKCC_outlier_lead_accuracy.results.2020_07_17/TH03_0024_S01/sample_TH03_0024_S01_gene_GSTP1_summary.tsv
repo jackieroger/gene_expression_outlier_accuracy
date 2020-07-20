@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	GSTP1	Down	4.69432306013	4.9425945282	5.288759740006563	99.07277859731131	98.29059829059828	100	98.29059829059828	100	99.53271028037383	98.96103896103897	98.57954545454545

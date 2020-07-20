@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0025_S02	AADACP1	Up	2.47767732757	1.67476892471	32.40568874428287	82.49512281358541	73.33333333333333	90.0709219858156	75	90.0709219858156	89.39393939393939	84.67741935483872	73.33333333333333

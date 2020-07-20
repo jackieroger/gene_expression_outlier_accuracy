@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S01	COL26A1	Up	3.87970576628	2.71349382401	30.059288320418315	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

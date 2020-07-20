@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	EHBP1L1	Down	1.26903314646	1.6322234869	28.619452648114724	99.83848428715349	99.57264957264957	100	100	100	100	99.57264957264957	99.61977186311786

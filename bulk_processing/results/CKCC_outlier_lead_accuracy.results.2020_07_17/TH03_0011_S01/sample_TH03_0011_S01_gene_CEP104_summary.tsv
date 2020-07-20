@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	CEP104	Up	5.66305992375	5.65663814545	0.11339767522268424	24.05256180710117	19.834710743801654	29.375	20.952380952380953	29.18918918918919	29.375	19.834710743801654	20.91152815013405

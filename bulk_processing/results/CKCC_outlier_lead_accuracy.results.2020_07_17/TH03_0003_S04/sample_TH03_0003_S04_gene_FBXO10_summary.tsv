@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0003_S04	FBXO10	Up	4.41683974191	4.09085226059	7.3805594128038425	99.94700578660647	99.87347110923662	100	100	99.95757318625371	100	99.90398463754201	99.87347110923662

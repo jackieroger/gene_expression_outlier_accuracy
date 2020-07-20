@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	NPY	Up	3.78345665436	3.34802508354	11.50882937480505	99.19850047238236	98.63013698630137	100	98.67549668874173	98.63013698630137	99.44444444444444	100	99.24242424242425

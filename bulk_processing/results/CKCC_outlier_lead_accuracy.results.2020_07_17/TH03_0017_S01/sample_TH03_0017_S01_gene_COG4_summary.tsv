@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	COG4	Down	3.1456774552	3.22092008591	2.391937246637264	94.56240695711307	92.09809264305177	97.5	94.33106575963718	96.75324675324676	97.5	92.09809264305177	92.12962962962963

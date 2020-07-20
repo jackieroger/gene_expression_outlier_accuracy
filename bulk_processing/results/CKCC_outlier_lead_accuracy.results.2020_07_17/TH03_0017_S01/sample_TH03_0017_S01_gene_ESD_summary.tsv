@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	ESD	Down	4.55642941545	4.60558319092	1.078778380793709	68.02136856106526	61.58940397350994	76.431718061674	62.55924170616114	76.431718061674	75.0996015936255	64.42687747035573	61.58940397350994

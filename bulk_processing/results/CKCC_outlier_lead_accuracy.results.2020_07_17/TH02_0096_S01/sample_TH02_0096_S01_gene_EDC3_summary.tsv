@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	EDC3	Down	1.98913900737	2.09762239456	5.453786124954371	91.94233811270192	86.3877430760165	95.85253456221197	91.2964641885766	95.85253456221197	95.30416221985058	90.87078651685393	86.3877430760165

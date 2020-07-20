@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	SLC39A1	Down	3.93357263826	4.19583415985	6.667260165456382	99.91525271729382	99.78118161925602	100	100	100	100	99.78118161925602	99.79508196721312

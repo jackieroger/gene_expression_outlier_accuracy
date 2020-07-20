@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	FAM3A	Down	3.20633064787	3.47035813332	8.23456824783171	99.92423997847726	99.80952380952381	100	100	100	100	99.80952380952381	99.81167608286252

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0124_S01	COASY	Down	3.64846544303	3.93436479568	7.836153503829395	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

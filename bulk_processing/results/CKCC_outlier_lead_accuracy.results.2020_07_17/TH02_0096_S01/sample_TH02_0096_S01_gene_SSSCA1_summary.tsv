@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	SSSCA1	Down	3.85299758761	4.13548135757	7.331532489622539	99.01704251786279	96.35627530364373	100	96.35627530364373	99.52606635071089	100	99.59349593495935	99.609375

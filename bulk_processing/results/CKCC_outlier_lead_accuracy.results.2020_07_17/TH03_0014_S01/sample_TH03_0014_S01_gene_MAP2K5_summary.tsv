@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0014_S01	MAP2K5	Up	5.64385618977	5.20733451843	7.73445773000445	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

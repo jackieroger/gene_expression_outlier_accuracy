@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	SMYD5	Down	2.26303440583	2.68736195564	18.75037996403647	99.56939450531723	99.34640522875817	100	99.38650306748467	99.40476190476191	99.70930232558139	100	99.34640522875817

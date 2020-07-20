@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	SETD5	Up	7.34943605171	7.30917930603	0.5477528533721067	97.14223629477867	93.22033898305084	100	97.61904761904762	100	100	93.22033898305084	94.87179487179486

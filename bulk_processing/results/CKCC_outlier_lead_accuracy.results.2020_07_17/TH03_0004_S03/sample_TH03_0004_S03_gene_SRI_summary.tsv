@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0004_S03	SRI	Down	4.48928602263	4.59972333908	2.460019608759549	84.42894819796385	74.89878542510121	91.90140845070422	74.89878542510121	89.57345971563981	91.90140845070422	83.73983739837398	82.03125

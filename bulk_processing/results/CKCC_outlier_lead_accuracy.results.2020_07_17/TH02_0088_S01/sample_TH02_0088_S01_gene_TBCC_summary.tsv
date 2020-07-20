@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	TBCC	Down	2.31034012061	2.80167675018	21.266852667574867	99.77073881904451	99.54337899543378	100	99.54337899543378	99.54954954954955	100	99.76076555023924	100

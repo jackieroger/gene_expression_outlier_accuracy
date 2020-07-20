@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	CRHR1-IT1	Up	6.04330075436	5.91963291168	2.0463625377369867	99.0818801010041	98.5632183908046	100	98.5632183908046	99.13544668587896	100	98.62258953168043	99.08814589665653

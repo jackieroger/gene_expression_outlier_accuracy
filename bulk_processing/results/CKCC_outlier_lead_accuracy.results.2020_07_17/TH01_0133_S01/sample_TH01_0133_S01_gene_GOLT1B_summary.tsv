@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	GOLT1B	Down	2.2779847473	2.44542527199	7.350379535616301	75.14536269310818	65	85.1543942992874	71.68284789644012	81.70731707317073	85.1543942992874	72.18225419664267	65

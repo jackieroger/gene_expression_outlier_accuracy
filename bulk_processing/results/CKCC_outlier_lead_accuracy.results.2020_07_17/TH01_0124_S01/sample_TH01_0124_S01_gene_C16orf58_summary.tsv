@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0124_S01	C16orf58	Down	3.7355221773	3.91467642784	4.795962707133247	99.62596741173996	99.57173447537473	99.77064220183486	99.57356076759062	99.6	99.61389961389962	99.77064220183486	99.57173447537473

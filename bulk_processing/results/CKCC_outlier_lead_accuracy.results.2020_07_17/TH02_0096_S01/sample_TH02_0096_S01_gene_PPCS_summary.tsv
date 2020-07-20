@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	PPCS	Down	3.59215800213	3.78531575203	5.377206397532213	99.29063481516752	98.57954545454545	100	98.86039886039886	100	99.53271028037383	99.48051948051948	98.57954545454545

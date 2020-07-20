@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	HSDL2	Up	6.65277328451	6.53295183182	1.8010752443494003	99.74765721640662	99.2835209825998	100	99.79919678714859	100	99.77037887485649	99.2835209825998	99.88518943742825

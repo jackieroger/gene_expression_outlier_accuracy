@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0019_S01	CSNK1E	Down	4.03121873061	4.23629808426	5.0872792412077334	99.62599767283956	99.34354485776805	100	99.60079840319361	99.8003992015968	100	99.34354485776805	99.38524590163934

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	NABP2	Down	3.33055840003	3.53436207771	6.119204445661848	99.75328206670044	99.40711462450594	100	100	100	99.800796812749	99.40711462450594	99.55849889624724

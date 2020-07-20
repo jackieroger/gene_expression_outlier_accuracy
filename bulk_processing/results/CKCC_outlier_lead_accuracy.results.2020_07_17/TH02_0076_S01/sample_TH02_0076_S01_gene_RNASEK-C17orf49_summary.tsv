@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0076_S01	RNASEK-C17orf49	Up	3.55090066465	3.41796588898	3.74369176230118	94.67403477880734	88.66396761133603	98.94366197183099	88.66396761133603	95.73459715639811	98.94366197183099	94.71544715447155	95.3125

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0118_S01	BFSP2	Up	1.43829285158	1.2303750515	14.455873840407197	95.26078215448835	92.61083743842364	98.09976247030879	93.66515837104072	98.09976247030879	97.5	94.42815249266863	92.61083743842364

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	PCGF2	Up	7.58901438523	7.57411909103	0.19627442305273934	76.01389907135875	69.35483870967742	88.17204301075269	73.63636363636363	88.17204301075269	78.90625	69.35483870967742	70

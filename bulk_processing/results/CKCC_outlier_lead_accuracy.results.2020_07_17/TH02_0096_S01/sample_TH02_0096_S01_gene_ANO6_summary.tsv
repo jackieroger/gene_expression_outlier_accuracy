@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	ANO6	Down	0.48542682717	1.44008696079	196.664065557644	99.75627337177436	99.48770491803278	100	99.48770491803278	100	100	99.80184940554821	99.49181253529079

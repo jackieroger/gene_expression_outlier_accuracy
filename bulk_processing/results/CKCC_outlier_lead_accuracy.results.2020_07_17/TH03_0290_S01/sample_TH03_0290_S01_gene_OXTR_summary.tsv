@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0290_S01	OXTR	Up	3.96809075205	2.61823892593	34.01766518123704	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

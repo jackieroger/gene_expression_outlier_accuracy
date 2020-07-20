@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	BPTF	Up	7.02170180007	6.97494125366	0.6659432106549109	98.92789968652038	96.36363636363636	100	96.36363636363636	100	100	98.27586206896551	100

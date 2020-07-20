@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	CYHR1	Down	3.4841381312	3.55836749077	2.130494164547774	93.04825355711306	88.86509635974305	96.52509652509652	92.53731343283582	95.8	96.52509652509652	91.5137614678899	88.86509635974305

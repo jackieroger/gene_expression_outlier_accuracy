@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	AGTRAP	Down	0.925999418556	3.10435056686	235.2432522798894	99.44356695911048	98.35243553008596	100	98.35243553008596	99.9219968798752	100	99.54086317722681	99.40253920836444

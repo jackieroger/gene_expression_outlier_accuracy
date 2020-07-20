@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0085_S01	MASP1	Up	5.39231742278	5.29771947861	1.7543096363423933	99.63861023629329	99.2835209825998	100	99.59839357429718	100	99.77037887485649	99.2835209825998	99.54075774971297

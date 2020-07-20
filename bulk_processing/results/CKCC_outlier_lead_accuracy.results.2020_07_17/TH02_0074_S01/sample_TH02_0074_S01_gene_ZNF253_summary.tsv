@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0074_S01	ZNF253	Up	5.80193464627	4.985496521	14.071825607254631	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

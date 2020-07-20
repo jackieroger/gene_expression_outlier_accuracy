@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	RPS23	Down	9.07732312269	9.16876316071	1.0073458527815675	99.28461301264262	97.87234042553192	100	98.55072463768117	100	97.87234042553192	100	100

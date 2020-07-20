@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	USP39	Down	3.56071495447	3.76824259758	5.828257688795815	99.87426911073645	99.59016393442623	100	100	100	100	99.78118161925602	99.59016393442623

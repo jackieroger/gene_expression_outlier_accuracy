@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0149_S01	UCN	Up	3.44095219803	3.26423931122	5.135580985727476	97.80675419433612	93.52226720647774	99.64788732394366	93.52226720647774	99.0521327014218	99.64788732394366	98.3739837398374	98.4375

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0124_S01	EEF1DP7	Up	1.65076455912	0.277918636799	83.16424742319676	99.88305081364174	99.70930232558139	100	99.86595174262735	99.83999999999999	99.70930232558139	100	100

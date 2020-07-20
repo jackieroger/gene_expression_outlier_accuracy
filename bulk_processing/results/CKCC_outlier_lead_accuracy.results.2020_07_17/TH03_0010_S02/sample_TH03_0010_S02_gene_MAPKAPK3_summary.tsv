@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	MAPKAPK3	Up	6.93487029119	6.81358242035	1.7489565881871343	99.16136582648	98.46743295019157	100	98.51485148514851	100	99.63099630996311	98.46743295019157	99.19354838709677

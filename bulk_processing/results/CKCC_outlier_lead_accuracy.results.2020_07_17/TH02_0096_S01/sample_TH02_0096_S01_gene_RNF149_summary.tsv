@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	RNF149	Down	2	2.89041924477	44.5209622385	99.85089861915434	99.73821989528795	100	100	99.74937343358395	100	99.73821989528795	99.76689976689977

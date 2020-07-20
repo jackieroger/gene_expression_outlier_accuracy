@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	MGAT5B	Up	3.76234881564	3.21206188202	14.626154048568527	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

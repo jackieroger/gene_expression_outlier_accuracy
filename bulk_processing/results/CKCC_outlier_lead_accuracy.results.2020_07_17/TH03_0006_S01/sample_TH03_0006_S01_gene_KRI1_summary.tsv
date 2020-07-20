@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	KRI1	Up	6.20633064787	6.0709233284	2.1817612878306947	99.80676328502415	99.03381642512076	100	100	100	100	100	99.03381642512076

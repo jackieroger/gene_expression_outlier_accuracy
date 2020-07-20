@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0025_S02	VENTX	Up	1.42760617278	1.38173031807	3.2134811115775173	71.76927532677324	63.11787072243346	81.07142857142857	65.85365853658537	80	81.07142857142857	68.80341880341881	63.11787072243346

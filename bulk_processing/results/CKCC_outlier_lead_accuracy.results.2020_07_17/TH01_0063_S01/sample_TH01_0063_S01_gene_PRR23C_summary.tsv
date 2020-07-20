@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0063_S01	PRR23C	Up	0.0143552929771	0	100	96.37298215339372	94.37340153452686	97.5	96.21212121212122	97.5	97.36147757255937	96.41791044776119	94.37340153452686

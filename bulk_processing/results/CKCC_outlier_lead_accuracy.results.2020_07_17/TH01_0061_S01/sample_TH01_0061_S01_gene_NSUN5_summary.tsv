@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	NSUN5	Down	2.3015876466	2.74984931946	19.476193901292042	99.58850647280306	99.08883826879271	100	99.54337899543378	99.54954954954955	100	99.76076555023924	99.08883826879271

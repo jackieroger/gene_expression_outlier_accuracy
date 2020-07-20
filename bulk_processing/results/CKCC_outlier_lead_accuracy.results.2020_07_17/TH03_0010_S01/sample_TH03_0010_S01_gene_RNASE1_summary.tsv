@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S01	RNASE1	Down	0.545968369105	2.38481211662	336.8040808901432	99.76435192022397	99.39898289412852	100	99.64444444444445	99.9073645206114	100	99.87096774193547	99.39898289412852

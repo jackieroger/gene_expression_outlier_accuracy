@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	ARAF	Down	3.37573453858	4.10636615753	21.64363372178369	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

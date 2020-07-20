@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0074_S01	PANX1	Up	5.48349335128	5.3681063652	2.10426052678746	99.80676328502415	99.03381642512076	100	100	100	100	100	99.03381642512076

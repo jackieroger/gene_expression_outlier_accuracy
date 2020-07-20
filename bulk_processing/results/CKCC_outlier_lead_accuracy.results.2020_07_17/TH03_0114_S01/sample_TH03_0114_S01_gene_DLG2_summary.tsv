@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	DLG2	Up	3.20320115632	3.00126481056	6.304204322653117	99.7727199354318	99.42857142857143	100	100	100	100	99.42857142857143	99.43502824858757

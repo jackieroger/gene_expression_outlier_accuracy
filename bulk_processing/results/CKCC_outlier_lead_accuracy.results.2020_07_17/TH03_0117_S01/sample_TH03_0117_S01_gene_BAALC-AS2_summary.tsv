@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0117_S01	BAALC-AS2	Up	2.98913900737	1.31546032429	55.99199899882172	99.65392297445979	99.25650557620817	100	99.46380697050938	99.83999999999999	99.70930232558139	100	99.25650557620817

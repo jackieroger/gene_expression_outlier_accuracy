@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	DPY19L2P4	Up	1.55090066465	1.08740246296	29.885743958630652	99.70113321351917	99.27184466019418	100	99.27184466019418	99.74489795918367	100	99.71671388101983	99.77220956719817

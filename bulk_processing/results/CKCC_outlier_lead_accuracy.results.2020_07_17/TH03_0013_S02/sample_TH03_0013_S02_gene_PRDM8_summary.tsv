@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	PRDM8	Up	4.037382222	3.61555624008	10.448007117617898	99.95370370370371	99.76851851851852	100	100	100	100	100	99.76851851851852

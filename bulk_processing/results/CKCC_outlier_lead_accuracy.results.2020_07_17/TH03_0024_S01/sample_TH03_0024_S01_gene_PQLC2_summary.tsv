@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	PQLC2	Up	5.96393645214	5.31677770615	10.85120123568359	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

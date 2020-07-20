@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	MEIG1	Up	1.94860084749	1.67651021481	13.963384703977782	84.74972342501655	78.62453531598513	92.34496124031007	79.35656836461126	91.52	92.34496124031007	81.90255220417633	78.62453531598513

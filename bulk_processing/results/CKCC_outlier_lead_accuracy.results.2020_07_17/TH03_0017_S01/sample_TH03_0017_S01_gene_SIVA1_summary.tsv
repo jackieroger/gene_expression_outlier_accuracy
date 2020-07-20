@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	SIVA1	Down	4.20554891117	4.42239618301	5.156218044784839	97.88772585425515	93.92712550607287	99.64788732394366	93.92712550607287	99.0521327014218	99.64788732394366	98.3739837398374	98.4375

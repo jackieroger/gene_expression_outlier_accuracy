@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0144_S01	LSM6	Up	6.53325185193	6.38400220871	2.284461805584764	96.35654320262769	94.69026548672566	98.11320754716981	96	96.15384615384616	96.82539682539682	94.69026548672566	98.11320754716981

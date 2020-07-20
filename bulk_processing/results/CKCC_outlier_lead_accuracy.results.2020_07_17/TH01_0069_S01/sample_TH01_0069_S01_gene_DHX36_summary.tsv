@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	DHX36	Down	1.85996954822	2.95336818695	58.785835487273864	99.92395437262357	99.61977186311786	100	100	100	100	100	99.61977186311786

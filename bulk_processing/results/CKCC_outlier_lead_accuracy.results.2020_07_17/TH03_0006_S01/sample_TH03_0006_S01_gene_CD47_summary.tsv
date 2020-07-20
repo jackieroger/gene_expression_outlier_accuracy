@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	CD47	Down	3.08746284125	3.14832925797	1.971405644362592	91.72026137171466	87.79443254817987	96.13899613899613	90.6183368869936	94.6	96.13899613899613	89.44954128440367	87.79443254817987

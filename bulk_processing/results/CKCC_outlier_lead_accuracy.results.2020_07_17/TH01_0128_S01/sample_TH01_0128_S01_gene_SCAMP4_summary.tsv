@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0128_S01	SCAMP4	Down	3.26753579807	3.35049653053	2.5389387473276237	95.86512605272765	93.57601713062098	98	94.88272921108742	98	97.68339768339769	95.18348623853211	93.57601713062098

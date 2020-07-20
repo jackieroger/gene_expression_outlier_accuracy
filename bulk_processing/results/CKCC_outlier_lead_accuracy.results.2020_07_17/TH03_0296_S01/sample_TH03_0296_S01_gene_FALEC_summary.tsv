@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S01	FALEC	Up	1.20163386117	0.840748906136	30.032854989839887	98.16451483439243	97.05093833780161	99.52	97.05093833780161	99.52	99.12790697674419	97.91183294663574	97.21189591078067

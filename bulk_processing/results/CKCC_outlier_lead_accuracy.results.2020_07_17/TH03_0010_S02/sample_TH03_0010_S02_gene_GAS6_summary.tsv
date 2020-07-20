@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	GAS6	Down	0.411426245726	1.32472670078	221.98400431221788	99.77324760172938	99.60629921259843	100	100	99.60629921259843	99.63099630996311	100	99.62894248608535

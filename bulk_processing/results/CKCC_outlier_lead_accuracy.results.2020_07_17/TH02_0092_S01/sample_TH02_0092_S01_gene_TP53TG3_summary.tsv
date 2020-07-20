@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0092_S01	TP53TG3	Up	1.23266075679	0.535611569881	56.54833927902448	99.90325464009675	99.74937343358395	100	100	99.74937343358395	100	100	99.76689976689977

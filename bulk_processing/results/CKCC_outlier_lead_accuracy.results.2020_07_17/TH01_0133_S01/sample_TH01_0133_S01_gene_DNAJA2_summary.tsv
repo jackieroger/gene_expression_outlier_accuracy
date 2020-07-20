@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	DNAJA2	Down	3.26002565596	3.56122803688	9.239264125708331	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

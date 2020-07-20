@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0146_S01	ATF6B	Up	7.62417402209	7.61460590363	0.12549711525835477	58.32465786901271	51.61290322580645	68.81720430107528	51.81818181818182	68.81720430107528	65.625	51.61290322580645	53.75

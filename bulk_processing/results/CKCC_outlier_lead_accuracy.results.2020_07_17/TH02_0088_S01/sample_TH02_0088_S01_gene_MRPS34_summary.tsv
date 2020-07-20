@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	MRPS34	Down	4.88508622529	4.933385849	0.9887158891884842	52.10262169426159	42.10526315789473	60.2112676056338	42.10526315789473	54.976303317535546	60.2112676056338	52.4390243902439	50.78125

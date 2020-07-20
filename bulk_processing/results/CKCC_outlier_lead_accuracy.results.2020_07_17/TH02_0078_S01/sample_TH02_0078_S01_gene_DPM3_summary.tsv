@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	DPM3	Down	3.57893871309	4.02436113358	12.445656553459939	99.33548677375222	98.67549668874173	100	98.67549668874173	99.31506849315068	99.44444444444444	100	99.24242424242425

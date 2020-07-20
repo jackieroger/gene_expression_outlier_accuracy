@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0094_S01	KIF6	Up	3.15055967658	2.56285881996	18.653855725658293	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

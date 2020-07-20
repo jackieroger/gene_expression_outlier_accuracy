@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	ARSD-AS1	Up	1.83187724119	0.344080448151	81.2170575399756	99.95934959349593	99.79674796747967	100	100	99.79674796747967	100	100	100

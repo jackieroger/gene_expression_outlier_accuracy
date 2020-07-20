@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0024_S01	AMBRA1	Up	5.50525580093	5.35919904709	2.653042095070799	99.89515457121134	99.59058341862846	100	100	100	100	99.59058341862846	99.88518943742825

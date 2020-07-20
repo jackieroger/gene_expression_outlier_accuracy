@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0159_S02	PTCRA	Up	1.96716860753	1.19363474846	39.32219414792604	99.57202527440515	99.1869918699187	100	99.35275080906149	99.1869918699187	100	99.52038369304557	99.8

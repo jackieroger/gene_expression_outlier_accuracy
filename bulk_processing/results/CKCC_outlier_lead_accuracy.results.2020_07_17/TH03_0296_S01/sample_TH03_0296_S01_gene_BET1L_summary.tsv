@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S01	BET1L	Up	6.74308405555	6.72504329681	0.2675446218878296	55.090839135513306	47.34299516908212	66.10169491525424	50	66.10169491525424	57.27699530516433	54.73251028806584	47.34299516908212

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0296_S02	LDB2	Up	6.83035674742	6.10378265381	10.637425254316996	99.95833333333333	99.79166666666667	100	100	100	99.79166666666667	100	100

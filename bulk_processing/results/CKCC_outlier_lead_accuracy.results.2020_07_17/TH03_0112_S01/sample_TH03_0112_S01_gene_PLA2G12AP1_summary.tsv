@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	PLA2G12AP1	Up	1.25096157353	1.11969268322	10.49343905421343	76.43948333361666	68.36461126005362	86.7248062015504	68.36461126005362	82.88	86.7248062015504	73.78190255220419	70.4460966542751

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	TYMSOS	Up	4.12101540096	3.83999729156	6.819147274590052	98.84095497499685	96.35627530364373	100	96.35627530364373	99.0521327014218	100	99.1869918699187	99.609375

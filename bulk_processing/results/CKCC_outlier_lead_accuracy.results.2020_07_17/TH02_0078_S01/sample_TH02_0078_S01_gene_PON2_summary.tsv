@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	PON2	Up	8.82645315187	8.77631092072	0.5680903788559329	98.25982307053361	97.01492537313433	100	97.01492537313433	100	97.58064516129032	97.67441860465115	99.02912621359224

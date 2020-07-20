@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	RAD9A	Down	0.400537929584	1.8937497139	372.8015935636495	99.77761670238534	99.36440677966102	100	99.89177489177489	100	100	99.6319018404908	99.36440677966102

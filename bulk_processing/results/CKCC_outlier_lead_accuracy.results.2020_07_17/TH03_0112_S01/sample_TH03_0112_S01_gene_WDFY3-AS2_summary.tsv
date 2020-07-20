@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	WDFY3-AS2	Up	3.37573453858	3.0512650013	9.611820288940374	99.95370370370371	99.76851851851852	100	100	100	100	100	99.76851851851852

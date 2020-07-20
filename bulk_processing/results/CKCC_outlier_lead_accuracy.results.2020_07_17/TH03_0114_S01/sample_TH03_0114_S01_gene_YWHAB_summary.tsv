@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	YWHAB	Down	5.18229502503	5.3282084465	2.8156139464320606	99.95905834186284	99.79529170931423	100	100	100	100	99.79529170931423	100

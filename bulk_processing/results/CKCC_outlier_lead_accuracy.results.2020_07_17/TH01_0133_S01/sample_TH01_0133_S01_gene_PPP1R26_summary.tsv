@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0133_S01	PPP1R26	Down	0.263034405834	0.673842549324	156.18038339412504	99.69998541932291	99.37888198757764	100	99.38524590163934	100	100	99.73579920739762	99.37888198757764

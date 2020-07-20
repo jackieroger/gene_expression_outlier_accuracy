@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0290_S01	IL13RA2	Up	3.96716860753	2.78997921944	29.673288547797068	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

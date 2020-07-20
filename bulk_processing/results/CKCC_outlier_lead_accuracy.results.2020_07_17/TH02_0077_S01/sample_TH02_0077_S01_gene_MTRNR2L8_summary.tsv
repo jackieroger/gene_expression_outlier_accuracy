@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	MTRNR2L8	Up	2.68481873755	0.820231378078	69.44928286568454	99.95337995337995	99.76689976689977	100	100	100	100	100	99.76689976689977

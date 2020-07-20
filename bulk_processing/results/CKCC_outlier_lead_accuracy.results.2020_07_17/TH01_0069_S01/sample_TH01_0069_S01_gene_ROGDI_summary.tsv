@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0069_S01	ROGDI	Down	0.66902676551	2.17819929123	225.57730176453492	99.37271061385664	98.20916905444126	99.9219968798752	98.20916905444126	99.9219968798752	99.86366734832993	99.54086317722681	99.32785660941

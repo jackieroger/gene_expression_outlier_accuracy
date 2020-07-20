@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	MEGF11	Up	2.47767732757	2.13038516045	14.016844052111068	98.96677660546715	98.25783972125436	100	98.25783972125436	100	98.57142857142858	99.14529914529915	98.85931558935361

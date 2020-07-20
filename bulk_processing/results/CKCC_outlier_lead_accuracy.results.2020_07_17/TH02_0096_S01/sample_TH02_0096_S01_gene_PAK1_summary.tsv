@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0096_S01	PAK1	Down	1.91838623445	2.16105389595	12.649572705549177	98.2854695872409	97.5609756097561	100	97.5609756097561	100	97.85714285714285	98.29059829059828	97.71863117870723

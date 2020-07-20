@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	EMC7	Up	7.61750419799	7.60981416702	0.10095210675471937	50.76318546607082	37.391304347826086	68	45.25547445255474	68	62.96296296296296	37.391304347826086	40.20618556701031

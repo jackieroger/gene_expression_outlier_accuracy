@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0020_S01	RGS9	Up	3.64731450955	3.3495414257	8.164173478056842	99.92423997847726	99.80952380952381	100	100	100	100	99.80952380952381	99.81167608286252

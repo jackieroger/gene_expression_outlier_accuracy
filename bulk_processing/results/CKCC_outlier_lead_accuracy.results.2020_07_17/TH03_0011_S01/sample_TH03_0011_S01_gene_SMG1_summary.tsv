@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0011_S01	SMG1	Up	5.81301154861	5.67818069458	2.3194664745202545	99.85499392864106	99.59058341862846	100	99.79919678714859	100	100	99.59058341862846	99.88518943742825

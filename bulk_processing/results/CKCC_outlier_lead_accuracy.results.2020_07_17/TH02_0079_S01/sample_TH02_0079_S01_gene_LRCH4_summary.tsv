@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	LRCH4	Down	2.3840498068	2.72915029526	14.475389208550677	95.3100432382322	92.85714285714286	98.09976247030879	93.66515837104072	98.09976247030879	97.5	94.42815249266863	92.85714285714286

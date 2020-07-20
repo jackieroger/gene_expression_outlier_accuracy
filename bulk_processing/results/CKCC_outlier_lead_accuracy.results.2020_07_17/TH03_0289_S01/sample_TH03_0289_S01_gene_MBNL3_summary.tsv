@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0289_S01	MBNL3	Up	5.04045412135	4.92998790741	2.1915924890992398	99.81156098705813	99.48822927328557	100	99.79919678714859	100	99.88518943742825	99.48822927328557	99.88518943742825

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0287_S01	FLJ27354	Up	3.57652213792	3.34682512283	6.422356866035931	98.68185831507782	95.95141700404858	100	95.95141700404858	99.0521327014218	100	99.1869918699187	99.21875

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	CRTAC1	Up	6.20925839367	6.11609220505	1.5004398708061102	98.59856900174746	96.55172413793103	100	98.01980198019803	100	99.63099630996311	96.55172413793103	98.79032258064517

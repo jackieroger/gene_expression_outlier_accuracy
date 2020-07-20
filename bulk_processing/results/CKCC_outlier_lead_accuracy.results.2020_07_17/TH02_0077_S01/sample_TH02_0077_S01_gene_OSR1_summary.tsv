@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0077_S01	OSR1	Up	4.30815697511	4.25708770752	1.1854086999393985	76.72885472138522	70.44967880085653	85.52123552123551	71.85501066098081	83.8	85.52123552123551	72.01834862385321	70.44967880085653

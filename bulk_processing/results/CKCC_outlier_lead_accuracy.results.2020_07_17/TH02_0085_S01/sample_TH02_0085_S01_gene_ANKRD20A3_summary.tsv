@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0085_S01	ANKRD20A3	Up	0.584962500721	0.544844806194	6.8581651776913235	42.37989945353067	34.69387755102041	50	35.13513513513514	50	50	42.070484581497794	34.69387755102041

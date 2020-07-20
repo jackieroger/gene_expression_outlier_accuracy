@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	CTA-228A9.3	Up	3.82984955984	2.76575040817	27.7843590209965	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

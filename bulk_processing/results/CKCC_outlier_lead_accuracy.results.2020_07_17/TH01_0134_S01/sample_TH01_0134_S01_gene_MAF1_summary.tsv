@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	MAF1	Down	5.15461561133	5.243247509	1.7194666751713636	99.45213762393266	98.89807162534436	100	99.52380952380952	100	99.375	98.89807162534436	99.46380697050938

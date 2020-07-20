@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0010_S02	TRAP1	Down	3.9476661568	4.17993354797	5.883663459482536	99.83287447851599	99.77064220183486	100	99.7867803837953	99.8	99.8069498069498	99.77064220183486	100

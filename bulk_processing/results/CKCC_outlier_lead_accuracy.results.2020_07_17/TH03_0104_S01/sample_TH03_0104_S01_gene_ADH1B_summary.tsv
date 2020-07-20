@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0104_S01	ADH1B	Up	11.0131411909	6.19660425186	43.73445192021905	NaN	Inf	-Inf	NA	NA	NA	NA	NA

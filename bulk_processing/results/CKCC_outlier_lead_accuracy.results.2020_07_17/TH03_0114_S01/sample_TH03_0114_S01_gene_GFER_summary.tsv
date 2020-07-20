@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0114_S01	GFER	Up	6.21159631997	6.15587568283	0.8970421493885716	90.38137931777241	83.11688311688312	96.8609865470852	83.11688311688312	96.25	96.8609865470852	86.63793103448276	89.04109589041096

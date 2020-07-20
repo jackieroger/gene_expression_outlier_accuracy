@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0012_S01	PEX2	Up	7.14547367032	7.12842178345	0.23863899941060715	80.3213478443586	72.6027397260274	90.80459770114942	72.6027397260274	90.80459770114942	88	76.47058823529412	73.72881355932203

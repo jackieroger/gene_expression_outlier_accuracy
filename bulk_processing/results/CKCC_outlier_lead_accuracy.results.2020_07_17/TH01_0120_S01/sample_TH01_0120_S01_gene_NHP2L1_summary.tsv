@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	NHP2L1	Down	5.15340002774	5.40395593643	4.861953416022318	99.94082840236686	99.70414201183432	100	100	100	100	99.70414201183432	100

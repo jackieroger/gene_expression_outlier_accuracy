@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0120_S01	SURF4	Down	4.50842865253	4.76530408859	5.697671092473617	99.72471588051896	99.18032786885246	100	100	99.75	100	99.69325153374233	99.18032786885246

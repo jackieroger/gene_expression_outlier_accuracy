@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0027_S01	SEMA3A	Up	4.04614178164	3.63372349739	10.192877721720293	99.98196320436998	99.951992318771	100	100	100	100	99.951992318771	99.95782370307887

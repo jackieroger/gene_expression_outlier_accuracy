@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0088_S01	CHCHD2	Down	7.01836711554	7.07189893723	0.762738979149016	99.18789619400117	98.30508474576271	100	99.31506849315068	100	100	98.31932773109243	98.30508474576271

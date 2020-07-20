@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	PRKAG1	Down	3.53853816363	4.19591331482	18.57759110659509	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

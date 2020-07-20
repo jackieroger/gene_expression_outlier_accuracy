@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0117_S01	HPGDS	Up	4.0285691522	3.77254056931	6.355323024557821	99.8103847188593	99.42857142857143	100	100	100	100	99.42857142857143	99.62335216572504

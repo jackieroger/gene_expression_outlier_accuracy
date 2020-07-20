@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0076_S01	CD81	Down	6.52638186256	6.6834936142	2.4073331127206195	99.82125088841507	99.40476190476191	100	100	100	100	99.70149253731343	99.40476190476191

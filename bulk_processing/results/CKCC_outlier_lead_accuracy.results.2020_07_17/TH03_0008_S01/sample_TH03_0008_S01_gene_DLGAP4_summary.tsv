@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	DLGAP4	Up	7.36806987653	7.32559776306	0.5764347268921663	97.14223629477867	93.22033898305084	100	97.61904761904762	100	100	93.22033898305084	94.87179487179486

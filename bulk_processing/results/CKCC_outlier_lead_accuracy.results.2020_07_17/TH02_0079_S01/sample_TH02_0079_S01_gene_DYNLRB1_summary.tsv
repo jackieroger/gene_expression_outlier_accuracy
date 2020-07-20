@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	DYNLRB1	Down	6.28095631383	6.42770767212	2.3364492755166832	99.47341573416843	99.13419913419914	100	99.13419913419914	100	99.55156950672645	99.13793103448276	99.54337899543378

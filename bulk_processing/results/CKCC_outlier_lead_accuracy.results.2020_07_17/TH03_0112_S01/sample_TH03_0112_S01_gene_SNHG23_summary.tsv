@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0112_S01	SNHG23	Up	1.18269229752	0.918712258339	22.32026366744271	95.19525375791216	92.37918215613384	98.06201550387597	92.89544235924933	97.28	98.06201550387597	95.35962877030161	92.37918215613384

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0013_S02	CTC-459F4.6	Up	1.18269229752	1.1235691309	4.999032017370541	46.796895088980804	38.8739946380697	56.32	38.8739946380697	56.32	55.71705426356589	41.9953596287703	41.07806691449814

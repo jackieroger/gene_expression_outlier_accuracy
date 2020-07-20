@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	CARS	Down	2.7949356628	3.17837047577	13.718913750804212	98.6398749527293	97.7124183006536	99.70930232558139	98.46625766871165	98.80952380952381	99.70930232558139	98.50187265917603	97.7124183006536

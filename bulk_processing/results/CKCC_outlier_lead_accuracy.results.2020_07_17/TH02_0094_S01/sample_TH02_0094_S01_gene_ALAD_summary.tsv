@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0094_S01	ALAD	Up	6.79675347697	6.6814084053	1.6970612816962303	99.44891751655037	98.06763285024155	100	100	100	100	99.1769547325103	98.06763285024155

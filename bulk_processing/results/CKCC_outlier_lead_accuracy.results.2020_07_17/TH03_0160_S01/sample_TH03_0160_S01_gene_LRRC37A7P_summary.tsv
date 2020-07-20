@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	LRRC37A7P	Up	1.09085343045	1.01275897026	7.159024119105019	92.07732800137511	87.45644599303137	95.55555555555556	87.45644599303137	95.55555555555556	95	91.88034188034187	90.49429657794677

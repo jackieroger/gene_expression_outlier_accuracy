@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	IL17B	Up	1.55090066465	1.41093754768	9.02463453399747	82.60331522847416	75.2	90.38004750593825	77.66990291262135	89.43089430894308	90.38004750593825	80.3357314148681	75.2

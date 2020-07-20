@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	OTUD5	Down	3.92504996473	3.95132708549	0.6694722614010771	53.95758348256308	47.018348623853214	64.67181467181467	47.97441364605544	62.8	64.67181467181467	47.018348623853214	47.32334047109208

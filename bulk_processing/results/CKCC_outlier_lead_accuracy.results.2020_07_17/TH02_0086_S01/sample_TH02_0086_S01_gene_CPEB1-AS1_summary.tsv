@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	CPEB1-AS1	Up	0.62293035092	0.244370207191	60.77086197034839	89.16788168951462	87.05701078582435	92.61538461538461	87.84370477568741	92.61538461538461	89.32330827067669	89	87.05701078582435

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0118_S01	SNRPGP10	Up	5.57500972029	5.38414382935	3.4235974557201523	67.0976800976801	44.44444444444444	84.61538461538461	44.44444444444444	75	71.42857142857143	84.61538461538461	60

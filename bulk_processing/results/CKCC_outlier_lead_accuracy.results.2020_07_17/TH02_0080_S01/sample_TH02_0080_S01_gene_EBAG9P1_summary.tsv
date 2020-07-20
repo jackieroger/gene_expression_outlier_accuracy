@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0080_S01	EBAG9P1	Up	1.15055967658	1.03565299511	9.987024907004928	74.41168159680875	66.62198391420911	83.72093023255815	66.62198391420911	81.76	83.72093023255815	71.92575406032483	68.02973977695167

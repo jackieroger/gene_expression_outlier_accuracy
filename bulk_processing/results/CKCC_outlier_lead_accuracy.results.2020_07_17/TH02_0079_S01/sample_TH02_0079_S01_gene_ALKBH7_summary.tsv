@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	ALKBH7	Down	4.12184429788	4.12845182419	0.16030509239270155	10.048404991157996	8.984375	10.931174089068826	10.931174089068826	9.95260663507109	10.211267605633804	10.16260162601626	8.984375

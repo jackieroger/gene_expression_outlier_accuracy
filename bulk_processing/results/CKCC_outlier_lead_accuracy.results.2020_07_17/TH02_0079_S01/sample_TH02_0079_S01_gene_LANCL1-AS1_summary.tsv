@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	LANCL1-AS1	Up	0.6322682155	0.376716196537	40.41829285391304	75.19641235254338	66.4	88.95300906842539	66.4	81.61185734136174	88.95300906842539	72.25806451612902	66.75913083680074

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0157_S01	GCNT4	Up	3.27052894238	2.08748245239	36.17294054976574	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100

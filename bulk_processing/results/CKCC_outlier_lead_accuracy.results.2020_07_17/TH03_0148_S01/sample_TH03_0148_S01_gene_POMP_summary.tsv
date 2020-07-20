@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	POMP	Down	4.173926932	4.84110546112	15.984432405967192	99.96047430830039	99.80237154150198	100	100	100	100	99.80237154150198	100

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0126_S01	PSME2	Down	5.30378074818	5.40855646133	1.9754910341260523	99.02702933832525	98.17351598173516	100	99.13419913419914	100	99.55156950672645	98.27586206896551	98.17351598173516

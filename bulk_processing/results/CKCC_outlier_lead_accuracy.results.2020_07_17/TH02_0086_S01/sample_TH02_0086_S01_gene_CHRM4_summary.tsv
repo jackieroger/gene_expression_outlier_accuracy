@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0086_S01	CHRM4	Up	1.41142624573	0.895557761192	36.54944678113088	99.75765852591424	99.3006993006993	100	100	99.74937343358395	100	99.73821989528795	99.3006993006993

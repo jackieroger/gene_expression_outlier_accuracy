@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0287_S01	IMMP1L	Up	6.81301154861	6.66940546036	2.107821001408667	95.80219356161918	93.80530973451327	96.82539682539682	96	96.15384615384616	96.82539682539682	93.80530973451327	96.22641509433963

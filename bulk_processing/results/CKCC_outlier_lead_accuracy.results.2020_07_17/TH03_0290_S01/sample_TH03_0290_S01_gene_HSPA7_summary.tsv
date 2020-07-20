@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0290_S01	HSPA7	Up	5.15866017535	4.96451568604	3.763467309548591	99.76663031010007	99.42528735632183	100	99.42528735632183	99.71181556195965	100	100	99.69604863221885

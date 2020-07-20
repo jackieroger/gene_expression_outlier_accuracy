@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0079_S01	PPA2	Down	3.85897561429	4.0307803154	4.452080507422703	98.6325197820525	97.72079772079772	100	97.72079772079772	100	99.53271028037383	98.18181818181819	97.72727272727273

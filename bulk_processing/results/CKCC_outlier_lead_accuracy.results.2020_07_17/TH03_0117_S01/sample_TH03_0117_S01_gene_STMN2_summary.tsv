@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0117_S01	STMN2	Up	3.43696133783	3.17516255379	7.6171582484338485	99.88657519504977	99.62335216572504	100	100	100	100	99.80952380952381	99.62335216572504

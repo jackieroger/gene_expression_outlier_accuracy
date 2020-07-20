@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0084_S01	DND1	Up	0.831877241192	0.691053390503	16.928441327137765	57.00035880966352	43.75	74.43693693693693	48.37662337662338	65.4320987654321	74.43693693693693	53.00613496932516	43.75

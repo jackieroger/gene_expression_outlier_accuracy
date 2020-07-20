@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0122_S01	DAP	Down	3.7782085764	4.06884860992	7.692535434264753	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

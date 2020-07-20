@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0134_S01	MSH6	Up	7.13072499112	7.0072851181	1.7310984952262392	99.37003968253968	98.4126984126984	100	100	100	98.4126984126984	98.4375	100

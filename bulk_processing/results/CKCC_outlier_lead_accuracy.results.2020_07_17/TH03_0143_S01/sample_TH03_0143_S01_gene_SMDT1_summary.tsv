@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0143_S01	SMDT1	Down	4.30742852519	4.34633302689	0.9031955254158092	48.01631653536873	38.8663967611336	56.33802816901409	38.8663967611336	48.81516587677725	56.33802816901409	49.1869918699187	46.875

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0288_S01	PIPOX	Up	4.33127526715	4.22578382492	2.4355746454187805	95.13352109330546	92.29122055674517	97.68339768339769	94.45628997867804	97.2	97.68339768339769	94.03669724770643	92.29122055674517

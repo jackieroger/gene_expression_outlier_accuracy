@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0156_S01	ADCK4	Up	6.36719631003	6.26667737961	1.5787000357073366	98.8323640509541	97.7961432506887	99.72972972972973	98.33333333333333	99.72972972972973	99.375	97.7961432506887	98.92761394101876

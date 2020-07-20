@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0160_S01	ELOF1	Up	7.45557381377	7.43859291077	0.22776118142157764	77.44968457318652	66.95652173913044	90	69.34306569343066	90	89.81481481481481	66.95652173913044	71.1340206185567

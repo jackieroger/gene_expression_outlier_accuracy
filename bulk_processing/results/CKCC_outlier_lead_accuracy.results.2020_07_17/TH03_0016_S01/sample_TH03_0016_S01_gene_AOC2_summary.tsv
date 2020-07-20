@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0016_S01	AOC2	Up	1.95233356637	1.38576948643	29.01984013896868	99.88233665559247	99.70238095238095	100	100	99.70238095238095	99.70930232558139	100	100

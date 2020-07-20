@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0017_S01	METTL9	Down	3.80012335283	4.2505402565	11.852691658931775	99.95412844036697	99.77064220183486	100	100	100	100	99.77064220183486	100

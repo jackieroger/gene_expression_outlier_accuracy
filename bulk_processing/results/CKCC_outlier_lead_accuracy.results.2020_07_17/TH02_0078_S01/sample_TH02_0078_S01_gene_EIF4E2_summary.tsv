@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH02_0078_S01	EIF4E2	Down	4.08915913191	4.19907331467	2.687940948599381	96.81363005873844	95.28907922912205	98	96.80170575692964	98	97.87644787644788	96.10091743119266	95.28907922912205

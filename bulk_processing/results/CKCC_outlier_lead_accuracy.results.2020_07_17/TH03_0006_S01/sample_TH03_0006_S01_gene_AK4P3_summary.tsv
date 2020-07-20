@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0006_S01	AK4P3	Up	1.39506279952	0.717490196228	48.56932630739868	99.80601263720257	99.59349593495935	100	99.67637540453075	99.59349593495935	100	99.76019184652279	100

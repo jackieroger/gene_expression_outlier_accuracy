@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0061_S01	CEP63	Down	1.64616265716	2.23852157593	35.98422769423964	99.85189221319595	99.51456310679612	100	99.51456310679612	99.74489795918367	100	100	100

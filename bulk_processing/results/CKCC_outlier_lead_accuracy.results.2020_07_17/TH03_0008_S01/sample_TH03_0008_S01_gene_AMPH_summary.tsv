@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0008_S01	AMPH	Up	4.05745027218	3.67038226128	9.539685884850897	99.94535519125684	99.72677595628416	100	100	100	100	100	99.72677595628416

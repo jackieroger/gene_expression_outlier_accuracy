@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S01	ARSI	Up	4.41818994795	4.0983543396	7.239064234854838	99.89920779089717	99.72752043596729	100	100	100	100	99.72752043596729	99.76851851851852

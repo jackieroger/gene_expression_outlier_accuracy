@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH01_0127_S01	GLMP	Down	2.09085343045	3.36113071442	60.75400912710591	99.90325464009675	99.74937343358395	100	100	99.74937343358395	100	100	99.76689976689977

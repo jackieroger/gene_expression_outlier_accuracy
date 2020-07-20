@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0113_S02	HSPA12B	Up	4.65191274465	4.19322681427	9.860157650366899	99.98196320436998	99.951992318771	100	100	100	100	99.951992318771	99.95782370307887

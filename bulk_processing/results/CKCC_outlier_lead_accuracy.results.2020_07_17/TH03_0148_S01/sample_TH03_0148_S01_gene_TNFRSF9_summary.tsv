@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH03_0148_S01	TNFRSF9	Up	3.69710657448	2.58494377136	30.08197845301298	99.9903984637542	99.951992318771	100	100	100	100	99.951992318771	100
