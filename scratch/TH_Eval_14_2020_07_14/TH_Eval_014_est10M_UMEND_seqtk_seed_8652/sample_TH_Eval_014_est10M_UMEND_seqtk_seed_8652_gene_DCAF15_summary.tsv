@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DCAF15	Up	6.57561487762	6.55583810806	0.3007592434786575	52.53136280252925	44.27860696517413	67.63005780346822	44.27860696517413	67.63005780346822	57.56880733944955	46.15384615384615	47.02549575070821

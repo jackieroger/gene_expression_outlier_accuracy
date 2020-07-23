@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	B3GALT5-AS1	Up	2.16027483141	1.95626139641	9.443864828385827	87.76090492081542	81.03448275862068	94.06175771971496	85.29411764705883	94.06175771971496	93.07692307692308	85.33724340175954	81.03448275862068

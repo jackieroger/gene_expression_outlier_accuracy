@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	GTF2IRD1P1	Up	0.863938450424	0.439908593893	49.081026122045664	85.57810730573486	82.88288288288288	88.19188191881919	82.88288288288288	87.5984251968504	88.19188191881919	84.80176211453745	84.4155844155844

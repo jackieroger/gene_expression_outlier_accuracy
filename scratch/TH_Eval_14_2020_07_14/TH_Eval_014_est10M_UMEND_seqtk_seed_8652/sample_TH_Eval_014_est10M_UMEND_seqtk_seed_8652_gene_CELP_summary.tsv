@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CELP	Up	0.378511623254	0.277918636799	26.575930638594198	66.44980308261317	54.84171322160149	77.55102040816327	54.84171322160149	72.60956175298804	77.55102040816327	67.67441860465117	59.57230142566191

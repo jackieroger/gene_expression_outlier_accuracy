@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	LLNLR-304A6.2	Up	0.807354922058	0.748474061489	7.2930577321444785	28.79657390081058	23.42406876790831	35.9594383775351	23.42406876790831	35.9594383775351	31.970006816632583	28.28282828282828	24.34652725914862

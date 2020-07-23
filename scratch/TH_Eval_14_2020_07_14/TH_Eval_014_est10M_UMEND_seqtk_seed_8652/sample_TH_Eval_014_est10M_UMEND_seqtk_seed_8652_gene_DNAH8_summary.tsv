@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DNAH8	Up	0.263034405834	0.106960088015	59.33608469361149	93.87691517457995	90.79616036137776	97.19566602931803	92.72540983606558	94.94210847044485	97.19566602931803	93.72523117569352	90.79616036137776

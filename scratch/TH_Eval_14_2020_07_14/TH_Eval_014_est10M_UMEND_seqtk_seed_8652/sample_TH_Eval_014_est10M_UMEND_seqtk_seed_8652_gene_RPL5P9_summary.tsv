@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	RPL5P9	Up	0.400537929584	0.322547495365	19.47142291867367	54.3959213475732	44.19787332408692	70.8161582852432	44.355555555555554	62.15840666975452	70.8161582852432	50.45161290322581	44.19787332408692

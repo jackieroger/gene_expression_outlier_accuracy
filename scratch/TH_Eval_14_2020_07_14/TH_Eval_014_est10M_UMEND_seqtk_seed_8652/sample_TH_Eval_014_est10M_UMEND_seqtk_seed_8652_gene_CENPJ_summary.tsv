@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CENPJ	Up	4.74792441624	4.70748901367	0.8516437715750709	65.12382527943058	57.638888888888886	74.31818181818181	59.410430839002274	72.94372294372295	74.31818181818181	61.30790190735694	57.638888888888886

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	AJ011931.1	Up	0.575312330687	0.0362440273166	93.70011289809835	93.34380941055032	90.45045045045045	96.49446494464945	90.45045045045045	95.2755905511811	96.49446494464945	92.29074889867842	92.20779220779221

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CHFR	Down	1.64154602909	1.74424290657	6.256107088080295	86.73752684168147	82.23234624145786	94.43254817987152	82.52427184466019	89.79591836734694	94.43254817987152	84.70254957507082	82.23234624145786

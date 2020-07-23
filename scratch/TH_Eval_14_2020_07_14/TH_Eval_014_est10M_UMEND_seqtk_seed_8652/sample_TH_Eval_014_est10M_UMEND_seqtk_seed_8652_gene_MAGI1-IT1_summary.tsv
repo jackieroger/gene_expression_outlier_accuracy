@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MAGI1-IT1	Up	0.367371065649	0.256172209978	30.268811582794473	76.64097100518659	70.68645640074212	82.48031496062993	70.990990990991	82.48031496062993	81.73431734317343	77.31277533039648	70.68645640074212

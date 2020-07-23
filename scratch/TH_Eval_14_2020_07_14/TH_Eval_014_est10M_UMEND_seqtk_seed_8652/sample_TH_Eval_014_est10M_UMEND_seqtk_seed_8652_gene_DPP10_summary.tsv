@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DPP10	Up	1.89917563048	1.6271750927	14.322031802359128	99.32369465007562	98.88037713612256	99.6264674493063	99.27470534904805	99.53917050691244	99.6264674493063	99.29775280898876	98.88037713612256

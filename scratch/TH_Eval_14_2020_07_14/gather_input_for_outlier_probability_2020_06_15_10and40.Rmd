@@ -1,0 +1,176 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+  
+  
+```{r}
+output_id <- "TH_Eval_14_2020_07_13"
+sample_ids <- c("TH_Eval_014_est40M_UMEND_seqtk_seed_4956", "TH_Eval_014_est10M_UMEND_seqtk_seed_8652")
+
+```
+  
+  
+# Do not run commands
+```{r}
+knitr::opts_chunk$set(eval=FALSE, include=TRUE)
+```
+
+# run once:
+
+```{bash}
+
+mkdir /private/groups/treehouse/archive/projects/accuracy
+
+```
+
+
+# On mustard in bash
+```{bash}
+
+cd /private/groups/treehouse/archive/projects/accuracy
+R
+
+```
+
+
+# Load project and file location info
+```{r}
+
+library(tidyverse)
+library(jsonlite)
+
+protocol_v <- "treehouse-protocol-14.0.1-765565a"
+compendium_v <- "compendium-TreehousePEDv9"
+
+
+downstream_dir <- "/private/groups/treehouse/archive/projects/qc_paper/round3/downstream/"
+
+candidate_tertiary_output_locations <- tibble(sample_id = sample_ids) %>%
+  mutate(file_path = paste0(downstream_dir,
+                            sample_id,
+                            "/tertiary/",
+                            protocol_v, "/",
+                            compendium_v),
+         output_exists = file.exists(file_path))
+
+table(candidate_tertiary_output_locations$output_exists)
+
+tertiary_output_locations <- candidate_tertiary_output_locations %>%
+  filter(output_exists)
+
+```
+
+
+# Outlier file format
+```{r}
+
+or_file_col_types <- cols(
+  Gene = col_character(),
+  sample = col_double(),
+  is_top_5 = col_character(),
+  pc_low = col_double(),
+  pc_median = col_double(),
+  pc_high = col_double(),
+  pc_outlier = col_character(),
+  pc_is_filtered = col_character(),
+  pd_low = col_double(),
+  pd_median = col_double(),
+  pd_high = col_double(),
+  pd_outlier = col_character(),
+  pc_percentile = col_double()
+)
+
+
+```
+
+# Load outlier results
+```{r}
+outlier_data_raw <- tertiary_output_locations %>%
+mutate(outliers_raw = map(paste0(file_path, paste0("/outlier_results_", sample_id)), function(fp){
+  read_tsv(fp,  col_types = or_file_col_types) %>%
+    filter(sample > pc_high | sample < pc_low) %>%
+    select(Gene, Expression = sample, pc_high, pc_low, pc_outlier, pc_is_filtered)
+  })) %>%
+unnest(outliers_raw)
+
+write_tsv(outlier_data_raw, paste0("outlier_probability_complete_info_", output_id, ".tsv.gz"))
+
+outlier_data <- outlier_data_raw %>%
+  mutate(Type = ifelse(Expression > pc_high, "Up", "Down"),
+         Threshold = ifelse(Type=="Up", pc_high, pc_low)) %>% 
+  select(Sample = sample_id, file_path, Gene, Expression, Type, Threshold)
+
+```
+
+# find old mend output
+
+```{r}
+
+# system(paste("find /private/groups/treehouse/archive/downstream/TH01_0053_S01/secondary/ -iname *qc*"), intern=TRUE)
+
+MEND_file_name <- "bam_umend_qc.tsv" # readDist.txt_*
+get_readDist_file_path <- function(secondary_path){
+  system(paste("find", secondary_path, paste0("-iname ", MEND_file_name)), intern = TRUE)[1]
+}
+
+
+candidate_MEND_output_locations <- tertiary_output_locations %>%
+  mutate(secondary_path = paste0(downstream_dir, sample_id, "/secondary/"),
+         candidate_mend_file = map(secondary_path, get_readDist_file_path))  %>% 
+   unnest(candidate_mend_file) %>%
+mutate(output_exists = file.exists(candidate_mend_file))
+
+table(candidate_MEND_output_locations$output_exists)
+
+mend_results <- candidate_MEND_output_locations %>%
+  filter(output_exists) %>%
+  filter(!grepl("_FAKE_", candidate_mend_file)) %>%
+  mutate(mend_results_raw = map(candidate_mend_file, read_tsv)) %>%
+  unnest(mend_results_raw)
+
+```
+
+# get gene lengths
+
+```{r}
+
+candidate_rsem_output_locations <- tibble(sample_id = sample_ids) %>%
+  mutate(rsem_file_path = paste0(downstream_dir,
+                            sample_id,
+                            "/secondary/",
+                            "ucsc_cgl-rnaseq-cgl-pipeline-3.3.4-785eee9/RSEM/Hugo/rsem_genes.hugo.results"),
+         output_exists = file.exists(rsem_file_path))
+
+table(candidate_rsem_output_locations$output_exists)
+
+rsem_results_raw <- candidate_rsem_output_locations %>%
+  filter(output_exists) %>%
+  mutate(rsem_results_raw = map(rsem_file_path, read_tsv)) %>%
+  unnest(rsem_results_raw)
+
+rsem_results_selected <- rsem_results_raw %>%
+  select(sample_id, gene_name, effective_length) %>%
+  group_by(sample_id, gene_name) %>%
+  summarize(effective_length = median(effective_length))
+
+```
+
+
+```{r}
+
+outlier_probability_input <- mend_results %>%
+  select(sample_id, MEND=estExonicUniqMappedNonDupeReadCount) %>%
+  left_join( outlier_data, by =c("sample_id"="Sample")) %>%
+  left_join(rsem_results_selected, by=c("sample_id", "Gene"="gene_name")) %>%
+  select(-file_path)
+
+write_tsv(outlier_probability_input, paste0("outlier_probability_input_", output_id, ".tsv"))
+```
+
+
+

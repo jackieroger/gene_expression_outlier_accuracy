@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	STXBP2	Down	3.04614178164	3.05194711685	0.19057994099259395	13.631735451337025	9.659090909090908	15.789473684210526	12.250712250712251	15.789473684210526	15.654205607476634	14.805194805194805	9.659090909090908

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	TNFAIP8L3	Up	4.36597242759	4.2229757309	3.275254231711529	98.22786986640926	97.64453961456103	98.64864864864865	98.08102345415777	98.6	98.64864864864865	98.1651376146789	97.64453961456103

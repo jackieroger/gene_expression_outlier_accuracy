@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CSPG4P13	Up	0.604071323669	0.387328118086	35.88039972938098	87.57924587183312	82.3828345567476	94.0089228808158	85.39959016393442	90.37172455819622	94.0089228808158	85.7331571994716	82.3828345567476

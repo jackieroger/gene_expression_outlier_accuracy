@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PNLDC1	Up	0.871843648509	0.533111453056	38.85240157822899	75.96583242512561	68.24953445065177	83.56573705179284	68.24953445065177	83.56573705179284	81.81818181818183	75.11627906976744	71.07942973523421

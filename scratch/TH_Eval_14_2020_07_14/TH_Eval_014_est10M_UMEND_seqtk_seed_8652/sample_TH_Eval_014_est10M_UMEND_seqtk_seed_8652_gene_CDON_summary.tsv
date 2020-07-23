@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CDON	Up	5.22689381357	5.16251039505	1.2317720775740424	98.44331438877349	97.24454649827784	99.68253968253968	98.19277108433735	99.68253968253968	99.65556831228473	97.44114636642784	97.24454649827784

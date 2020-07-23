@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PDZRN3-AS1	Up	0.333423733725	0.210507676005	36.86481953362632	71.37405569678582	60.81661891117478	87.18473074301295	60.81661891117478	75.81903276131045	87.18473074301295	70.61524334251607	62.434652725914866

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	ITIH4-AS1	Up	0.575312330687	0.277918636799	51.69256385185976	78.23289752575812	69.19398907103826	90.64148847542349	70.90412621359224	84.8582474226804	90.64148847542349	75.56663644605621	69.19398907103826

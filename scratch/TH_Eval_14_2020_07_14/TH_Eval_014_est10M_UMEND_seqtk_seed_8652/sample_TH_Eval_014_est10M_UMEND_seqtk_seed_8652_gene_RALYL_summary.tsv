@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	RALYL	Up	0.53605290024	0.344080448151	35.812221518258866	76.68989264304851	68.07359307359307	90.42792792792793	68.07359307359307	81.14478114478115	90.42792792792793	75.58282208588956	68.22033898305084

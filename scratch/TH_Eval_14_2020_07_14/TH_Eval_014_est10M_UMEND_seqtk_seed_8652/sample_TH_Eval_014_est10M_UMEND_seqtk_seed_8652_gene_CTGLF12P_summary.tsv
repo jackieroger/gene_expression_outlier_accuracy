@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CTGLF12P	Up	2.65764000521	2.56974077225	3.307416835526404	69.02307755700957	61.1731843575419	76.64835164835165	64.3979057591623	76.64835164835165	74.44168734491315	68.45425867507886	61.1731843575419

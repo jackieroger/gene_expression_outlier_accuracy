@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	NALCN-AS1	Up	0.948600847493	0.141808778048	85.05074305775945	92.2693803838951	89.44444444444444	97.36147757255937	90.65656565656566	89.44444444444444	97.36147757255937	92.83582089552239	91.04859335038363

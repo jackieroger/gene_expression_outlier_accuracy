@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CORO7	Up	6.54751152364	6.50743722916	0.612053821292419	84.63417785798262	79.6934865900383	91.14391143911439	80.6930693069307	90.99526066350711	91.14391143911439	79.6934865900383	80.64516129032258

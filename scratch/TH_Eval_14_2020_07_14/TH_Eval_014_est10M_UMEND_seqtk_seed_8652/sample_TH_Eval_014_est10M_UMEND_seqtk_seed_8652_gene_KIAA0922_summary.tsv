@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	KIAA0922	Up	5.22997238511	5.18319797516	0.8943529048675172	95.1338746464808	91.50401836969002	98.1630309988519	94.97991967871486	97.77777777777777	98.1630309988519	93.24462640736951	91.50401836969002

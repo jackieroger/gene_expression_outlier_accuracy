@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	KCNC1	Up	0.584962500721	0.419368445873	28.308490654340368	82.86853581319427	76.45398080180689	90.6947100063735	80.48155737704919	86.59354052407069	90.6947100063735	80.11889035667107	76.45398080180689

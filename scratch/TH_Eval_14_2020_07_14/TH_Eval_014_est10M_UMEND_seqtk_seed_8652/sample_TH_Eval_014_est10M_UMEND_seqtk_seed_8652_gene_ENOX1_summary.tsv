@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	ENOX1	Up	4.15299460549	4.11489439011	0.9174154796549452	67.69841747284332	59.72222222222222	76.36363636363637	63.26530612244898	75.10822510822511	76.36363636363637	64.03269754768392	59.72222222222222

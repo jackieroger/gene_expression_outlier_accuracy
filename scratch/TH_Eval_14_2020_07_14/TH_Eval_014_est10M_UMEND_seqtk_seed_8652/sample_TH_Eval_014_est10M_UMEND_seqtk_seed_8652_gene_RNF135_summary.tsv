@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	RNF135	Down	1.66448284036	1.7401008606	4.5430339326084574	80.97152154250868	76.25698324022346	86.848635235732	78.27225130890052	84.61538461538461	86.848635235732	78.86435331230284	76.25698324022346

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	ZNF747	Down	0.50589092973	1.34831690788	166.52324219365082	99.38690271084566	99.09909909909909	99.60629921259843	99.09909909909909	99.60629921259843	99.44649446494465	99.33920704845815	99.44341372912801

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	IBA57-AS1	Up	1.15704371015	1.07273507118	7.286556093811704	60.921612390816776	52.14477211796247	70.08	52.14477211796247	70.08	69.96124031007753	55.91647331786543	56.50557620817844

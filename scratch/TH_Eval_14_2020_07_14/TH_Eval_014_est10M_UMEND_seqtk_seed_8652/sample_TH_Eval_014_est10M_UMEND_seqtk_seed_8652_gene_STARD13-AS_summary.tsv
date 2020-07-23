@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	STARD13-AS	Up	1.33913738492	0.769867837429	42.5101676572944	99.65234936464752	99.1869918699187	100	99.51456310679612	99.1869918699187	100	99.76019184652279	99.8

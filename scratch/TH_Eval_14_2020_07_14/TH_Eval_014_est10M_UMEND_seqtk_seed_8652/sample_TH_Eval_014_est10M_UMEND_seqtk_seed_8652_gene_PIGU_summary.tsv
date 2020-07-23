@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PIGU	Up	6.37573453858	6.31266498566	0.9892123415484433	93.53422346811331	90.0804289544236	97.56756756756756	92.85714285714286	97.56756756756756	97.08333333333333	90.08264462809917	90.0804289544236

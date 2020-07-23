@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	COX5BP6	Up	1.60880924268	1.10930132866	31.048299622390633	80.6868340231415	71.11111111111111	88.65248226950354	72.72727272727273	88.65248226950354	87.87878787878788	83.06451612903226	71.11111111111111

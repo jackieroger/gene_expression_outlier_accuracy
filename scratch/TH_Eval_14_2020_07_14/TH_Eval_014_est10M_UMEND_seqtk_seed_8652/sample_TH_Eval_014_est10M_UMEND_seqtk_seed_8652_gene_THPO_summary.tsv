@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	THPO	Up	2.11769504267	1.99358069897	5.86082231856745	82.2118315224077	74.42922374429224	89.40677966101694	74.42922374429224	86.48648648648648	89.40677966101694	83.97129186602871	76.76537585421413

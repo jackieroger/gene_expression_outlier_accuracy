@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CYB561A3	Down	2.95977015521	3.02938461304	2.352022426723216	55.69234413487382	48.60335195530726	64.83516483516483	48.952879581151834	64.83516483516483	64.01985111662532	52.05047318611987	48.60335195530726

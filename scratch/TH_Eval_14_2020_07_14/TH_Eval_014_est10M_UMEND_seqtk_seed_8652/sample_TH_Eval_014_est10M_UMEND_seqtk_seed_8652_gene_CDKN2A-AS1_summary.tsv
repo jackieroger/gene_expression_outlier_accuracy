@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CDKN2A-AS1	Up	0.432959407276	0.409074544907	5.516651669327062	18.853636581093614	16.458622283865	25.75266327003242	17.91111111111111	25.75266327003242	17.4361088211047	16.709677419354836	16.458622283865

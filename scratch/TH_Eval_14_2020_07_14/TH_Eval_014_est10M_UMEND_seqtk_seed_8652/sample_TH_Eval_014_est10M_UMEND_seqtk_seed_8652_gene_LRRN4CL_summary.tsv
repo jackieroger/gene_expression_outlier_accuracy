@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	LRRN4CL	Up	3.12101540096	3.08791041374	1.0607120749810262	72.75596583829359	64.81481481481481	81.13636363636364	69.61451247165533	79.004329004329	81.13636363636364	69.20980926430518	64.81481481481481

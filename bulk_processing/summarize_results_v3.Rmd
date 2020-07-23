@@ -226,13 +226,90 @@ ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
   ylab("Gene expression measurements") +
   ggtitle("Accuracies of up and down outlier gene expression measurements")
 
+ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_all.png")
+
 ```
 
 # Distributions of accuracies for different expressions, depths, and lengths (boxplots for figure 1)
 
 ```{r, echo=FALSE}
 
-ups <- bulk_results %>% dplyr::filter(Type == "Up")
-downs <- bulk_results %>% dplyr::filter(Type == "Down")
+figure1_data <- bulk_results %>%
+  mutate(exp_gt5 = Expression >= 5,
+         depth_gt20 = MEND_bin >= 20,
+         length_gt1000 = effective_length >= 1000)
+
+# Expression above or below 5
+
+ggplot(subset(figure1_data, Type == "Up"), aes(x=exp_gt5, y=Mean_Accuracy)) +
+  geom_boxplot() +
+  coord_flip() +
+  theme_bw() +
+  scale_x_discrete(labels=c("TRUE"="Exp >= 5", "FALSE"="Exp < 5")) +
+  ylab("Accuracy") +
+  xlab("Expression above or below 5 log2(TPM+1)") +
+  ggtitle("Accuracies of up outliers with high and low expression")
+
+ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_up_exp.png")
+
+ggplot(subset(figure1_data, Type == "Down"), aes(x=exp_gt5, y=Mean_Accuracy)) +
+  geom_boxplot() +
+  coord_flip() +
+  theme_bw() +
+  scale_x_discrete(labels=c("TRUE"="Exp >= 5", "FALSE"="Exp < 5")) +
+  ylab("Accuracy") +
+  xlab("Gene expression above or below 5 log2(TPM+1)") +
+  ggtitle("Accuracies of down outliers with high and low gene expression")
+
+ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_down_exp.png")
+
+# Depth above or below 20
+
+ggplot(subset(figure1_data, Type == "Up"), aes(x=depth_gt20, y=Mean_Accuracy)) +
+  geom_boxplot() +
+  coord_flip() +
+  theme_bw() +
+  scale_x_discrete(labels=c("TRUE"="Depth >= 20", "FALSE"="Depth < 20")) +
+  ylab("Accuracy") +
+  xlab("MEND depth above or below 20 million MEND reads") +
+  ggtitle("Accuracies of up outliers with high and low MEND depth")
+
+ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_up_depth.png")
+
+ggplot(subset(figure1_data, Type == "Down"), aes(x=depth_gt20, y=Mean_Accuracy)) +
+  geom_boxplot() +
+  coord_flip() +
+  theme_bw() +
+  scale_x_discrete(labels=c("TRUE"="Depth >= 20", "FALSE"="Depth < 20")) +
+  ylab("Accuracy") +
+  xlab("MEND depth above or below 20 million MEND reads") +
+  ggtitle("Accuracies of down outliers with high and low MEND depth")
+
+ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_down_depth.png")
+
+# Length above or below 1000
+
+ggplot(subset(figure1_data, Type == "Up"), aes(x=length_gt1000, y=Mean_Accuracy)) +
+  geom_boxplot() +
+  coord_flip() +
+  theme_bw() +
+  scale_x_discrete(labels=c("TRUE"="Length >= 1000", "FALSE"="Length < 1000")) +
+  ylab("Accuracy") +
+  xlab("Gene length above or below 1000 base pairs") +
+  ggtitle("Accuracies of up outliers with high and low gene length")
+
+ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_up_length.png")
+
+ggplot(subset(figure1_data, Type == "Down"), aes(x=length_gt1000, y=Mean_Accuracy)) +
+  geom_boxplot() +
+  coord_flip() +
+  theme_bw() +
+  scale_x_discrete(labels=c("TRUE"="Length >= 1000", "FALSE"="Length < 1000")) +
+  ylab("Accuracy") +
+  xlab("Gene length above or below 1000 base pairs") +
+  ggtitle("Accuracies of down outliers with high and low gene length")
+
+ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_down_length.png")
 
 ```
+

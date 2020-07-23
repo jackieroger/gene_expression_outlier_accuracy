@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MAFA-AS1	Up	2.45154083302	1.31546032429	46.34148831738965	99.52076388060608	98.88475836431226	100	99.32975871313673	99.68	99.70930232558139	100	98.88475836431226

@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	KCNJ14	Up	2.12101540096	1.85466277599	12.557788352194205	98.92386001604154	98.1143193871538	99.57310565635005	98.95738893925657	99.30875576036865	99.57310565635005	98.66573033707866	98.1143193871538

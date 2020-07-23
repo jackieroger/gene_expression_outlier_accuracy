@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	FBXO10	Up	4.34837407519	4.13247203827	4.965121058738848	99.66080183638162	99.19865035849853	99.95625546806649	99.8949027850762	99.83029274501484	99.95625546806649	99.42390782525204	99.19865035849853

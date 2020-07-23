@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PGM5P3-AS1	Up	1.35049724708	1.02883481979	23.818073527027757	96.14964281321926	93.86617100371747	98.54651162790698	93.96782841823055	98.08	98.54651162790698	96.2877030162413	93.86617100371747

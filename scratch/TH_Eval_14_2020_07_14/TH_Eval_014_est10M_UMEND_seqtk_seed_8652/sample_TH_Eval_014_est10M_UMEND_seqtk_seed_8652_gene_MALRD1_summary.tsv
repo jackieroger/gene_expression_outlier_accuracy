@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MALRD1	Up	1.25701061821	1.17077827454	6.860112589406453	86.10953556953129	79.90867579908677	92.79661016949152	79.90867579908677	89.1891891891892	92.79661016949152	87.5598086124402	81.09339407744875

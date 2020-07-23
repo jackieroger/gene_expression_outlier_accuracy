@@ -1,0 +1,2 @@
+Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	ERICH6B	Up	1.94860084749	1.31211495399	32.663738924257366	98.5490841763636	97.76951672862454	99.52	97.85522788203752	99.52	99.2248062015504	98.37587006960557	97.76951672862454
