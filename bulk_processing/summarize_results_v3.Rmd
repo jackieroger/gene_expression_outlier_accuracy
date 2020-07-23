@@ -27,7 +27,7 @@ This data comes from the CKCC1 outlier results.
 samples <- list.files(path="/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/")
 first <- TRUE
 
-for (s in samples[61:80]) {
+for (s in samples) {
   curr_wd <- paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/", s, "/")
   setwd(curr_wd)
   leads <- list.files(path=curr_wd) %>%
@@ -41,19 +41,65 @@ for (s in samples[61:80]) {
   }
 }
 
-# start of scratch
+# start of scratch to deal with T gene mess
 
-results_all <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results_all.tsv")
+results_all <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/old-results_all.tsv")
 
-for (s in samples[100:115]) {
-  curr_wd <- paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/", s, "/")
-  setwd(curr_wd)
-  leads <- list.files(path=curr_wd) %>%
-    lapply(read_tsv) %>%
-    bind_rows
-  results_all <- bind_rows(results_all, leads)
-  bind_rows(mutate_all(results_all, as.character), mutate_all(leads, as.character))
+# change T to TT and then unchange in tsv file
+
+problem1 <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/TH03_0012_S02/sample_TH03_0012_S02_gene_T_summary.tsv", col_types = list(Gene = col_character())) %>% type_convert
+
+problem1$Gene <- "T"
+
+# change T to TT and then unchange in tsv file
+
+problem2 <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/TH03_0146_S01/sample_TH03_0146_S01_gene_T_summary.tsv", col_types = list(Gene = col_character())) %>% type_convert
+
+problem2$Gene <- "T"
+
+# delete T gene summary file from directory and then undelete after this code chunk
+
+s1 <- "TH03_0012_S02"
+first <- TRUE
+curr_wd <- paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/", s1, "/")
+setwd(curr_wd)
+lead_files <- list.files(path=curr_wd)
+for (l in lead_files) {
+  print(l)
+  linfo <- read_tsv(l) %>% type_convert
+  if (first == TRUE) {
+    leads <- linfo
+    first <- FALSE
+  } else {
+    leads <- bind_rows(leads, linfo)
+  }
 }
+leads1 <- leads
+
+# delete T gene summary file from directory and then undelete after this code chunk
+
+s2 <- "TH03_0146_S01"
+first <- TRUE
+curr_wd <- paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/", s2, "/")
+setwd(curr_wd)
+lead_files <- list.files(path=curr_wd)
+for (l in lead_files) {
+  print(l)
+  linfo <- read_tsv(l) %>% type_convert
+  if (first == TRUE) {
+    leads <- linfo
+    first <- FALSE
+  } else {
+    leads <- bind_rows(leads, linfo)
+  }
+}
+leads2 <- leads
+  
+test <- bind_rows(results_all, problem1, problem2, leads1, leads2)
+
+# this worked so now this is the new results_all
+
+results_all <- test
 
 write_tsv(results_all, paste0("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results_all.tsv"))
 
@@ -92,7 +138,7 @@ results_all_long <- results_all_with_depth_and_length %>%
   mutate(MEND_bin = round((MEND_depth/1e6) / 4) * 4,
          MEND_bin = ifelse(MEND_depth>44*1e6, 44, MEND_bin),
          Expression_bin = expression_bins_all[findInterval(Expression, exp_bins)],
-         length_bin = length_bins_all[findInterval(effective_gene_length, length_bins)])
+         length_bin = length_bins_all[findInterval(effective_length, length_bins)])
 
 # Save data to file to load it in the future
 
@@ -133,7 +179,7 @@ plot1
 
 # Make sure (depth, expression, length) bins are relatively similar sizes
 
-all_bins <- bulk_results %>% tabyl(MEND_bin, Expression_bin, Length_bin)
+all_bins <- bulk_results %>% tabyl(MEND_bin, Expression_bin, length_bin)
 
 all_bins
 
@@ -159,7 +205,7 @@ plot3
 
 plot4 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
   geom_histogram() +
-  facet_wrap(~Length_bin) +
+  facet_wrap(~length_bin) +
   ggtitle("Spectrum of accuracies by effective gene length")
 
 plot4
@@ -170,12 +216,15 @@ plot4
 
 ```{r, echo=FALSE}
 
-plot5 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
-  geom_histogram() +
-  facet_wrap(~Type) +
-  ggtitle("Spectrum of accuracies by outlier type")
+bulk_results$Type <- factor(bulk_results$Type, levels = c("Up", "Down"))
 
-plot5
+ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
+  geom_histogram(fill="white") +
+  facet_wrap(~Type, scales="free") +
+  theme_bw() +
+  xlab("Accuracy") +
+  ylab("Gene expression measurements") +
+  ggtitle("Accuracies of up and down outlier gene expression measurements")
 
 ```
 
@@ -183,6 +232,7 @@ plot5
 
 ```{r, echo=FALSE}
 
-plot6
+ups <- bulk_results %>% dplyr::filter(Type == "Up")
+downs <- bulk_results %>% dplyr::filter(Type == "Down")
 
 ```
