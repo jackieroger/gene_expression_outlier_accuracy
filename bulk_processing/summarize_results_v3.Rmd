@@ -7,7 +7,7 @@ output:
     toc: yes
 ---
 
-```{r setup, echo=FALSE}
+```{r setup}
 
 library(tidyverse)
 library(dplyr)
@@ -22,7 +22,7 @@ This data comes from the CKCC1 outlier results.
 
 ## Load data and create summary tsv (only run once)
 
-```{r, echo=FALSE}
+```{r}
 
 samples <- list.files(path="/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/")
 first <- TRUE
@@ -148,7 +148,7 @@ write_tsv(results_all_long, paste0("/Users/jacquelynroger/Documents/research/tre
 
 ## Load summary tsv
 
-```{r, echo=FALSE}
+```{r}
 
 bulk_results <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/bulk_processing/results_all_long.tsv", col_types=cols())
 
@@ -158,7 +158,7 @@ bulk_results <- bulk_results[-c(8:14)]
 
 ## Number of outlier leads per sample
 
-```{r, echo=FALSE}
+```{r}
 
 # Histogram of number of outlier leads per sample (split by outlier type & fill is depth)
 
@@ -175,7 +175,7 @@ plot1
 
 ## Look at bin sizes
 
-```{r, echo=FALSE}
+```{r}
 
 # Make sure (depth, expression, length) bins are relatively similar sizes
 
@@ -187,7 +187,7 @@ all_bins
 
 ## Spectrum of accuracies by depth, expression, and length
 
-```{r, echo=FALSE}
+```{r}
 
 plot2 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
   geom_histogram() +
@@ -214,7 +214,7 @@ plot4
 
 # Spectrum of accuracies by outlier type (histograms for figure 1)
 
-```{r, echo=FALSE}
+```{r}
 
 bulk_results$Type <- factor(bulk_results$Type, levels = c("Up", "Down"))
 
@@ -232,7 +232,7 @@ ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_express
 
 # Distributions of accuracies for different expressions, depths, and lengths (boxplots for figure 1)
 
-```{r, echo=FALSE}
+```{r}
 
 figure1_data <- bulk_results %>%
   mutate(exp_gt5 = Expression >= 5,
@@ -248,7 +248,7 @@ ggplot(subset(figure1_data, Type == "Up"), aes(x=exp_gt5, y=Mean_Accuracy)) +
   scale_x_discrete(labels=c("TRUE"="Exp >= 5", "FALSE"="Exp < 5")) +
   ylab("Accuracy") +
   xlab("Expression above or below 5 log2(TPM+1)") +
-  ggtitle("Accuracies of up outliers with high and low expression")
+  ggtitle("Accuracies of up outliers with high and low gene expression")
 
 ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_up_exp.png")
 
@@ -272,7 +272,7 @@ ggplot(subset(figure1_data, Type == "Up"), aes(x=depth_gt20, y=Mean_Accuracy)) +
   scale_x_discrete(labels=c("TRUE"="Depth >= 20", "FALSE"="Depth < 20")) +
   ylab("Accuracy") +
   xlab("MEND depth above or below 20 million MEND reads") +
-  ggtitle("Accuracies of up outliers with high and low MEND depth")
+  ggtitle("Accuracies of up outliers with high and low MEND read depth")
 
 ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_up_depth.png")
 
@@ -283,7 +283,7 @@ ggplot(subset(figure1_data, Type == "Down"), aes(x=depth_gt20, y=Mean_Accuracy))
   scale_x_discrete(labels=c("TRUE"="Depth >= 20", "FALSE"="Depth < 20")) +
   ylab("Accuracy") +
   xlab("MEND depth above or below 20 million MEND reads") +
-  ggtitle("Accuracies of down outliers with high and low MEND depth")
+  ggtitle("Accuracies of down outliers with high and low MEND read depth")
 
 ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_down_depth.png")
 
@@ -296,7 +296,7 @@ ggplot(subset(figure1_data, Type == "Up"), aes(x=length_gt1000, y=Mean_Accuracy)
   scale_x_discrete(labels=c("TRUE"="Length >= 1000", "FALSE"="Length < 1000")) +
   ylab("Accuracy") +
   xlab("Gene length above or below 1000 base pairs") +
-  ggtitle("Accuracies of up outliers with high and low gene length")
+  ggtitle("Accuracies of up outliers with high and low effective gene length")
 
 ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_up_length.png")
 
@@ -307,9 +307,46 @@ ggplot(subset(figure1_data, Type == "Down"), aes(x=length_gt1000, y=Mean_Accurac
   scale_x_discrete(labels=c("TRUE"="Length >= 1000", "FALSE"="Length < 1000")) +
   ylab("Accuracy") +
   xlab("Gene length above or below 1000 base pairs") +
-  ggtitle("Accuracies of down outliers with high and low gene length")
+  ggtitle("Accuracies of down outliers with high and low effective gene length")
 
 ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/accuracies_down_length.png")
+
+```
+
+Random calculations for the paper
+
+```{r}
+
+# Average number of up and down outliers per sample
+
+mean(subset(num_leads, Type == "Up")$n)
+mean(subset(num_leads, Type == "Down")$n)
+
+median(subset(num_leads, Type == "Up")$n)
+median(subset(num_leads, Type == "Down")$n)
+
+# Average accuracies of up and down outliers per sample
+
+mean(subset(figure1_data, Type == "Up" & !is.na(Mean_Accuracy))$Mean_Accuracy)
+mean(subset(figure1_data, Type == "Down" & !is.na(Mean_Accuracy))$Mean_Accuracy)
+
+median(subset(figure1_data, Type == "Up" & !is.na(Mean_Accuracy))$Mean_Accuracy)
+median(subset(figure1_data, Type == "Down" & !is.na(Mean_Accuracy))$Mean_Accuracy)
+
+# Fraction of accuracies above 95%
+
+count(subset(figure1_data, Type == "Up" & Mean_Accuracy>95)) /
+  count(subset(figure1_data, Type == "Up"))
+
+count(subset(figure1_data, Type == "Down" & Mean_Accuracy>95)) /
+  count(subset(figure1_data, Type == "Down"))
+
+count(subset(figure1_data, Mean_Accuracy>95)) /
+  count(figure1_data)
+
+# the bump in distribution due to the 0-1 crowd
+
+median(subset(figure1_data, Expression_bin == "0-1")$Mean_Accuracy)
 
 ```
 
