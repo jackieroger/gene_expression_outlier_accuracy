@@ -1,0 +1,60 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+  
+
+
+```{r setup, include = FALSE}
+
+library(tidyverse)
+
+```
+
+
+```{r}
+
+data_release_id <- "CKCC_outlier_lead_accuracy.results.2020_07_17"
+
+source_data_base_dir <- "/Users/hbeale/Downloads/CKCC_outlier_lead_accuracy.results.2020_07_17"
+
+accuracy_calcs_input <- "/Users/hbeale/Downloads/outlier_probability_input_CKCC_2020_07_13_batch1.tsv"
+
+```
+
+
+
+```{r}
+
+results_files <- list.files(path=source_data_base_dir, pattern = ".tsv", recursive = TRUE) 
+
+# test import of one file
+# read_tsv(file.path(source_data_base_dir, results_files)[1], col_types = results_col_spec)
+
+results_col_spec <- as.col_spec("cccddddddddddd")
+
+gathered_results_raw <- map(file.path(source_data_base_dir, results_files), 
+                            ~read_tsv(.x, col_types = results_col_spec)) %>%
+  bind_rows
+
+# (effective_length, depth)
+
+input_data <- read_tsv(accuracy_calcs_input)
+
+data_to_add_to_results <- input_data %>%
+  select(Sample=sample_id, MEND_depth=MEND, Gene, effective_length) %>%
+  distinct()
+
+gathered_results <- data_to_add_to_results %>% 
+  inner_join(gathered_results_raw,
+            by=c("Sample", "Gene"))
+
+# Save data to file to load it in the future
+write_tsv(gathered_results, paste0("bulk_results.", data_release_id, ".tsv.gz"))
+
+```
+
