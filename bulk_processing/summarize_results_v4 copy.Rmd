@@ -13,7 +13,6 @@ library(tidyverse)
 library(dplyr)
 library(tidyr)
 library(janitor)
-library(cowplot)
 
 ```
 
@@ -181,7 +180,7 @@ figure1_data <- bulk_results %>%
 
 # Expression above or below 5
 
-ggplot(subset(figure1_data, Type == "Up"), aes(x=exp_gt5, y=Mean_Accuracy)) +
+uge <- ggplot(subset(figure1_data, Type == "Up"), aes(x=exp_gt5, y=Mean_Accuracy)) +
   geom_boxplot() +
   coord_flip() +
   theme_bw() +
@@ -190,9 +189,10 @@ ggplot(subset(figure1_data, Type == "Up"), aes(x=exp_gt5, y=Mean_Accuracy)) +
   xlab("Expression above or below 5 log2(TPM+1)") +
   ggtitle("Accuracies of up outliers with high and low gene expression")
 
-ggsave("..//figures/accuracies_up_exp.png")
+uge
+ggsave("../figures/accuracies_up_exp.png", plot = uge)
 
-ggplot(subset(figure1_data, Type == "Down"), aes(x=exp_gt5, y=Mean_Accuracy)) +
+dge <- ggplot(subset(figure1_data, Type == "Down"), aes(x=exp_gt5, y=Mean_Accuracy)) +
   geom_boxplot() +
   coord_flip() +
   theme_bw() +
@@ -201,11 +201,12 @@ ggplot(subset(figure1_data, Type == "Down"), aes(x=exp_gt5, y=Mean_Accuracy)) +
   xlab("Gene expression above or below 5 log2(TPM+1)") +
   ggtitle("Accuracies of down outliers with high and low gene expression")
 
-ggsave("..//figures/accuracies_down_exp.png")
+dge
+ggsave("../figures/accuracies_down_exp.png", dge)
 
 # Depth above or below 20
 
-ggplot(subset(figure1_data, Type == "Up"), aes(x=depth_gt20, y=Mean_Accuracy)) +
+urd <- ggplot(subset(figure1_data, Type == "Up"), aes(x=depth_gt20, y=Mean_Accuracy)) +
   geom_boxplot() +
   coord_flip() +
   theme_bw() +
@@ -214,9 +215,10 @@ ggplot(subset(figure1_data, Type == "Up"), aes(x=depth_gt20, y=Mean_Accuracy)) +
   xlab("MEND depth above or below 20 million MEND reads") +
   ggtitle("Accuracies of up outliers with high and low MEND read depth")
 
-ggsave("..//figures/accuracies_up_depth.png")
+urd
+ggsave("../figures/accuracies_up_depth.png", urd)
 
-ggplot(subset(figure1_data, Type == "Down"), aes(x=depth_gt20, y=Mean_Accuracy)) +
+drd <- ggplot(subset(figure1_data, Type == "Down"), aes(x=depth_gt20, y=Mean_Accuracy)) +
   geom_boxplot() +
   coord_flip() +
   theme_bw() +
@@ -225,11 +227,12 @@ ggplot(subset(figure1_data, Type == "Down"), aes(x=depth_gt20, y=Mean_Accuracy))
   xlab("MEND depth above or below 20 million MEND reads") +
   ggtitle("Accuracies of down outliers with high and low MEND read depth")
 
-ggsave("..//figures/accuracies_down_depth.png")
+drd
+ggsave("../figures/accuracies_down_depth.png", drd)
 
 # Length above or below 1000
 
-ggplot(subset(figure1_data, Type == "Up"), aes(x=length_gt1000, y=Mean_Accuracy)) +
+ugl <- ggplot(subset(figure1_data, Type == "Up"), aes(x=length_gt1000, y=Mean_Accuracy)) +
   geom_boxplot() +
   coord_flip() +
   theme_bw() +
@@ -238,9 +241,10 @@ ggplot(subset(figure1_data, Type == "Up"), aes(x=length_gt1000, y=Mean_Accuracy)
   xlab("Gene length above or below 1000 base pairs") +
   ggtitle("Accuracies of up outliers with high and low effective gene length")
 
-ggsave("..//figures/accuracies_up_length.png")
+ugl
+ggsave("../figures/accuracies_up_length.png", ugl)
 
-ggplot(subset(figure1_data, Type == "Down"), aes(x=length_gt1000, y=Mean_Accuracy)) +
+dgl <- ggplot(subset(figure1_data, Type == "Down"), aes(x=length_gt1000, y=Mean_Accuracy)) +
   geom_boxplot() +
   coord_flip() +
   theme_bw() +
@@ -249,11 +253,29 @@ ggplot(subset(figure1_data, Type == "Down"), aes(x=length_gt1000, y=Mean_Accurac
   xlab("Gene length above or below 1000 base pairs") +
   ggtitle("Accuracies of down outliers with high and low effective gene length")
 
-ggsave("..//figures/accuracies_down_length.png")
+dgl
+ggsave("../figures/accuracies_down_length.png", dgl)
 
 ```
+# Combine figures
+```{r fig.height=7, fig.width=8}
+library(cowplot)
 
+sub_plots <- plot_grid(
+  uge + xlab("") + ggtitle("Accuracies of up outliers by gene expression"), 
+          dge + xlab("") + ggtitle("Accuracies of down outliers by gene expression"), 
+          urd + xlab("") + ggtitle("Accuracies of up outliers by sequence depth"), 
+          drd + xlab("") + ggtitle("Accuracies of down outliers by sequence depth"), 
+          ugl + xlab("") + ggtitle("Accuracies of up outliers by gene length"), 
+          dgl + xlab("") + ggtitle("Accuracies of down outliers by gene length"), 
+        ncol = 2)
+  
+combined_image <- plot_grid(acc_overview, sub_plots, ncol = 1, rel_heights = c(1,2))
+  
+combined_image
+#ggsave("../figures/accuracy_comparisons.png", combined_image, width = 6, height = 14)
 
+```
 
 # Look at the distribution of percent difference values to pick a split
 ```{r}
@@ -262,48 +284,6 @@ ggsave("..//figures/accuracies_down_length.png")
 summary(bulk_results$`Percent difference`)
 ```
 
-# StatBin2 function def
-```{r}
-
-
-# StatBin2 allows depiction of empty bins as blank instead of a horizontal line:
-# https://stackoverflow.com/questions/57128090/remove-baseline-color-for-geom-histogram
-StatBin2 <- ggproto(
-  "StatBin2", 
-  StatBin,
-  compute_group = function (data, scales, binwidth = NULL, bins = NULL, 
-                            center = NULL, boundary = NULL, 
-                            closed = c("right", "left"), pad = FALSE, 
-                            breaks = NULL, origin = NULL, right = NULL, 
-                            drop = NULL, width = NULL) {
-    if (!is.null(breaks)) {
-      if (!scales$x$is_discrete()) {
-        breaks <- scales$x$transform(breaks)
-      }
-      bins <- ggplot2:::bin_breaks(breaks, closed)
-    }
-    else if (!is.null(binwidth)) {
-      if (is.function(binwidth)) {
-        binwidth <- binwidth(data$x)
-      }
-      bins <- ggplot2:::bin_breaks_width(scales$x$dimension(), binwidth, 
-                                         center = center, boundary = boundary, 
-                                         closed = closed)
-    }
-    else {
-      bins <- ggplot2:::bin_breaks_bins(scales$x$dimension(), bins, 
-                                        center = center, boundary = boundary, 
-                                        closed = closed)
-    }
-    res <- ggplot2:::bin_vector(data$x, bins, weight = data$weight, pad = pad)
-
-    # drop 0-count bins completely before returning the dataframe
-    res <- res[res$count > 0, ] 
-
-    res
-  })
- 
-```
 
 ```{r figure-1}
 
@@ -316,13 +296,11 @@ type_colors = c(Up = "#E41A1C", Down = "#377EB8")
 bulk_results$Type <- factor(bulk_results$Type, levels = c("Up", "Down"))
 
 acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
-  geom_histogram(fill="white", stat = StatBin2) +
+  geom_histogram(fill="white") +
   facet_wrap(~Type, scales="free") +
   theme_bw() +
   scale_color_manual(values = type_colors) +
-  theme(legend.position="none") +
-  xlab("") +
-  ylab("Gene\nexpression\nmeasurements")
+  theme(legend.position="none")
 
 expr_split <- 5
 depth_split <- 20
@@ -341,16 +319,13 @@ all_boxplots <- ggplot(figure1_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)
   scale_fill_manual(values = type_colors) +
   scale_color_manual(values = type_colors) +
   facet_wrap(~Type, ncol = 2) +
-  theme(legend.position="none") +
-  ylab("")
+  theme(legend.position="none")
 
 all_boxplots
 
 combined_image <- plot_grid(acc_overview, all_boxplots, ncol = 1, rel_heights = c(1,2), align = "v",
                   labels = "AUTO")
 combined_image
-
-ggsave("../figures/fig1.png", combined_image)
 
 ```
 
