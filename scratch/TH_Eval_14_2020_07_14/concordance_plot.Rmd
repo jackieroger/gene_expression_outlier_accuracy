@@ -61,19 +61,28 @@ Plot results
 
 accuracy_results %>% tabyl(Type, concordant)
 
-ggplot(accuracy_results) +
+
+accuracy_results_for_plot <- accuracy_results %>%
+  group_by(concordant, Type) %>%
+  mutate(box_label = paste0(c("Discordant", "Concordant")[1+concordant], " (n=",n(), ")"))
+
+
+ggplot(accuracy_results_for_plot) +
   geom_boxplot(aes(
     group = concordant,
-    x = concordant,
+    x = box_label,
     y = Mean_Accuracy,
     fill = concordant)) +
-  facet_wrap(~Type) +
+  facet_wrap(~Type, scales = "free_x") +
   theme_bw() +
-  scale_x_discrete(labels = c("TRUE" = "Concordant", "FALSE" = "Discordant")) +
+  scale_fill_brewer(palette="Paired") +
+#  scale_x_discrete(labels = c("TRUE" = "Concordant", "FALSE" = "Discordant")) +
   ylab("Accuracy") +
-  xlab("Concordance") +
-  ggtitle("Accuracies of concordant and disconcordant outlier calls")
+  xlab("") +
+#  xlab("Concordance") +
+  theme(legend.position="none") +
+  ggtitle("Accuracies of concordant and discordant outlier calls")
 
-ggsave("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/figures/concordance.png")
+ggsave("../../figures/concordance.png")
 
 ```
