@@ -14,6 +14,7 @@ library(dplyr)
 library(tidyr)
 library(janitor)
 library(cowplot)
+library(scales) # for comma_format
 
 ```
 
@@ -41,34 +42,52 @@ gathered_results <- read_tsv(paste0("bulk_results.", data_release_id, ".tsv.gz")
 # Add bin info
 ```{r}
 
-exp_bins <- c(0, 1, 3, 5, 7, 10)
-expression_bins_all <- c("0-1", "1-3", "3-5", "5-7", "7-10", "10+")
+expression_bin_boundaries <- c(0, 1, 3, 5, 7, 10, 20)
+mend_depth_bin_boundaries <- c(seq(0, 44, 4), Inf)*1E6
+length_bin_boundaries <- c(seq(0, 3000, 300), Inf)
 
-# length_bins <- c(0, 200, 400, 600, 800, 1000, 1200, 1500, 2000, 3000, 4000)
-# length_bins_all <- c("0-200",
-#                      "200-400",
-#                      "400-600",
-#                      "600-800",
-#                      "800-1000",
-#                      "1000-1200",
-#                      "1200-1500",
-#                      "1500-2000",
-#                      "2000-3000",
-#                      "3000-4000",
-#                      "4000+")
+make_bin_names <- function(boundaries = 1:10){
+  raw_names <- paste0(boundaries, "-", lead(boundaries)) %>% str_replace("-Inf", "+")
+  raw_names[1:(length(boundaries)-1)]
+}
+  
 
-length_bins <- seq(0, 3000, 300)
-length_bins_all <- paste(length_bins, lead(length_bins), sep = "-") %>%
-  str_replace("-NA", "+")
-
+expression_bin_names <- make_bin_names(expression_bin_boundaries)
+mend_depth_bin_names <- make_bin_names(mend_depth_bin_boundaries/1e6)
+length_bin_names <- make_bin_names(length_bin_boundaries)
 
 bulk_results <- gathered_results %>%
-  mutate(MEND_bin = round((MEND_depth/1e6) / 4) * 4,
-         MEND_bin = ifelse(MEND_depth>44*1e6, 44, MEND_bin),
-         Expression_bin = expression_bins_all[findInterval(Expression, exp_bins)],
-         length_bin = length_bins_all[findInterval(effective_length, length_bins)])
+  mutate(Expression_bin = cut(Expression, expression_bin_boundaries, 
+                              labels = expression_bin_names,
+                        include.lowest = TRUE),
+         MEND_bin = cut(MEND_depth, mend_depth_bin_boundaries, labels = mend_depth_bin_names),
+         length_bin = cut(effective_length, length_bin_boundaries, labels = length_bin_names,
+                                      include.lowest = TRUE)
+         )
 
-table(bulk_results$MEND_bin)
+```
+
+# How many bins are possible? How many contain entries?
+```{r}
+bin_check <- bulk_results %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n())
+
+nrow(bin_check)
+(length(expression_bin_boundaries)-1) * (length(mend_depth_bin_boundaries)-1) * (length(length_bin_boundaries)-1)
+
+
+# What size are bins?
+bin_check %>%
+  pull(n_entries_per_bin) %>%
+  summary
+
+# What size are bins?
+ggplot(bin_check) + geom_histogram(aes(x=n_entries_per_bin))
+
+# Which bins have only one entry?
+subset(bin_check, n_entries_per_bin == 1)
+
 ```
 
 # Confirm the absence of NA values
@@ -254,17 +273,8 @@ ggsave("..//figures/accuracies_down_length.png")
 ```
 
 
-
-# Look at the distribution of percent difference values to pick a split
-```{r}
-
-
-summary(bulk_results$`Percent difference`)
-```
-
 # StatBin2 function def
 ```{r}
-
 
 # StatBin2 allows depiction of empty bins as blank instead of a horizontal line:
 # https://stackoverflow.com/questions/57128090/remove-baseline-color-for-geom-histogram
@@ -302,9 +312,46 @@ StatBin2 <- ggproto(
 
     res
   })
- 
+
+
 ```
 
+
+
+# Look at the distribution of percent difference values to pick a split
+```{r}
+
+summary(bulk_results$`Percent difference`)
+summary(bulk_results$MEND_depth)
+summary(bulk_results$effective_length)
+summary(bulk_results$Expression)
+
+median(bulk_results$`Percent difference`)
+median(bulk_results$MEND_depth)
+median(bulk_results$effective_length)
+median(bulk_results$Expression)
+
+ggplot(bulk_results) +
+  geom_point(aes(x=MEND_depth/1e6, y=Mean_Accuracy)) + 
+  facet_wrap(~Type)
+
+
+ggplot(bulk_results) +
+  geom_point(aes(x=effective_length, y=Mean_Accuracy)) + 
+  facet_wrap(~Type) +
+  xlim(0, 25000)
+
+
+ggplot(bulk_results) +
+  geom_point(aes(x=Expression, y=Mean_Accuracy)) + 
+  facet_wrap(~Type)
+
+
+
+```
+
+
+# Figure 1
 ```{r figure-1}
 
 # to get hex codes from palette
@@ -324,19 +371,41 @@ acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
   xlab("") +
   ylab("Gene\nexpression\nmeasurements")
 
-expr_split <- 5
-depth_split <- 20
-length_split <- 1000 
-diff_split <- 30
+figure1_data_v2 <- bind_rows(
+bulk_results %>%
+  filter(Expression > quantile(Expression, 0.75)) %>%
+  mutate(set = paste0("Expression>", round(quantile(Expression, 0.75), 1), " Log2(TPM+1)")),
+bulk_results %>%
+  filter(Expression < quantile(Expression, 0.25)) %>%
+  mutate(set = paste0("Expression<", round(quantile(Expression, 0.25), 1), " Log2(TPM+1)")),
+bulk_results %>%
+  filter(MEND_depth > quantile(MEND_depth, 0.75)) %>%
+  mutate(set = paste0("Depth>", round(quantile(MEND_depth, 0.75)/1e6), "M MEND reads")),
+bulk_results %>%
+  filter(MEND_depth < quantile(MEND_depth, 0.25)) %>%
+  mutate(set = paste0("Depth<", round(quantile(MEND_depth, 0.25)/1e6), "M MEND reads")),
+bulk_results %>%
+  filter(effective_length > quantile(effective_length, 0.75)) %>%
+  mutate(set = paste0("Length>", round(quantile(effective_length, 0.75)/1000, 1), "kb")),
+bulk_results %>%
+  filter(effective_length < quantile(effective_length, 0.25)) %>%
+  mutate(set = paste0("Length<", round(quantile(effective_length, 0.25)/1000, 1), "kb")),
+bulk_results %>%
+  filter(`Percent difference` > quantile(`Percent difference`, 0.75)) %>%
+  mutate(set = paste0("Difference>", round(quantile(`Percent difference`, 0.75), 1), "%")),
+bulk_results %>%
+  filter(`Percent difference` < quantile(`Percent difference`, 0.25)) %>%
+  mutate(set = paste0("Difference<", round(quantile(`Percent difference`, 0.25), 1), "%"))
+)
 
-figure1_data_v2 <- bind_rows(figure1_data %>% mutate(set = c(paste0("Expression<", expr_split), paste0("Expression>=", expr_split))[1 + (Expression >= expr_split)]),
-          figure1_data %>% mutate(set = c(paste0("Depth<", depth_split), paste0("Depth>=", depth_split))[1 + (MEND_bin >= depth_split)]),
-          figure1_data %>% mutate(set = c(paste0("Length<", length_split), paste0("Length>=", length_split))[1 + (effective_length >= length_split)]),
-          figure1_data %>% mutate(set = c(paste0("Difference<", diff_split), paste0("Difference>=", diff_split))[1 + (`Percent difference` >= diff_split)]))
-
+boxplot_n_labels <- figure1_data_v2 %>%
+   group_by(set, Type) %>%
+   summarize(set_type_label = paste0("n=", label_comma()(n())))
 
 all_boxplots <- ggplot(figure1_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)) +
   geom_boxplot(outlier.size = 0.5) +
+  geom_text(data = boxplot_n_labels, 
+            aes(x=50, y=set, label = set_type_label), vjust = -1, size = 3) +
   theme_bw() +
   scale_fill_manual(values = type_colors) +
   scale_color_manual(values = type_colors) +
@@ -353,6 +422,9 @@ combined_image
 ggsave("../figures/fig1.png", combined_image)
 
 ```
+
+
+Notes: the reason that, for up-outliers, difference == 100% has a median lower than difference < 2% is because  the difference is only 100 when the threshold is 0. Usually these are low expressed genes, so they get the max mean accuracy of 88% (or whatever the exact numbers are)
 
 
 Random calculations for the paper
