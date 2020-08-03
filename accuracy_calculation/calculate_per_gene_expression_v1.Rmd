@@ -1,0 +1,60 @@
+---
+title: "Per gene expression"
+author: "Holly Beale & Jackie Roger"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document: default
+  # pdf_document: default
+  # fig_caption: yes
+---
+
+```{r setup, include = FALSE}
+
+library(readr)
+library(magrittr)
+library(dplyr)
+library(tidyr)
+
+```
+
+### Background
+
+The purpose of this Rmd is to calculate per gene expression so that can be used to help quantify the accuracy of outlier leads.
+
+### Read in data
+
+```{r echo = TRUE}
+
+# Load expression data & groom read counts
+
+expression_results_raw <- read_tsv("data/in/expression_log2tpm1.txt.gz", col_types = cols())
+read_counts_raw <- read_tsv("data/in/read_counts.txt", 
+                            col_names = c("sample_id", "measurement", "read_count"),
+                            col_types = cols())
+evenly_selected_subsamples <-
+  read_tsv(paste0("data/in/evenly_selected_subsamples_with_binwidth_4.tsv"), col_types = cols())
+read_counts_anno <- read_counts_raw %>% 
+  mutate(target_UMEND_count = as.numeric(gsub("^.*_est([0-9]*)M_.*$", "\\1", sample_id)),
+         parent_id = gsub("_est.*$", "", sample_id)) %>%
+  spread(measurement, read_count)
+read_counts <- left_join(read_counts_anno, evenly_selected_subsamples %>%
+                           select(sample_id, bin_median), by = "sample_id")
+
+# Calculate per gene expression
+
+long_expression_results <- expression_results_raw %>% gather(sample_id, expression, -gene)
+long_expression_results_anno <- long_expression_results %>%
+  dplyr::filter( sample_id %in% evenly_selected_subsamples$sample_id) %>%
+  left_join(read_counts %>%
+              select(sample_id, target_UMEND_count, parent_id, UMEND, bin_median),
+            by = "sample_id")
+abundance <- long_expression_results_anno %>% 
+  group_by(parent_id, gene) %>%
+  mutate(expression_at_max_depth = expression[target_UMEND_count == max(target_UMEND_count)],
+         max_expression_of_gene = max(expression),
+         f_expression_at_max_depth_Gt0 = expression_at_max_depth > 0) 
+
+write_tsv(abundance, paste0("data/in/per_gene_expression.tsv.gz"))
+
+```
+

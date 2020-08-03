@@ -51,6 +51,18 @@ gene_length <- params$Length
 
 ```{r echo = TRUE}
 
+# start scratch
+
+sample_id <- "TH_Eval_014_est10M_UMEND_seqtk_seed_8652"
+outlier_lead <- "SGCA"
+exp <- 7
+thresholds <- 3.73
+type <- "Up"
+mend_depth <- 9.93E6
+gene_length <- 904
+
+# end scratch
+
 # Figure out expression bin
 
 expression_bins_all <- c("0-1", "1-3", "3-5", "5-7", "7-10", "10-20")
@@ -129,7 +141,7 @@ measurement_stats_all <- lapply(summary$percent_difference, function(threshold) 
   if (!(is.na(threshold))) {
     # Set accuracy threshold and get accuracy info
     non_zero_abundance <- per_gene_expression_info %>%
-      dplyr::filter(f_expression_at_max_depth_Gt0)  %>% 
+      #dplyr::filter(f_expression_at_max_depth_Gt0)  %>% 
       mutate(within_accuracy_threshold_of_deepest_val =
                expression > (1 - threshold / 100) * expression_at_max_depth &
                expression < (1 + threshold / 100) * expression_at_max_depth)
@@ -139,8 +151,8 @@ measurement_stats_all <- lapply(summary$percent_difference, function(threshold) 
                                ceiling(max(non_zero_abundance$effective_gene_length)))
     abundance_by_expression_bin <- non_zero_abundance %>% 
       ungroup() %>% 
-      mutate(expression_bin = cut(expression_at_max_depth, breaks = break_sequence, dig.lab = 6),
-             effective_gene_length_bin = cut(effective_gene_length, breaks = length_break_sequence, dig.lab = 6))
+      mutate(expression_bin = cut(expression_at_max_depth, breaks = break_sequence, dig.lab = 6, include.lowest = TRUE),
+             effective_gene_length_bin = cut(effective_gene_length, breaks = length_break_sequence, dig.lab = 6, include.lowest = TRUE))
     abundance_stats <- abundance_by_expression_bin	%>% 
       group_by(expression_bin, bin_median, UMEND, parent_id, effective_gene_length_bin) %>%
       summarize(pct_accurately_measured = sum(within_accuracy_threshold_of_deepest_val) / n(),
