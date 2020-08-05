@@ -1,0 +1,213 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+  
+
+
+```{r setup, include = FALSE}
+
+library(tidyverse)
+library(scales) 
+library(janitor)
+
+```
+
+
+## Identify input data
+
+```{r}
+
+data_release_id <- "CKCC_outlier_lead_accuracy.results.2020_07_17"
+
+```
+
+# Load data
+```{r}
+
+gathered_results <- read_tsv(paste0("bulk_results.", data_release_id, ".tsv.gz")) %>%
+  rename(Mean_Accuracy = `Mean Accuracy`)
+```
+
+
+
+# Add bin info
+```{r}
+
+expression_bin_boundaries <- c(0, 1, 3, 5, 7, 10, 20)
+mend_depth_bin_boundaries <- c(seq(0, 44, 4), Inf)*1E6
+length_bin_boundaries <- c(seq(0, 3000, 300), Inf)
+
+make_bin_names <- function(boundaries = 1:10){
+  raw_names <- paste0(boundaries, "-", lead(boundaries)) %>% str_replace("-Inf", "+")
+  raw_names[1:(length(boundaries)-1)]
+}
+  
+expression_bin_names <- make_bin_names(expression_bin_boundaries)
+mend_depth_bin_names <- make_bin_names(mend_depth_bin_boundaries/1e6)
+length_bin_names <- make_bin_names(length_bin_boundaries)
+
+bulk_results <- gathered_results %>%
+  mutate(Expression_bin = cut(Expression, expression_bin_boundaries, 
+                              labels = expression_bin_names,
+                        include.lowest = TRUE),
+         MEND_bin = cut(MEND_depth, mend_depth_bin_boundaries, labels = mend_depth_bin_names),
+         length_bin = cut(effective_length, length_bin_boundaries, labels = length_bin_names,
+                                      include.lowest = TRUE),
+         Type = factor(Type, levels = c("Up", "Down"))) %>%
+  group_by(Type) %>%
+  mutate(Type_label = paste0(as.character(Type), " (n=", as.character(label_comma()(n())), ")")) %>%
+  ungroup()
+  
+
+bulk_results$Type_label = factor(bulk_results$Type_label, levels = sort(unique(as.character(bulk_results$Type_label)), decreasing = TRUE))
+# #        Type_label = fct_reorder(Type_label, Type)
+#           Type_label = factor(Type_label, levels = sort(unique(as.character(Type_label)), decreasing = TRUE))
+#          ) %>%
+#     
+#            
+# levels(bulk_results$Type_label)
+# sort(unique(as.character(bulk_results$Type_label)),  decreasing = TRUE)
+# is(bulk_results$Type_label)
+# bulk_results$Ty
+```
+
+
+# How many bins are possible? How many contain entries?
+```{r}
+bin_check <- bulk_results %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n())
+
+nrow(bin_check)
+(length(expression_bin_boundaries)-1) * (length(mend_depth_bin_boundaries)-1) * (length(length_bin_boundaries)-1)
+
+
+# What size are bins?
+bin_check %>%
+  pull(n_entries_per_bin) %>%
+  summary
+
+# What size are bins?
+ggplot(bin_check) + geom_histogram(aes(x=n_entries_per_bin))
+
+# Which bins have only one entry?
+subset(bin_check, n_entries_per_bin == 1)
+
+```
+
+# Confirm the absence of NA values
+```{r}
+
+dim(bulk_results)
+dim(is.na(bulk_results))
+
+```
+
+## Profile of MEND depths
+```{r}
+just_MEND_depths <- bulk_results %>% 
+  select(Sample, MEND_depth)
+
+ggplot(just_MEND_depths) +
+  geom_histogram(aes(x=MEND_depth/1E6))
+
+range(just_MEND_depths$MEND_depth/1e6)  
+
+range(summary(just_MEND_depths$MEND_depth/1e6))  
+
+```
+
+
+## Number of outlier leads per sample
+
+```{r}
+
+# Histogram of number of outlier leads per sample (split by outlier type & fill is depth)
+
+num_leads <- bulk_results %>% group_by(Sample, Type, MEND_bin) %>% tally()
+
+plot1 <- ggplot(num_leads, aes(x=n, fill=as.factor(MEND_bin))) +
+  geom_histogram() +
+  facet_wrap(~Type) +
+  ggtitle("Number of outlier leads per sample")
+
+plot1
+
+```
+
+## Look at bin sizes
+
+```{r}
+
+# Make sure (depth, expression, length) bins are relatively similar sizes
+
+all_bins <- bulk_results %>% tabyl(MEND_bin, Expression_bin, length_bin)
+
+all_bins
+
+```
+
+## Spectrum of accuracies by depth, expression, and length
+
+```{r}
+
+plot2 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~MEND_bin) +
+  ggtitle("Spectrum of accuracies by MEND depth")
+
+plot2
+
+plot3 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~Expression_bin) +
+  ggtitle("Spectrum of accuracies by expression level")
+
+plot3
+
+plot4 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~length_bin) +
+  ggtitle("Spectrum of accuracies by effective gene length")
+
+plot4
+
+```
+
+
+## Look at the distribution of percent difference values to pick a split
+```{r}
+
+summary(bulk_results$`Percent difference`)
+summary(bulk_results$MEND_depth)
+summary(bulk_results$effective_length)
+summary(bulk_results$Expression)
+
+median(bulk_results$`Percent difference`)
+median(bulk_results$MEND_depth)
+median(bulk_results$effective_length)
+median(bulk_results$Expression)
+
+ggplot(bulk_results) +
+  geom_point(aes(x=MEND_depth/1e6, y=Mean_Accuracy)) + 
+  facet_wrap(~Type)
+
+
+ggplot(bulk_results) +
+  geom_point(aes(x=effective_length, y=Mean_Accuracy)) + 
+  facet_wrap(~Type) +
+  xlim(0, 25000)
+
+
+ggplot(bulk_results) +
+  geom_point(aes(x=Expression, y=Mean_Accuracy)) + 
+  facet_wrap(~Type)
+
+
+
+```
