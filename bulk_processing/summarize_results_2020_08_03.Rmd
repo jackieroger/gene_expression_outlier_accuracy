@@ -83,7 +83,7 @@ acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
   scale_color_brewer(palette = "Set1") +
   theme_bw() +
   xlab("Accuracy") +
-  ylab("Gene expression measurements") +
+  ylab("Gene\nexpression\nmeasurements") +
   ggtitle("Accuracies of up and down outlier gene expression measurements") + 
   theme(legend.position="none")
 
@@ -148,16 +148,6 @@ StatBin2 <- ggproto(
 type_colors = c(Up = "#E41A1C", Down = "#377EB8")
 
 bulk_results$Type <- factor(bulk_results$Type, levels = c("Up", "Down"))
-
-acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
-  geom_histogram(fill="white", stat = StatBin2) +
-  facet_wrap(~Type, scales="free") +
-  theme_bw() +
-  scale_color_manual(values = type_colors) +
-  theme(legend.position="none") +
-  xlab("") +
-  ylab("Gene\nexpression\nmeasurements")
-
 
 split_by_quartile <- function(bulk_results, col_name_fn = Expression, this_suffix = " Log2(TPM+1)"){
   col_name_text <- rlang::ensym(col_name_fn)
