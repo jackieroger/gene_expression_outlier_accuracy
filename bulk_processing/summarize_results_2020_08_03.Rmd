@@ -79,12 +79,12 @@ bulk_results$Type_label = factor(bulk_results$Type_label, levels = sort(unique(a
 
 acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
   geom_histogram(fill="white") +
-  facet_wrap(~Type_label, scales="free") +
+  facet_wrap(~Type_label) + #, scales="free") +
   scale_color_brewer(palette = "Set1") +
   theme_bw() +
+  scale_y_continuous("Outliers detected", label=comma) +
   xlab("Accuracy") +
-  ylab("Gene\nexpression\nmeasurements") +
-  ggtitle("Accuracies of up and down outlier gene expression measurements") + 
+  #ggtitle("Accuracies of up and down outlier gene expression measurements") + 
   theme(legend.position="none")
 
 acc_overview
@@ -177,10 +177,10 @@ bulk_results_for_fig1 <-
          Difference = `Percent difference`)
 
 figure1_data_v2 <- bind_rows(
-split_by_quartile(bulk_results_for_fig1, col_name = Expression, this_suffix = " Log2(TPM+1)"),
-split_by_quartile(bulk_results_for_fig1, col_name = Depth, this_suffix = "M MEND reads"),
-split_by_quartile(bulk_results_for_fig1, col_name = Length, this_suffix = "kb"),
-split_by_quartile(bulk_results_for_fig1, col_name = Difference, this_suffix = "%"),
+split_by_quartile(bulk_results_for_fig1, col_name = Expression, this_suffix = " Log2(TPM+1)") %>% mutate(fac1 = "Expression"),
+split_by_quartile(bulk_results_for_fig1, col_name = Depth, this_suffix = "M MEND reads") %>% mutate(fac1 = "Depth"),
+split_by_quartile(bulk_results_for_fig1, col_name = Length, this_suffix = "kb") %>% mutate(fac1 = "Length"),
+split_by_quartile(bulk_results_for_fig1, col_name = Difference, this_suffix = "%") %>% mutate(fac1 = "Difference"),
 )
 
 sum(bulk_results_for_fig1$Length>2.4)
@@ -191,7 +191,7 @@ tabyl(bulk_results_for_fig1$Type)
 ## Generate figures
 ```{r figure-1g}
 boxplot_n_labels <- figure1_data_v2 %>%
-   select(set, set_type_label, Type, Type_label) %>%
+   select(set, set_type_label, Type, Type_label, fac1) %>%
   distinct()
 
 
@@ -202,7 +202,8 @@ all_boxplots <- ggplot(figure1_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)
   theme_bw() +
   scale_fill_manual(values = type_colors) +
   scale_color_manual(values = type_colors) +
-  facet_wrap(~Type, ncol = 2) +
+  facet_grid(fac1~Type, scales = "free_y") +
+#    facet_wrap(~Type_label, ncol = 2) +
   theme(legend.position="none") +
   ylab("")
 
@@ -211,13 +212,22 @@ all_boxplots
 
 
 ```{r figure-1f, fig.height=7, fig.width=7}
-combined_image <- plot_grid(acc_overview, all_boxplots, ncol = 1, rel_heights = c(1,2), align = "v",
-                  labels = "AUTO")
+
+combined_image <- plot_grid(acc_overview, all_boxplots, 
+                            ncol = 1, 
+                            rel_heights = c(1,2), 
+                            align = "v",
+                            axis = "lr",
+                            labels = "AUTO")
 combined_image
 
-ggsave("../figures/fig1.png", combined_image)
+```
+```{r}
+
+ggsave("../figures/fig1.png", combined_image, height=7, width=7)
 
 ```
+
 
 
 Notes: the reason that, for up-outliers, the upper quartile of differences has a median lower than the lower quartile of differences because of the many genes with low expression have a max mean accuracy of 88% (or whatever the exact numbers are)
