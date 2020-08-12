@@ -53,13 +53,13 @@ gene_length <- params$Length
 
 # start scratch (uncomment this to manually set things to run code)
 
-sample_id <- "TH_Eval_014_est10M_UMEND_seqtk_seed_8652"
-outlier_lead <- "SGCA"
-exp <- 3.6
-threshold <- 3.5
-type <- "Up"
-mend_depth <- 1000000
-gene_length <- 100
+# sample_id <- "TH_Eval_014_est10M_UMEND_seqtk_seed_8652"
+# outlier_lead <- "SGCA"
+# exp <- 3.6
+# threshold <- 3.5
+# type <- "Up"
+# mend_depth <- 1000000
+# gene_length <- 100
 
 # end scratch
 
