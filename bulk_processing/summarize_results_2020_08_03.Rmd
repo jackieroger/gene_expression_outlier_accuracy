@@ -83,8 +83,8 @@ acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
   scale_color_brewer(palette = "Set1") +
   theme_bw() +
   scale_y_continuous("Outliers detected", label=comma) +
-  xlab("Accuracy") +
-  #ggtitle("Accuracies of up and down outlier gene expression measurements") + 
+  xlab("Probability") +
+  #ggtitle("Probabilities of up and down outlier gene expression measurements") + 
   theme(legend.position="none")
 
 acc_overview
@@ -205,7 +205,8 @@ all_boxplots <- ggplot(figure1_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)
   facet_grid(fac1~Type, scales = "free_y") +
 #    facet_wrap(~Type_label, ncol = 2) +
   theme(legend.position="none") +
-  ylab("")
+  ylab("") +
+  xlab("Probability")
 
 all_boxplots
 ```

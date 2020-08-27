@@ -77,11 +77,11 @@ ggplot(accuracy_results_for_plot) +
   theme_bw() +
   scale_fill_brewer(palette="Paired") +
 #  scale_x_discrete(labels = c("TRUE" = "Concordant", "FALSE" = "Discordant")) +
-  ylab("Accuracy") +
+  ylab("Probability") +
   xlab("") +
 #  xlab("Concordance") +
   theme(legend.position="none") +
-  ggtitle("Accuracies of concordant and discordant outlier calls")
+  ggtitle("Probabilities of concordant and discordant outlier calls")
 
 ggsave("../../figures/concordance.png")
 
