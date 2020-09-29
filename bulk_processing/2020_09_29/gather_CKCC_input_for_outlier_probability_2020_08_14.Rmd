@@ -1,0 +1,203 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+  
+# Do not run commands
+```{r}
+knitr::opts_chunk$set(eval=FALSE, include=TRUE)
+```
+
+```{r}
+output_id <- "CKCC_2020_07_13"
+```
+
+
+# run once:
+
+```{bash}
+
+mkdir /private/groups/treehouse/archive/projects/accuracy
+cp  ./old_pod_pstore/hbeale/inProgress/ckcc_paper/ckcc_paper_samples.txt /private/groups/treehouse/archive/projects/accuracy
+
+```
+
+
+# On mustard in bash
+```{bash}
+
+cd /private/groups/treehouse/archive/projects/accuracy
+R
+
+```
+
+
+# Load project and file location info
+```{r}
+
+library(tidyverse)
+library(jsonlite)
+
+protocol_v <- "treehouse-protocol-8.0.1-0000000"
+compendium_v <- "compendium-v5"
+
+ckcc_samples <- scan("ckcc_paper_samples.txt", what = "list")
+# downstream_data_dirs <- paste0("/private/groups/treehouse/archive/downstream/", ckcc_samples)
+
+
+downstream_dir <- "/private/groups/treehouse/archive/downstream/"
+
+
+candidate_tertiary_output_locations <- tibble(sample_id = ckcc_samples) %>%
+  mutate(file_path = paste0(downstream_dir,
+                            sample_id,
+                            "/tertiary/",
+                            protocol_v, "/",
+                            compendium_v),
+         output_exists = file.exists(file_path))
+
+table(candidate_tertiary_output_locations$output_exists)
+
+tertiary_output_locations <- candidate_tertiary_output_locations %>%
+  filter(output_exists)
+
+```
+
+
+# Outlier file format
+```{r}
+
+or_file_col_types <- cols(
+  Gene = col_character(),
+  sample = col_double(),
+  is_top_5 = col_character(),
+  pc_low = col_double(),
+  pc_median = col_double(),
+  pc_high = col_double(),
+  pc_outlier = col_character(),
+  pc_is_filtered = col_character(),
+  pd_low = col_double(),
+  pd_median = col_double(),
+  pd_high = col_double(),
+  pd_outlier = col_character(),
+  pc_percentile = col_double()
+)
+
+
+```
+
+# Load outlier results
+```{r}
+outlier_data_raw <- tertiary_output_locations %>%
+mutate(outliers_raw = map(paste0(file_path, paste0("/outlier_results_", sample_id)), function(fp){
+  read_tsv(fp,  col_types = or_file_col_types) %>%
+    filter(sample > pc_high | sample < pc_low) %>%
+    select(Gene, Expression = sample, pc_high, pc_low, pc_outlier, pc_is_filtered)
+  })) %>%
+unnest(outliers_raw)
+
+write_tsv(outlier_data_raw, "outlier_probability_complete_info_CKCC_2020_06_15.tsv.gz")
+
+outlier_data <- outlier_data_raw %>%
+  mutate(Type = ifelse(Expression > pc_high, "Up", "Down"),
+         Threshold = ifelse(Type=="Up", pc_high, pc_low)) %>% 
+  select(Sample = sample_id, file_path, Gene, Expression, Type, Threshold)
+
+```
+
+# find old mend output
+
+```{r}
+
+# system(paste("find /private/groups/treehouse/archive/downstream/TH01_0053_S01/secondary/ -iname *qc*"), intern=TRUE)
+
+get_readDist_file_path <- function(secondary_path){
+  system(paste("find", secondary_path, "-iname readDist.txt_*"), intern = TRUE)[1]
+}
+
+
+candidate_MEND_output_locations <- tertiary_output_locations %>%
+  mutate(secondary_path = paste0(downstream_dir, sample_id, "/secondary/"),
+         candidate_mend_file = map(secondary_path, get_readDist_file_path))  %>% 
+   unnest(candidate_mend_file) %>%
+mutate(output_exists = file.exists(candidate_mend_file))
+
+table(candidate_MEND_output_locations$output_exists)
+
+mend_results <- candidate_MEND_output_locations %>%
+  filter(output_exists) %>%
+  filter(!grepl("_FAKE_", candidate_mend_file)) %>%
+  mutate(mend_results_raw = map(candidate_mend_file, read_tsv)) %>%
+  unnest(mend_results_raw)
+
+```
+
+
+# get gene lengths
+
+```{r}
+
+candidate_rsem_output_locations <- tibble(sample_id = ckcc_samples) %>%
+  mutate(rsem_file_path1 = paste0(downstream_dir,
+                            sample_id,
+                            "/secondary/",
+                            "ucsc_cgl-rnaseq-cgl-pipeline-0.0.0-0000000/RSEM/Hugo/rsem_genes.hugo.results"),
+         rsem_file_path2 = paste0(downstream_dir,
+                            sample_id,
+                            "/secondary/",
+                            "ucsc_cgl-rnaseq-cgl-pipeline-0.0.0-0000000/RSEM/rsem_genes.results"),
+         output1_exists = file.exists(rsem_file_path1),
+         output2_exists = file.exists(rsem_file_path2))
+
+table(candidate_rsem_output_locations$output1_exists)
+table(candidate_rsem_output_locations$output2_exists)
+table(candidate_rsem_output_locations$output1_exists | candidate_rsem_output_locations$output2_exists)
+
+# all samples have file path 2, so we'll go with that
+
+rsem_results_raw <- candidate_rsem_output_locations %>%
+  filter(output2_exists) %>%
+  mutate(rsem_results_raw = map(rsem_file_path2, read_tsv)) %>%
+  unnest(rsem_results_raw)
+
+
+gene_id_matching_key <- read_tsv("/private/home/hbeale/deleteMe/outlier_probability/EnsGeneID_Hugo_Observed_Conversions.txt.gz")
+
+rsem_results_Hugo <- rsem_results_raw %>%
+  select(sample_id, gene_id, effective_length) %>%
+  left_join(gene_id_matching_key, by=c("gene_id"="EnsGeneID"))
+
+
+
+rsem_results_Hugo_filtered <- left_join(outlier_data %>% select(Sample, Gene) %>% distinct,
+                                        rsem_results_Hugo,
+                                        by=c("Sample"="sample_id", "Gene" = "HugoID"))
+
+dim(rsem_results_Hugo_filtered)
+dim(rsem_results_Hugo)
+
+rsem_results_selected <- rsem_results_Hugo_filtered %>%
+  select(Sample, Gene, effective_length) %>%
+  group_by(Sample, Gene) %>%
+  summarize(effective_length = median(effective_length))
+
+```
+
+
+```{r}
+
+outlier_probability_input <- mend_results %>%
+  select(sample_id, MEND=estExonicUniqMappedNonDupeReadCount) %>%
+  left_join( outlier_data, by =c("sample_id"="Sample")) %>%
+  left_join(rsem_results_selected, by=c("sample_id"="Sample", "Gene")) %>%
+  select(-file_path)
+
+write_tsv(outlier_probability_input, paste0("outlier_probability_input_", output_id, ".tsv"))
+```
+
+
+
