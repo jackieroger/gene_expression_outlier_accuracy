@@ -1,0 +1,75 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+### Read in data an make bins
+
+```{r}
+
+# Read in data
+pge <- read_tsv("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/accuracy_calculation/data/in/per_gene_expression.tsv.gz")
+
+# Make bins
+expression_bin_boundaries <- c(0, 1, 3, 5, 7, 10, 20)
+mend_depth_bin_boundaries <- c(0, seq(2, 46, 4), Inf)*1E6
+length_bin_boundaries <- c(0, 100, 450, 800, 1500, 4000, Inf)
+
+make_bin_names <- function(boundaries = 1:10){
+  raw_names <- paste0(boundaries, "-", lead(boundaries)) %>% str_replace("-Inf", "+")
+  raw_names[1:(length(boundaries)-1)]
+}
+  
+expression_bin_names <- make_bin_names(expression_bin_boundaries)
+mend_depth_bin_names <- make_bin_names(mend_depth_bin_boundaries/1e6)
+length_bin_names <- make_bin_names(length_bin_boundaries)
+
+# Get bin info for pge data
+pge_with_bins <- pge %>%
+  mutate(Expression_bin = cut(expression_at_max_depth, expression_bin_boundaries,
+                              labels = expression_bin_names, include.lowest = TRUE),
+         MEND_bin = cut(UMEND, mend_depth_bin_boundaries,
+                        labels = mend_depth_bin_names, include.lowest = TRUE),
+         length_bin = cut(effective_gene_length, length_bin_boundaries,
+                          labels = length_bin_names, include.lowest = TRUE))
+
+# Size of each expression/mend/length bin
+bin_check <- pge_with_bins %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n(),
+            n_samples = length(unique(parent_id)))
+
+# Number of bins in bin_check
+nrow(bin_check)
+
+# Number of possible bins
+(length(expression_bin_boundaries)-1) *
+  (length(mend_depth_bin_boundaries)-1) *
+  (length(length_bin_boundaries)-1)
+
+# Distribution of bin sizes
+bin_check %>%
+  pull(n_entries_per_bin) %>%
+  summary
+
+ggplot(bin_check) + geom_histogram(aes(x=n_entries_per_bin))
+
+# Check how many bins have fewer than 100 values (or 50, or 20)
+sum(bin_check$n_entries_per_bin < 100) #65
+sum(bin_check$n_entries_per_bin < 50) #39
+sum(bin_check$n_entries_per_bin < 20) #14
+
+# Check how many bins have fewer than 5 samples represented
+sum(bin_check$n_samples < 5) #13
+
+```
