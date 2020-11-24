@@ -1,0 +1,31 @@
+---
+title: "investigate_NAs.Rmd"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/")
+
+library(readr)
+
+```
+
+```{r}
+
+# Open list of problematic outliers
+problematic_outliers <- read_tsv("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/bulk_processing/2020_09_29/outlier_probability_output_CKCC_2020_09_28_problematic.tsv.gz")
+
+# Look more closely at the first one
+TH02_0082_S01_AQP4 <- read_tsv("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/bulk_processing/results/CKCC_outlier_lead_accuracy.results.2020_07_17/TH02_0082_S01/sample_TH02_0082_S01_gene_AQP4_summary.tsv")
+# Observation: there is an NA in this but it is different than the NA in the list above
+# Thought: is it possible that the parent sample subsets don't have data for that specific combo of factors?
+
+# Read in per gene expression to look into this
+pge <- read_tsv("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/accuracy_calculation/data/in/per_gene_expression.tsv.gz")
+
+# This seems to be the case! Now looking through some other examples too
+
+```

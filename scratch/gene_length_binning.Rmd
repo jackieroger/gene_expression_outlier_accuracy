@@ -20,7 +20,7 @@ library(janitor)
 
 ```{r, echo=FALSE}
 
-pge <- read_tsv("/Users/jacquelynroger/Documents/research/treehouse/projects/gene_expression_outlier_accuracy/accuracy_calculation/data/in/per_gene_expression.tsv.gz")
+pge <- read_tsv("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/accuracy_calculation/data/in/per_gene_expression.tsv.gz")
 
 # Histogram of distribution
 
@@ -77,5 +77,26 @@ ggplot(pgea_fractions, aes(x=lb)) +
   geom_line(aes(y=frac50)) +
   ggtitle("Accuracies by gene bin")
   
+
+```
+
+### Nov 23: reevaluate length bins
+
+```{r}
+
+# Compute vertical distance between accuracy fraction of first and last bin
+# Do this for the within10 since that's a good middle ground
+
+vdist10 <- pgea_fractions$frac10[9] - pgea_fractions$frac10[1]
+
+# Divide by 4 and find corresponding length bin for each boundary
+
+lbs10 <- seq(pgea_fractions$frac10[1],pgea_fractions$frac10[9], vdist10/4)
+
+# Plot lines from within 10 (middle ground) to see where length bin boundaries should be
+ggplot(pgea_fractions, aes(x=lb)) +
+  geom_line(aes(y=frac10)) +
+  ggtitle("Accuracies by gene bin") +
+  geom_hline(yintercept=lbs10, color = "red")
 
 ```
