@@ -20,7 +20,7 @@ library(janitor)
 
 ```{r, echo=FALSE}
 
-pge <- read_tsv("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/accuracy_calculation/data/in/per_gene_expression.tsv.gz")
+pge <- read_tsv("../accuracy_calculation/data/in/per_gene_expression.tsv.gz")
 
 # Histogram of distribution
 
