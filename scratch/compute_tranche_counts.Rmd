@@ -23,7 +23,7 @@ library(ggplot2)
 ```{r}
 
 # Read in data
-pge <- read_tsv("/Users/jroger/Documents/SPrOut/gene_expression_outlier_accuracy/accuracy_calculation/data/in/per_gene_expression.tsv.gz")
+pge <- read_tsv("../accuracy_calculation/data/in/per_gene_expression.tsv.gz")
 
 # Make bins
 expression_bin_boundaries <- c(0, 1, 3, 5, 7, 10, 20)
@@ -68,6 +68,16 @@ bin_check %>%
   summary
 
 ggplot(bin_check) + geom_histogram(aes(x=n_entries_per_bin))
+
+# look at which features are over-represented in the 
+# bins with less than 100 datapoints
+p3 <- ggplot(bin_check) + xlim(0, 400) 
+
+p3 + geom_histogram(aes(x=n_entries_per_bin, fill = MEND_bin)) 
+p3 + geom_histogram(aes(x=n_entries_per_bin, fill = Expression_bin)) 
+p3 + geom_histogram(aes(x=n_entries_per_bin, fill = length_bin)) 
+
+# highly expressed genes and shortest and longest genes are overrepresented
 
 # Check how many bins have fewer than 100 values (or 50, or 20)
 sum(bin_check$n_entries_per_bin < 100) #65
