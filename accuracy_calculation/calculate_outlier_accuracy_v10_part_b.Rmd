@@ -26,6 +26,7 @@ library(dplyr)
 library(tidyr)
 library(knitr)
 library(stringr)
+library(tibble)
 
 ```
 
@@ -177,10 +178,12 @@ summary <- summary %>%
 summary <- add_column(summary, prob95 = summary$avg >= 0.95, .after = "percent_difference")
 
 # Clean up names for writing to outfile
+# If accuracy analysis fails QC, report NA instead of Avg for probability
 
 names(summary) <- gsub("_", " ", str_to_sentence(names(summary)))
 
 summary <- summary %>%
+  mutate(Avg = ifelse((sum(stats_filtered$n_measurements_in_bin) < 100 | nrow(stats_filtered) < 5), NA, Avg)) %>%
   rename("Probability >= 0.95" = Prob95,
          "Probability of being an outlier" = Avg,
          "Minimum Probability" = Min,
