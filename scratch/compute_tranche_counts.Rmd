@@ -11,6 +11,11 @@ output:
 
 knitr::opts_chunk$set(echo = TRUE)
 
+library(readr)
+library(dplyr)
+library(stringr)
+library(ggplot2)
+
 ```
 
 ### Read in data an make bins
