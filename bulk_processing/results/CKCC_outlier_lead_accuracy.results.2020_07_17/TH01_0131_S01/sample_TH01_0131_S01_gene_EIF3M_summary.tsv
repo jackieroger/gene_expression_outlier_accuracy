@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH01_0131_S01	EIF3M	Down	6.0478873294	6.15182304382	1.7185458121011596	99.17645107794361	97.61904761904762	100	99.44444444444444	99.71428571428571	100	99.1044776119403	97.61904761904762

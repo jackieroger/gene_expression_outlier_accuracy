@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH01_0122_S01	BTF3	Down	7.52034366823	7.54725551605	0.3578539626279357	92.25558440752701	86.08695652173914	98.14814814814815	88.32116788321169	98	98.14814814814815	86.08695652173914	90.72164948453609

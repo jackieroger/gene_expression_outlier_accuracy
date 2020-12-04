@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH03_0008_S01	ALKBH5	Up	7.10402208445	7.09677028656	0.10208017097629632	53.86733716475096	44.44444444444444	65.51724137931035	65.51724137931035	56.25	53.125	44.44444444444444	50

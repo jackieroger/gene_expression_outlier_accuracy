@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH01_0127_S01	ATPIF1	Down	5.61853233398	5.6719212532	0.9502289218326977	82.5958944267176	70.79646017699115	90.47619047619048	84	88.46153846153845	90.47619047619048	70.79646017699115	79.24528301886792

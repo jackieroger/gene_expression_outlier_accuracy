@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH02_0075_S01	PCBP2	Down	7.434711618	7.44357585907	0.11922777271601752	56.86978540751693	50	68.33333333333333	50	68.33333333333333	60.483870967741936	51.162790697674424	54.36893203883495

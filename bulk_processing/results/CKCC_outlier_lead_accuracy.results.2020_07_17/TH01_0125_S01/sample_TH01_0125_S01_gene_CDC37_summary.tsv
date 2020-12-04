@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH01_0125_S01	CDC37	Down	5.57228336665	5.59501886368	0.4080104247043806	67.540753153963	58.57142857142858	80.27027027027027	58.57142857142858	80.27027027027027	75	60.05509641873278	63.806970509383376

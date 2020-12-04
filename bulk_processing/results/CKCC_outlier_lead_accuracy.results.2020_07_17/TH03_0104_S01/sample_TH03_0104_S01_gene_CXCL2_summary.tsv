@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH03_0104_S01	CXCL2	Up	7.99887245399	7.96906661987	0.37262544554178534	93.3612651438012	88.69565217391305	98.14814814814815	91.24087591240875	98	98.14814814814815	88.69565217391305	90.72164948453609
