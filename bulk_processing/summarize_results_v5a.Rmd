@@ -5,16 +5,18 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
     toc: yes
+    toc_float: true
 ---
 
 ```{r setup}
 
+library(scales) # for comma_format
 library(tidyverse)
 library(dplyr)
 library(tidyr)
 library(janitor)
 library(cowplot)
-library(scales) # for comma_format
+
 
 ```
 
@@ -37,10 +39,15 @@ This data comes from the CKCC1 outlier results.
 #gathered_results <- read_tsv(paste0("bulk_results.", data_release_id, ".tsv.gz")) %>%
 #  rename(Mean_Accuracy = `Mean Accuracy`)
 
-gathered_results_raw <- read_tsv("2020_12_03/outlier_probability_output_CKCC_2020_12_03.tsv.gz") 
+gathered_results_raw <- read_tsv("2020_12_03/outlier_probability_output_CKCC_2020_12_04.tsv.gz") 
 
 gathered_results <- gathered_results_raw %>%
-  select(Sample, Gene, Type, Expression, Threshold, Mean_Accuracy = `Probability of being an outlier`)
+  select(Sample, Gene, Type, Expression, 
+         Threshold, MEND_depth = `Mend depth`,
+         effective_length = `Gene length`,
+         Mean_Accuracy = `Probability of being an outlier`) %>%
+  mutate(`Percent difference` = 100 * ((abs(Expression - Threshold)) / Expression))
+
 
 ```
 
@@ -76,24 +83,28 @@ bulk_results <- gathered_results %>%
 
 # How many bins are possible? How many contain entries?
 ```{r}
+print("How many bins are possible?")
+(length(expression_bin_boundaries)-1) * (length(mend_depth_bin_boundaries)-1) * (length(length_bin_boundaries)-1)
+
 bin_check <- bulk_results %>%
   group_by(Expression_bin, MEND_bin, length_bin) %>%
   summarize(n_entries_per_bin = n())
 
+print("How many bins contain entries in this data?")
 nrow(bin_check)
-(length(expression_bin_boundaries)-1) * (length(mend_depth_bin_boundaries)-1) * (length(length_bin_boundaries)-1)
 
-
-# What size are bins?
+print("What is the range of the number of entries per bin?")
 bin_check %>%
   pull(n_entries_per_bin) %>%
   summary
 
 # What size are bins?
-ggplot(bin_check) + geom_histogram(aes(x=n_entries_per_bin))
-
-# Which bins have only one entry?
-subset(bin_check, n_entries_per_bin == 1)
+ggplot(bin_check) + 
+  geom_histogram(aes(x=n_entries_per_bin)) +
+  ggtitle("Entries per bin")
+# 
+# # Which bins have only one entry?
+# subset(bin_check, n_entries_per_bin == 1)
 
 ```
 
@@ -407,12 +418,13 @@ bulk_results %>%
 
 boxplot_n_labels <- figure1_data_v2 %>%
    group_by(set, Type) %>%
-   summarize(set_type_label = paste0("n=", label_comma()(n())))
+   summarize(set_type_label = paste0("n=", scales::label_comma()(n())))
 
 all_boxplots <- ggplot(figure1_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)) +
   geom_boxplot(outlier.size = 0.5) +
   geom_text(data = boxplot_n_labels, 
-            aes(x=50, y=set, label = set_type_label), vjust = -1, size = 3) +
+            #aes(x=0.50, y=set, label = set_type_label), vjust = -1, size = 3) +
+            aes(x=0, y=set, label = set_type_label), vjust = -0.5, hjust = 0, size = 3) +
   theme_bw() +
   scale_fill_manual(values = type_colors) +
   scale_color_manual(values = type_colors) +
@@ -469,5 +481,13 @@ count(subset(figure1_data, Mean_Accuracy>95)) /
 
 median(subset(figure1_data, Expression_bin == "0-1")$Mean_Accuracy)
 
+```
+
+
+
+# SessionInfo
+```{r}
+library(pander) # to make session info
+pander(sessionInfo(), compact = FALSE)
 ```
 
