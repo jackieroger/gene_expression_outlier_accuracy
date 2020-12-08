@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	OXER1	Up	3.68706068834	3.64778923988	1.065115325717109	68.35857312852099	59.133709981167605	80.03502626970229	61.73076923076923	77.46478873239437	80.03502626970229	63.42857142857142	59.133709981167605

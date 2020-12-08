@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	NRSN1	Up	0.53605290024	0.504391551018	5.906385210829864	31.008822095690835	22.5635593220339	42.9054054054054	24.891774891774894	37.93490460157127	42.9054054054054	26.748466257668714	22.5635593220339

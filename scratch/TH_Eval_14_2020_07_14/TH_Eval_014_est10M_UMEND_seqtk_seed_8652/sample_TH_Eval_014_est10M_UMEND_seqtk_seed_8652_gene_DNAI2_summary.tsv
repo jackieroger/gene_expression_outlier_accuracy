@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DNAI2	Up	0.53605290024	0.311149060726	41.95553077192693	79.06651640718052	71.53679653679653	90.76576576576578	71.53679653679653	82.37934904601572	90.76576576576578	78.40490797546012	72.2457627118644

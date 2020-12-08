@@ -8,13 +8,7 @@ setwd("/private/home/hbeale/deleteMe/outlier_probability/outlier_lead_accuracy")
 
 per_gene_expression_info <- read_tsv(paste0("data/in/per_gene_expression.tsv.gz"), col_types = cols())
 
-########################################################
-########################################################
-## RUN ONE OF THE FOLLOWING TWO
-## DEFINITIONS OF THE SAMPLE-SPECIFIC DATA
-
-## FOR FULL CKCC DATASET
-
+# Sample-specific data
 input_id <- "CKCC_2020_12_04"
 output_id <- "CKCC_2020_12_04"
 dir.create(output_id)
@@ -22,25 +16,6 @@ setwd(output_id)
 dir.create("results")
 
 test_input_raw_all <- read_tsv(paste0("/private/groups/treehouse/archive/projects/accuracy/outlier_probability_input_", input_id, "_batch1.tsv.gz"), col_types = cols())
-
-########################
-
-## FOR TH_Eval_14 DATASET
-
-input_id <- "TH_Eval_14_2020_07_13"
-output_id <- "TH_Eval_14_2020_12_08"
-dir.create(output_id)
-setwd(output_id)
-dir.create("results")
-
-test_input_raw_all <- read_tsv(paste0("/private/groups/treehouse/archive/projects/accuracy/outlier_probability_input_", input_id, ".tsv"), col_types = cols()) %>%
-  filter(sample_id == "TH_Eval_014_est10M_UMEND_seqtk_seed_8652")
-########################
-
-##
-## END OF OPTIONS FOR DEFINING THE SAMPLE-SPECIFIC DATA
-########################################################
-########################################################
 
 # if toy
 # test_input_raw <- test_input_raw_all %>%
@@ -54,6 +29,8 @@ test_input <- test_input_raw %>%
          Length = effective_length) %>%
   filter(! grepl("/", Gene))
 
+# first run library calls and outlier_prob function def below
+
 reports <- test_input %>%
   rowwise() %>%
   do(params = as.list(.))
@@ -63,14 +40,16 @@ reports_rnd <- reports
 reports_rnd$params <- sample(reports_rnd$params, length(reports_rnd$params))
 
 
-### NOW JUMP DOWN AND DEFINE THE outlier_prob FUNCTION DEFINITION and libraries
+### NOW GO RUN outlier_prob FUNCTION DEFINITION 
 
+# test
+# lapply(reports$params[1:2], outlier_prob)
+
+# dummy_var <- lapply(reports_rnd$params, outlier_prob)
 list_of_summaries <- mclapply(reports_rnd$params, outlier_prob, mc.cores = 36)
+# list_of_summaries <- lapply(reports_rnd$params, outlier_prob) # for troubleshooting
 summaries <- bind_rows(list_of_summaries)
 
-write_tsv(summaries, paste0("/private/groups/treehouse/archive/projects/accuracy/outlier_probability_output_", output_id, ".tsv.gz"))
-
-# Review results
 head(summaries)
 glimpse(summaries)
 
@@ -102,6 +81,8 @@ summaries %>% filter(is.na(`Sample 4 Probability`), ! is.na(`Sample 2 Probabilit
 # 
 # summaries %>% filter(is.na(`Sample 4 Probability`), ! is.na(`Sample 2 Probability`)) %>%
 #   write_tsv(paste0("/private/groups/treehouse/archive/projects/accuracy/outlier_probability_output_", output_id, "_problematic.tsv.gz"))
+
+write_tsv(summaries, paste0("/private/groups/treehouse/archive/projects/accuracy/outlier_probability_output_", output_id, ".tsv.gz"))
 
 
 ## ----setup, include = FALSE----------------------------------------------

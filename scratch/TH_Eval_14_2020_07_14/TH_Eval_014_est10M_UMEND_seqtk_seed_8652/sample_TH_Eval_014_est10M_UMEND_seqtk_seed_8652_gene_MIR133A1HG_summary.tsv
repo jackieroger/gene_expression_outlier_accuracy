@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MIR133A1HG	Up	0.226508529809	0.210507676005	7.064128586015049	50.7046576606035	42.80067758328628	60.42065009560229	46.41393442622951	57.586837294332724	60.42065009560229	46.30118890356671	42.80067758328628

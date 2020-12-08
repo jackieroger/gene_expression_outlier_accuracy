@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CPT1A	Down	1.19534759832	1.32445430756	10.800767025545783	98.39322501557545	97.34826163818504	99.2529348986126	98.36808703535812	98.963133640553	99.2529348986126	98.03370786516854	97.34826163818504

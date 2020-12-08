@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	SNRPGP10	Up	6.22824149703	5.44607973099	12.558308254633054	96.38746438746439	92.3076923076923	100	96.29629629629629	100	100	92.3076923076923	93.33333333333333

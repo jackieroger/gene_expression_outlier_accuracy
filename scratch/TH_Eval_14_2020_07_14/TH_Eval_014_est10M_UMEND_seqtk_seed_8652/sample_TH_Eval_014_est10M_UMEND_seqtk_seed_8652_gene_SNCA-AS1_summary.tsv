@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	SNCA-AS1	Up	0.286881147788	0.0362440273166	87.36618714890821	87.05405589087232	81.73352435530086	92.84253578732107	81.73352435530086	91.34165366614666	92.84253578732107	87.05234159779614	82.30022404779686

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	HCN1	Up	0.286881147788	0.176311850548	38.54184845973522	87.88318815790714	82.83455674760023	94.20012746972594	85.75819672131148	90.49360146252286	94.20012746972594	86.12945838837517	82.83455674760023

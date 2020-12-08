@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PTPRD-AS1	Up	2.26303440583	1.99539804459	11.826438013956782	95.99178625991176	94.30523917995444	98.30508474576271	94.97716894977168	95.72072072072072	98.30508474576271	96.65071770334929	94.30523917995444

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CCDC144NL	Up	0.378511623254	0.141808778048	62.53515893940216	90.09301466040007	87.87878787878788	95.25065963060686	87.87878787878788	88.05555555555556	95.25065963060686	91.04477611940298	88.23529411764706

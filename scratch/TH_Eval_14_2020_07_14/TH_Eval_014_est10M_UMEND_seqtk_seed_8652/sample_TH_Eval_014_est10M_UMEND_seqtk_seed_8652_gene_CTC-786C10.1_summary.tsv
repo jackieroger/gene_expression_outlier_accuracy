@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CTC-786C10.1	Up	2.12101540096	1.6396034956	22.697237612801235	97.60417064063222	96.6	99.5249406175772	97.24919093851133	97.76422764227642	99.5249406175772	96.88249400479616	96.6

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PANX3	Up	0.815575428863	0.0362440273166	95.556017747233	88.5639241335751	84.19913419913419	95.27027027027027	84.19913419913419	90.68462401795735	95.27027027027027	88.34355828220859	84.32203389830508

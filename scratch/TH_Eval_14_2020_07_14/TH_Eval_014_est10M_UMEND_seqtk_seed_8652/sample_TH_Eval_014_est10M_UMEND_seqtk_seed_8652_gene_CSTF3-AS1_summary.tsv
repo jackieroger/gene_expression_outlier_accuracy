@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	CSTF3-AS1	Up	0.855989697308	0.513865172863	39.96829932894597	74.80643529266261	66	88.16982687551526	66	81.56553960166744	88.16982687551526	72	66.29680998613038

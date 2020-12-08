@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	SNAI1P1	Up	0.250961573533	0.106610842049	57.51905738071837	82.0643259439396	75.08090614886731	92.25061830173125	75.91111111111111	87.4015748031496	92.25061830173125	79.6774193548387	75.08090614886731

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	BRAFP1	Up	0.124328135002	0.071774750948	42.269904598146354	84.01521222853013	80.72072072072072	87.26937269372694	80.72072072072072	87.00787401574803	87.26937269372694	83.25991189427313	81.81818181818183

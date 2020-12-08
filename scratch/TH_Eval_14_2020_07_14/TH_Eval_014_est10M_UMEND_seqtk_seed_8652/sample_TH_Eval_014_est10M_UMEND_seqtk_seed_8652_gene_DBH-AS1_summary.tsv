@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DBH-AS1	Up	2.75060650484	2.49999880791	9.110997755914111	95.2311926564501	93.29608938547486	98.01488833746899	95.54973821989529	95.6043956043956	98.01488833746899	93.69085173501577	93.29608938547486

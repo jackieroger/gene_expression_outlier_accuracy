@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PCDHA9	Up	0.298658315565	0.210507676005	29.515548359414385	83.33891529747147	77.41389045736872	90.82217973231359	81.04508196721312	86.89823278488727	90.82217973231359	80.51519154557464	77.41389045736872

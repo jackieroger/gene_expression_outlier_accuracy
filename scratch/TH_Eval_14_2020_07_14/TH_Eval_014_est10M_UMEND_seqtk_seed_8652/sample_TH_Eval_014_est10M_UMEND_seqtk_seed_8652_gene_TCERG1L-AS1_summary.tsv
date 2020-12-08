@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	TCERG1L-AS1	Up	0.799087306074	0.277918636799	65.22049159253406	81.8647647227514	74.24863387978142	91.91891141349625	75.87985436893204	87.40335051546391	91.91891141349625	79.8730734360834	74.24863387978142

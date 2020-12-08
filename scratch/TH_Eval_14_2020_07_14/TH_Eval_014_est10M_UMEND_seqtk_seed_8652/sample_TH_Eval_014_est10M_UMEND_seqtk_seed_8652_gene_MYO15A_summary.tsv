@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MYO15A	Up	2.38956681176	2.24312090874	6.128554443394595	88.78779733313701	84.91620111731844	93.30024813895783	87.17277486910994	91.48351648351648	93.30024813895783	87.06624605678233	84.91620111731844

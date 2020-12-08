@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	HLA-E	Down	5.39128655811	5.40808677673	0.31161798652175204	60.316452439976004	52.016129032258064	70.11070110701108	53.46534653465347	69.66824644549763	70.11070110701108	56.32183908045977	52.016129032258064

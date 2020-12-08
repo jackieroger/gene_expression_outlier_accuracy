@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DCAF13P3	Up	0.475084882949	0.255831867456	46.150282478370634	78.8647833136577	71.41527001862198	85.7569721115538	71.41527001862198	85.7569721115538	84.60111317254174	77.90697674418605	74.64358452138494

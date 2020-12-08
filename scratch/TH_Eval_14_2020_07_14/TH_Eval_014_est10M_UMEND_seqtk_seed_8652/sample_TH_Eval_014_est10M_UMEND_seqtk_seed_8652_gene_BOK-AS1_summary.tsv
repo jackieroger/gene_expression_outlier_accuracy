@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	BOK-AS1	Up	0.565597175854	0.244370207191	56.794302089287605	81.98975804034768	75.03467406380028	92.1681780708986	75.77777777777777	87.3552570634553	92.1681780708986	79.61290322580645	75.03467406380028

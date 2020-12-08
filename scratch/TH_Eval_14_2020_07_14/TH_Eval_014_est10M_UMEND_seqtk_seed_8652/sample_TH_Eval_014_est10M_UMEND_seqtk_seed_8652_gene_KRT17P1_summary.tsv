@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	KRT17P1	Up	0.895302621333	0.6579002738	26.51643610509437	64.44139343540255	52.577777777777776	82.85243198680956	52.577777777777776	70.77350625289486	82.85243198680956	60.70967741935483	55.29357374017568

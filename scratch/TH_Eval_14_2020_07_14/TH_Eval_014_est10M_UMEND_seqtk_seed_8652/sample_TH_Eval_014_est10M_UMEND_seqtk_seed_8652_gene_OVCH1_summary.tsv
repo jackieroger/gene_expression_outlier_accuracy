@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	OVCH1	Up	0.765534746363	0.176311850548	76.96879842676707	85.90963160010956	80.7674526121128	93.9406430338005	81.46666666666667	89.11533117183882	93.9406430338005	84.25806451612902	80.7674526121128

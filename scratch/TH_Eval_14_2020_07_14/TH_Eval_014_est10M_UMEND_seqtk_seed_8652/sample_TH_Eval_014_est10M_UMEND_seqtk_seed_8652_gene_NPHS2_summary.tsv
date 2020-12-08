@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	NPHS2	Up	0.111031312389	0.0362440273166	67.35693153871904	86.8436280378154	80.95238095238095	94.48198198198197	80.95238095238095	89.8989898989899	94.48198198198197	86.25766871165645	82.62711864406779

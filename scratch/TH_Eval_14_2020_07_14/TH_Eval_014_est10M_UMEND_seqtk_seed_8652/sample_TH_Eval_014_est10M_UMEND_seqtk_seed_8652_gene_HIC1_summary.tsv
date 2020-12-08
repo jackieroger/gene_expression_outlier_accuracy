@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	HIC1	Up	4.93593113975	4.68826818466	5.017552880661619	99.67883863201165	99.24082665541965	99.95625546806649	99.8949027850762	99.83029274501484	99.95625546806649	99.47191550648104	99.24082665541965

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MEF2C-AS1	Up	2.67355642399	2.5765337944	3.628972581966461	48.29891304889327	40.28776978417266	59.14634146341463	41.90938511326861	59.14634146341463	58.55106888361045	40.28776978417266	41.6

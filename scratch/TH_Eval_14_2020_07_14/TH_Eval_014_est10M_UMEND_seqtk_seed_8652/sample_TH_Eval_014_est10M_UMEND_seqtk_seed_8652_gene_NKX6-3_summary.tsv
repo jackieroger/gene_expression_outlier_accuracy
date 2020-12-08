@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	NKX6-3	Up	0.250961573533	0.176311850548	29.745479331394137	68.80437819776543	58.37988826815642	79.40630797773655	58.37988826815642	74.800796812749	79.40630797773655	69.41860465116278	62.016293279022406

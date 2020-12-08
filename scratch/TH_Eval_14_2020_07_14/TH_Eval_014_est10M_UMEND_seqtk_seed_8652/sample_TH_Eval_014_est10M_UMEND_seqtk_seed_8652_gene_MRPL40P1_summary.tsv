@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MRPL40P1	Up	1.19534759832	0.6579002738	44.96159320312809	99.52076388060608	98.88475836431226	100	99.32975871313673	99.68	99.70930232558139	100	98.88475836431226

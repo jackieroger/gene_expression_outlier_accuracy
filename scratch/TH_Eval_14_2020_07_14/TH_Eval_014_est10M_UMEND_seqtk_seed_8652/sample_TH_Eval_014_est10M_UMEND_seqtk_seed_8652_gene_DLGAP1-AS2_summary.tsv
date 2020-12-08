@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DLGAP1-AS2	Up	3.84699468697	3.73126101494	3.008417776660753	96.35737525635774	94.03846153846153	98.99396378269618	94.03846153846153	98.99396378269618	98.59894921190893	95.42857142857143	94.72693032015066

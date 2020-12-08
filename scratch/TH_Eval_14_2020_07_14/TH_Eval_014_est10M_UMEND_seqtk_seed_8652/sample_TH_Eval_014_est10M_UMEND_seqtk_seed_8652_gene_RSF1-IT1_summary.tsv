@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	RSF1-IT1	Up	0.310340120612	0.141808778048	54.30536736006004	81.67289210286633	74.71104946833103	92.08573784006595	75.2	87.07735062528948	92.08573784006595	79.29032258064515	74.71104946833103

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	HOXB13	Up	3.90303827011	3.7265753746	4.521167441820317	99.54526197671379	98.90341628005062	99.95625546806649	99.8949027850762	99.78786593126856	99.95625546806649	99.18386941910707	98.90341628005062

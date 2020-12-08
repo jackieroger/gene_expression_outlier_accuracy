@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	LMX1B	Up	2.11436702495	1.99686324596	5.557397443463189	92.25420992248772	87.03594578668238	95.85253456221197	91.74977334542159	95.85253456221197	95.41088580576307	91.22191011235955	87.03594578668238

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	SLC17A8	Up	0.454175893186	0.176311850548	61.17983072346941	84.21858887589985	77.44585511575804	91.47920927062032	78.29512893982809	89.39157566302653	91.47920927062032	84.48117539026629	77.44585511575804

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DGAT1	Up	7.20035917896	7.1823849678	0.2496293686643067	83.28751221896383	76.36363636363637	92.47311827956989	76.36363636363637	92.47311827956989	84.375	78.2258064516129	85

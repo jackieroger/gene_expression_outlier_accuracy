@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	COLQ	Up	3.31614574229	3.20534467697	3.34126042492587	98.77486903578627	95.90163934426229	100	99.69969969969969	99.5	100	98.77300613496932	95.90163934426229

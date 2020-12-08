@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	BRINP2	Up	1.42223300068	1.3924831152	2.091772970095333	50.93078951502771	42.67015706806283	61.29032258064516	42.67015706806283	60.98901098901099	61.29032258064516	46.68769716088328	43.01675977653631

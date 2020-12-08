@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	SPTY2D1-AS1	Up	2.12101540096	1.84372746944	13.073357760367784	83.02725436267708	77.07774798927613	90.79457364341084	77.07774798927613	90.08	90.79457364341084	80.04640371229699	77.13754646840148

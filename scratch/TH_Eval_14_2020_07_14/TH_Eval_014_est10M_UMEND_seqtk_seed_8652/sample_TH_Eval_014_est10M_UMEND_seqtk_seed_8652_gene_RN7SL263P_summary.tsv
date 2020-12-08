@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	RN7SL263P	Up	0.910732661903	0.862374007702	5.309862731831013	1.1994603837982005	0	2.5974025974025974	1.7369727047146404	0.684931506849315	0	0.9779951100244498	2.5974025974025974

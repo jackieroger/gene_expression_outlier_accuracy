@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	TAF7L	Up	0.956056652412	0.593724250793	37.898632963317084	81.29810054419491	77.27930535455862	86.01503759398497	77.27930535455862	85.6923076923077	86.01503759398497	80	77.50385208012327

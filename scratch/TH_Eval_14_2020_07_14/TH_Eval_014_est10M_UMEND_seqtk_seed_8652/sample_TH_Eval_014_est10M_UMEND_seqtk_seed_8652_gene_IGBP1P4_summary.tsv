@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	IGBP1P4	Up	0.400537929584	0.176311850548	55.98123485305921	81.95348742854308	74.9422098936662	92.1681780708986	75.6888888888889	87.3552570634553	92.1681780708986	79.61290322580645	74.9422098936662

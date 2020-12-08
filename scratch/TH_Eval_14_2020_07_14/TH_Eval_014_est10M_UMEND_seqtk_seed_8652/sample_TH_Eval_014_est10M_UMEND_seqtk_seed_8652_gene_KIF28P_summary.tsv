@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	KIF28P	Up	0.411426245726	0.210507676005	48.83465063500274	79.69495039395659	71.93712436430883	91.38499587798846	72.17777777777778	85.03937007874016	91.38499587798846	77.93548387096774	71.93712436430883

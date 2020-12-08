@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	PTENP1-AS	Up	0.604071323669	0.472911119461	21.71270164115074	56.835094054670364	46.93333333333333	73.99010717230009	46.93333333333333	64.19638721630385	73.99010717230009	51.806451612903224	47.249190938511326

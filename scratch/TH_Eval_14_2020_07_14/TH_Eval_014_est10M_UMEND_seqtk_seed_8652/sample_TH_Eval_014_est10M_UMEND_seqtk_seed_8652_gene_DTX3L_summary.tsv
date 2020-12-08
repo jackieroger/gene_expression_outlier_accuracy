@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	DTX3L	Down	1.09761079663	1.14982628822	4.7571955150512055	89.53572696843308	82.55745433117265	94.41244239631337	89.12058023572075	94.41244239631337	93.5965848452508	87.99157303370787	82.55745433117265

@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	LMO7DN	Up	0.650764559117	0.175973325968	72.95898747055739	86.35160464148822	81.16045845272207	92.50170415814588	81.16045845272207	90.87363494539782	92.50170415814588	86.04224058769513	81.1799850634802

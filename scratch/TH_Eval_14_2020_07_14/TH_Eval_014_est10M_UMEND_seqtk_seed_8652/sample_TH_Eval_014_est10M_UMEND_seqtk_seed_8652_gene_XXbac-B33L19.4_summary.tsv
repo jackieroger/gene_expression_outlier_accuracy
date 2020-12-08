@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	XXbac-B33L19.4	Up	0.48542682717	0.376716196537	22.394854290763945	59.44857893901386	47.57281553398058	78.20049986114968	47.57281553398058	66.72036082474226	78.20049986114968	57.0716228467815	47.6775956284153

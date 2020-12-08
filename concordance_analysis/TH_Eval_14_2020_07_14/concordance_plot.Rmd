@@ -1,0 +1,89 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+
+```{r}
+
+library(tidyverse)
+library(janitor)
+
+```
+
+Load data
+
+```{r}
+
+# samples <-
+#   list.files(path = "TH_Eval_014_est10M_UMEND_seqtk_seed_8652",
+#              pattern = "summary.tsv",
+#              recursive = TRUE)
+
+# accuracy_results_raw <- lapply(samples,
+#                                function(x)
+#                                  read_tsv(
+#                                    file.path("TH_Eval_014_est10M_UMEND_seqtk_seed_8652", x),
+#                                    col_types = cols(.default = "c")
+#                                  )) %>% bind_rows
+accuracy_results_raw <- read_tsv("outlier_probability_output_TH_Eval_14_2020_12_07.tsv.gz") %>%
+  rename(Mean_Accuracy = `Probability of being an outlier`)
+
+input_data <- read_tsv("outlier_probability_input_TH_Eval_14_2020_07_13.tsv")
+
+confirmed_calls <- input_data %>%
+  filter(sample_id == "TH_Eval_014_est40M_UMEND_seqtk_seed_4956") %>%
+  mutate(concordant = TRUE) %>%
+  select(Gene, Type, concordant)
+
+accuracy_results <- merge(
+  accuracy_results_raw %>%
+    filter(Sample != "TH_Eval_014_est40M_UMEND_seqtk_seed_4956"),
+  input_data %>% select(-sample_id),
+  by = c("Gene", "Type", "Expression", "Threshold")) %>%
+  rename_all( ~ str_replace_all(., ' ', '_')) %>%
+  mutate(depth_id = str_replace(Sample, "^.*est([0-9][0-9]*M).*$", "\\1")) %>%
+  type_convert %>%
+  left_join(confirmed_calls, by = c("Gene", "Type")) %>%
+  mutate(concordant = replace_na(concordant, FALSE))
+
+table(accuracy_results$concordant, useNA = "always")  
+
+
+
+```
+
+Plot results
+
+```{r}
+
+accuracy_results %>% tabyl(Type, concordant)
+
+
+accuracy_results_for_plot <- accuracy_results %>%
+  group_by(concordant, Type) %>%
+  mutate(box_label = paste0(c("Discordant", "Concordant")[1+concordant], " (n=",n(), ")"))
+
+
+ggplot(accuracy_results_for_plot) +
+  geom_boxplot(aes(
+    group = concordant,
+    x = box_label,
+    y = Mean_Accuracy,
+    fill = concordant)) +
+  facet_wrap(~Type, scales = "free_x") +
+  theme_bw() +
+  scale_fill_brewer(palette="Paired") +
+#  scale_x_discrete(labels = c("TRUE" = "Concordant", "FALSE" = "Discordant")) +
+  ylab("Probability") +
+  xlab("") +
+#  xlab("Concordance") +
+  theme(legend.position="none") +
+  ggtitle("Probabilities of concordant and discordant outlier calls")
+
+ggsave("../../figures/concordance.png")
+
+```

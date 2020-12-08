@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MTRF1	Up	4.37503943135	4.35091876984	0.5513244369218769	41.877977271222655	34.03846153846154	55.166374781085814	34.03846153846154	50.30181086519114	55.166374781085814	34.66666666666667	35.2165725047081

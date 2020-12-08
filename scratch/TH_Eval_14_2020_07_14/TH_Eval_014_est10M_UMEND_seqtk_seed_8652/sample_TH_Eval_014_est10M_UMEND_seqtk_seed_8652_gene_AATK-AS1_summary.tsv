@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	AATK-AS1	Up	0.333423733725	0.071774750948	78.47341275135557	88.5018842762591	82.9608938547486	95.54730983302412	82.9608938547486	90.43824701195219	95.54730983302412	88.0232558139535	85.539714867617107

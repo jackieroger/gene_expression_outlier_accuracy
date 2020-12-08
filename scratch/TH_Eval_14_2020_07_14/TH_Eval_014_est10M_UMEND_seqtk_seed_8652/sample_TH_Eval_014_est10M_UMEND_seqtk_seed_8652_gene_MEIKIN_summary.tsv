@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	MEIKIN	Up	1.20163386117	1.00708842278	16.190076251727454	88.74694639307481	83.10991957104558	94.47674418604652	83.10991957104558	93.92	94.47674418604652	88.39907192575406	83.82899628252788

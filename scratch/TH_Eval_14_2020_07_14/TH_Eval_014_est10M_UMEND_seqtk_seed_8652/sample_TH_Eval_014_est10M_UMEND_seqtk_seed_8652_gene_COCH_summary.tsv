@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	COCH	Up	6.0537630093	6.00500154495	0.8054736248361724	91.36022958601745	86.45833333333334	98.12734082397003	87.58865248226951	98.12734082397003	96.49122807017544	88.13559322033898	86.45833333333334

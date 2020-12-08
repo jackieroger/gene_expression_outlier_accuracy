@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	NEXN-AS1	Up	0.464668267003	0.376938819885	18.88001685241691	62.946226028862085	56.85670261941448	70.3076923076923	59.479015918958034	70.3076923076923	68.42105263157895	59.66666666666667	56.85670261941448

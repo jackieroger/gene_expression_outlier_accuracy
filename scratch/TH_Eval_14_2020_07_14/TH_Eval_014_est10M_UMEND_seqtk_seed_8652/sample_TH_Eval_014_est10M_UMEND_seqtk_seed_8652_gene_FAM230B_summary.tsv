@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	FAM230B	Up	0.226508529809	0.106960088015	52.77878139724251	83.89902965523395	77.64830508474576	93.58108108108108	77.7056277056277	86.75645342312009	93.58108108108108	83.8036809815951	77.64830508474576

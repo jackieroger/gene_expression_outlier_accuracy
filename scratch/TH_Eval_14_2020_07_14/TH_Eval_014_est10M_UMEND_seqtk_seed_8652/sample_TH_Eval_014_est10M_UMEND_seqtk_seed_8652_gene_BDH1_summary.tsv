@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	BDH1	Down	0.650764559117	0.749518096447	15.1750023793544	57.25798718374721	50.53929121725732	66	52.243125904486256	66	63.00751879699248	54.50000000000001	50.53929121725732

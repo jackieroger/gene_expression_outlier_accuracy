@@ -1,2 +1,0 @@
-Sample	Gene	Type	Expression	Threshold	Percent difference	Mean Accuracy	Minimum Accuracy	Maximum Accuracy	Sample 1 Accuracy	Sample 2 Accuracy	Sample 3 Accuracy	Sample 4 Accuracy	Sample 5 Accuracy
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	ADAM20P1	Up	0.659924558402	0.582022130489	11.804747515631169	48.387568526424	37.40022805017104	58.44636251541308	44.5409429280397	55.86297760210803	58.44636251541308	45.68733153638814	37.40022805017104
