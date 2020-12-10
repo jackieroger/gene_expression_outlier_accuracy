@@ -46,8 +46,17 @@ gathered_results <- gathered_results_raw %>%
          Threshold, MEND_depth = `Mend depth`,
          effective_length = `Gene length`,
          Mean_Accuracy = `Probability of being an outlier`) %>%
-  mutate(`Percent difference` = 100 * ((abs(Expression - Threshold)) / Expression))
+  mutate(`Percent difference` = 100 * ((abs(Expression - Threshold)) / Expression)) %>%
+  drop_na(Mean_Accuracy)
 
+# Results including NAs
+
+gathered_results_with_nas <- gathered_results_raw %>%
+  select(Sample, Gene, Type, Expression, 
+         Threshold, MEND_depth = `Mend depth`,
+         effective_length = `Gene length`,
+         Mean_Accuracy = `Probability of being an outlier`) %>%
+  mutate(`Percent difference` = 100 * ((abs(Expression - Threshold)) / Expression))
 
 ```
 
@@ -79,10 +88,22 @@ bulk_results <- gathered_results %>%
                                       include.lowest = TRUE)
          )
 
+# Results including NAs
+
+bulk_results_with_nas <- gathered_results_with_nas %>%
+  mutate(Expression_bin = cut(Expression, expression_bin_boundaries, 
+                              labels = expression_bin_names,
+                        include.lowest = TRUE),
+         MEND_bin = cut(MEND_depth, mend_depth_bin_boundaries, labels = mend_depth_bin_names),
+         length_bin = cut(effective_length, length_bin_boundaries, labels = length_bin_names,
+                                      include.lowest = TRUE)
+         )
+
 ```
 
 # How many bins are possible? How many contain entries?
 ```{r}
+
 print("How many bins are possible?")
 (length(expression_bin_boundaries)-1) * (length(mend_depth_bin_boundaries)-1) * (length(length_bin_boundaries)-1)
 
@@ -111,6 +132,18 @@ length(which(bin_check$n_entries_per_bin > 0 & bin_check$n_entries_per_bin < 100
 
 print("How many detected outlier genes total are being analyzed?")
 sum(bin_check$n_entries_per_bin)
+
+# Get numbers before excluding NAs
+
+bin_check_with_nas <- bulk_results_with_nas %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n())
+
+print("How many bins contain entries in this data?")
+nrow(bin_check_with_nas)
+
+print("How many bins have between 1 and 99 results?")
+length(which(bin_check_with_nas$n_entries_per_bin > 0 & bin_check_with_nas$n_entries_per_bin < 100))
 
 ```
 
@@ -207,6 +240,21 @@ plot4
 
 ```
 
+### Looking at the very low accuracy up outliers
+
+```{r}
+
+# Outliers with probability < 0.05
+low_acc_ups <- subset(bulk_results, Mean_Accuracy < 0.05)
+
+# How many are there?
+nrow(low_acc_ups)
+
+# What percent are short & low exp?
+100*length(which(low_acc_ups$Expression_bin == "0-1" & low_acc_ups$length_bin == "0-100"))/nrow(low_acc_ups)
+
+```
+
 # Spectrum of accuracies by outlier type (histograms for figure 1)
 
 ```{r}
@@ -214,7 +262,7 @@ plot4
 bulk_results$Type <- factor(bulk_results$Type, levels = c("Up", "Down"))
 
 acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
-  geom_histogram(fill="white") +
+  geom_histogram(fill="white", binwidth = 0.05) +
   facet_wrap(~Type, scales="free") +
   scale_color_brewer(palette = "Set1") +
   theme_bw() +
