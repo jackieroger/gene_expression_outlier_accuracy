@@ -106,6 +106,10 @@ ggplot(bin_check) +
 # # Which bins have only one entry?
 # subset(bin_check, n_entries_per_bin == 1)
 
+print("How many bins have between 1 and 99 results?")
+length(which(bin_check$n_entries_per_bin > 0 & bin_check$n_entries_per_bin < 100))
+
+
 ```
 
 # Confirm the absence of NA values
