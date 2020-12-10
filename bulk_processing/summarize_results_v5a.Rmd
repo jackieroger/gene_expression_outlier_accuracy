@@ -109,6 +109,8 @@ ggplot(bin_check) +
 print("How many bins have between 1 and 99 results?")
 length(which(bin_check$n_entries_per_bin > 0 & bin_check$n_entries_per_bin < 100))
 
+print("How many detected outlier genes total are being analyzed?")
+sum(bin_check$n_entries_per_bin)
 
 ```
 
@@ -117,6 +119,8 @@ length(which(bin_check$n_entries_per_bin > 0 & bin_check$n_entries_per_bin < 100
 
 dim(bulk_results)
 dim(is.na(bulk_results))
+
+sum(is.na(bulk_results$Mean_Accuracy))
 
 ```
 
@@ -161,6 +165,18 @@ plot1
 all_bins <- bulk_results %>% tabyl(MEND_bin, Expression_bin, length_bin)
 
 all_bins
+
+```
+
+## How many outliers had >95% accuracy?
+
+```{r}
+
+print("How many outliers had >95% accuracy?")
+length(which(bulk_results$Mean_Accuracy > 0.95))
+
+print("What percent of outliers had >95% accuracy?")
+100*length(which(bulk_results$Mean_Accuracy > 0.95))/nrow(bulk_results)
 
 ```
 
