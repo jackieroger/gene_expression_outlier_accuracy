@@ -87,3 +87,11 @@ ggplot(accuracy_results_for_plot) +
 ggsave("../../figures/concordance.png")
 
 ```
+
+# Dec 16: further investigation
+
+```{r}
+
+summary(accuracy_results_for_plot$Mean_Accuracy)
+
+```

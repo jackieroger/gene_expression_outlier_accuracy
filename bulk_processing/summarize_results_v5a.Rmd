@@ -551,6 +551,33 @@ median(subset(figure1_data, Expression_bin == "0-1")$Mean_Accuracy)
 
 ```
 
+# Look into the percent difference results
+
+```{r}
+
+pd2 <- figure1_data_v2 %>%
+  filter(set == "Difference<2.2%")
+
+pd100 <- figure1_data_v2 %>%
+  filter(set == "Difference>100%")
+
+print("pd2 summary")
+summary(pd2$Mean_Accuracy)
+summary(pd2$Expression)
+
+print("pd100 summary")
+summary(pd100$Mean_Accuracy)
+summary(pd100$Expression)
+
+print("pd100 up summary")
+summary(pd100$Mean_Accuracy[pd100$Type == "Up"])
+summary(pd100$Expression[pd100$Type == "Up"])
+
+print("pd100 down summary")
+summary(pd100$Mean_Accuracy[pd100$Type == "Down"])
+summary(pd100$Expression[pd100$Type == "Down"])
+
+```
 
 
 # SessionInfo
