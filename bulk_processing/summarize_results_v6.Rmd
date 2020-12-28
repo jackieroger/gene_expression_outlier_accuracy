@@ -1,0 +1,383 @@
+---
+title: "`r gsub('.Rmd', ' ', gsub('_', ' ', knitr::current_input()))`"
+author: "`r Sys.getenv('USER')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_float: true
+---
+
+```{r setup}
+
+library(scales) # for comma_format
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(janitor)
+library(cowplot)
+
+```
+
+## Summarize results of bulk processing for outlier lead accuracy project
+
+This data comes from the CKCC1 outlier results.
+
+## Load data
+
+```{r}
+
+gathered_results_raw <- read_tsv("2020_12_03/outlier_probability_output_CKCC_2020_12_04.tsv.gz") 
+
+gathered_results <- gathered_results_raw %>%
+  select(Sample, Gene, Type, Expression, 
+         Threshold, MEND_depth = `Mend depth`,
+         effective_length = `Gene length`,
+         Mean_Accuracy = `Probability of being an outlier`) %>%
+  mutate(`Percent difference` = 100 * ((abs(Expression - Threshold)) / Expression)) %>%
+  drop_na(Mean_Accuracy)
+
+# Results including NAs
+
+gathered_results_with_nas <- gathered_results_raw %>%
+  select(Sample, Gene, Type, Expression, 
+         Threshold, MEND_depth = `Mend depth`,
+         effective_length = `Gene length`,
+         Mean_Accuracy = `Probability of being an outlier`) %>%
+  mutate(`Percent difference` = 100 * ((abs(Expression - Threshold)) / Expression))
+
+```
+
+## Add bin info
+
+```{r}
+
+expression_bin_boundaries <- c(0, 1, 3, 5, 7, 10, 20)
+mend_depth_bin_boundaries <- c(0, seq(2, 46, 4), Inf)*1E6
+length_bin_boundaries <- c(0, 100, 450, 800, 1500, 4000, Inf)
+
+
+make_bin_names <- function(boundaries = 1:10){
+  raw_names <- paste0(boundaries, "-", lead(boundaries)) %>% str_replace("-Inf", "+")
+  raw_names[1:(length(boundaries)-1)]
+}
+  
+
+expression_bin_names <- make_bin_names(expression_bin_boundaries)
+mend_depth_bin_names <- make_bin_names(mend_depth_bin_boundaries/1e6)
+length_bin_names <- make_bin_names(length_bin_boundaries)
+
+bulk_results <- gathered_results %>%
+  mutate(Expression_bin = cut(Expression, expression_bin_boundaries, 
+                              labels = expression_bin_names,
+                        include.lowest = TRUE),
+         MEND_bin = cut(MEND_depth, mend_depth_bin_boundaries, labels = mend_depth_bin_names),
+         length_bin = cut(effective_length, length_bin_boundaries, labels = length_bin_names,
+                                      include.lowest = TRUE)
+         )
+
+# Results including NAs
+
+bulk_results_with_nas <- gathered_results_with_nas %>%
+  mutate(Expression_bin = cut(Expression, expression_bin_boundaries, 
+                              labels = expression_bin_names,
+                        include.lowest = TRUE),
+         MEND_bin = cut(MEND_depth, mend_depth_bin_boundaries, labels = mend_depth_bin_names),
+         length_bin = cut(effective_length, length_bin_boundaries, labels = length_bin_names,
+                                      include.lowest = TRUE)
+         )
+
+```
+
+## Summary stats on bins
+
+```{r}
+
+print("How many detected outlier genes total are being analyzed?")
+sum(bin_check$n_entries_per_bin)
+
+print("How many bins are possible?")
+(length(expression_bin_boundaries)-1) * (length(mend_depth_bin_boundaries)-1) * (length(length_bin_boundaries)-1)
+
+bin_check <- bulk_results %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n())
+
+bin_check_with_nas <- bulk_results_with_nas %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n())
+
+print("How many bins contain entries in this data?")
+nrow(bin_check_with_nas)
+
+print("How many bins have between 1 and 99 results?")
+length(which(bin_check_with_nas$n_entries_per_bin > 0 & bin_check_with_nas$n_entries_per_bin < 100))
+
+```
+
+## Confirm the absence of NA values
+
+```{r}
+
+sum(is.na(bulk_results$Mean_Accuracy))
+
+```
+
+## Look at bin sizes
+
+```{r}
+
+# Make sure (depth, expression, length) bins are relatively similar sizes
+
+all_bins <- bulk_results %>% tabyl(MEND_bin, Expression_bin, length_bin)
+
+all_bins
+
+```
+
+## How many outliers had >95% accuracy?
+
+```{r}
+
+print("How many outliers had >95% accuracy?")
+length(which(bulk_results$Mean_Accuracy > 0.95))
+
+print("What percent of outliers had >95% accuracy?")
+100*length(which(bulk_results$Mean_Accuracy > 0.95))/nrow(bulk_results)
+
+```
+
+## Spectrum of accuracies by depth, expression, and length
+
+```{r}
+
+plot2 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~MEND_bin) +
+  ggtitle("Spectrum of accuracies by MEND depth")
+
+plot2
+
+plot3 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~Expression_bin) +
+  ggtitle("Spectrum of accuracies by expression level")
+
+plot3
+
+plot4 <- ggplot(bulk_results, aes(x=Mean_Accuracy)) +
+  geom_histogram() +
+  facet_wrap(~length_bin) +
+  ggtitle("Spectrum of accuracies by effective gene length")
+
+plot4
+
+```
+
+## StatBin2 function def
+
+```{r}
+
+# StatBin2 allows depiction of empty bins as blank instead of a horizontal line:
+# https://stackoverflow.com/questions/57128090/remove-baseline-color-for-geom-histogram
+StatBin2 <- ggproto(
+  "StatBin2", 
+  StatBin,
+  compute_group = function (data, scales, binwidth = NULL, bins = NULL, 
+                            center = NULL, boundary = NULL, 
+                            closed = c("right", "left"), pad = FALSE, 
+                            breaks = NULL, origin = NULL, right = NULL, 
+                            drop = NULL, width = NULL) {
+    if (!is.null(breaks)) {
+      if (!scales$x$is_discrete()) {
+        breaks <- scales$x$transform(breaks)
+      }
+      bins <- ggplot2:::bin_breaks(breaks, closed)
+    }
+    else if (!is.null(binwidth)) {
+      if (is.function(binwidth)) {
+        binwidth <- binwidth(data$x)
+      }
+      bins <- ggplot2:::bin_breaks_width(scales$x$dimension(), binwidth, 
+                                         center = center, boundary = boundary, 
+                                         closed = closed)
+    }
+    else {
+      bins <- ggplot2:::bin_breaks_bins(scales$x$dimension(), bins, 
+                                        center = center, boundary = boundary, 
+                                        closed = closed)
+    }
+    res <- ggplot2:::bin_vector(data$x, bins, weight = data$weight, pad = pad)
+
+    # drop 0-count bins completely before returning the dataframe
+    res <- res[res$count > 0, ] 
+
+    res
+  })
+
+
+```
+
+# Figure 2
+
+```{r figure-1}
+
+# to get hex codes from palette
+# library(RColorBrewer)
+# brewer.pal(12, "Set1")
+
+type_colors = c(Up = "#E41A1C", Down = "#377EB8")
+
+bulk_results$Type <- factor(bulk_results$Type, levels = c("Up", "Down"))
+
+acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
+  geom_histogram(fill="white", stat = StatBin2) +
+  facet_wrap(~Type, scales="free") +
+  theme_bw() +
+  scale_color_manual(values = type_colors) +
+  theme(legend.position="none") +
+  xlab("") +
+  ylab("Gene\nexpression\nmeasurements")
+
+figure1_data_v2 <- bind_rows(
+bulk_results %>%
+  filter(Expression > quantile(Expression, 0.75)) %>%
+  mutate(set = paste0("Expression>", round(quantile(Expression, 0.75), 1), " Log2(TPM+1)")),
+bulk_results %>%
+  filter(Expression < quantile(Expression, 0.25)) %>%
+  mutate(set = paste0("Expression<", round(quantile(Expression, 0.25), 1), " Log2(TPM+1)")),
+bulk_results %>%
+  filter(MEND_depth > quantile(MEND_depth, 0.75)) %>%
+  mutate(set = paste0("Depth>", round(quantile(MEND_depth, 0.75)/1e6), "M MEND reads")),
+bulk_results %>%
+  filter(MEND_depth < quantile(MEND_depth, 0.25)) %>%
+  mutate(set = paste0("Depth<", round(quantile(MEND_depth, 0.25)/1e6), "M MEND reads")),
+bulk_results %>%
+  filter(effective_length > quantile(effective_length, 0.75)) %>%
+  mutate(set = paste0("Length>", round(quantile(effective_length, 0.75)/1000, 1), "kb")),
+bulk_results %>%
+  filter(effective_length < quantile(effective_length, 0.25)) %>%
+  mutate(set = paste0("Length<", round(quantile(effective_length, 0.25)/1000, 1), "kb")),
+bulk_results %>%
+  filter(`Percent difference` > quantile(`Percent difference`, 0.75)) %>%
+  mutate(set = paste0("Difference>", round(quantile(`Percent difference`, 0.75), 1), "%")),
+bulk_results %>%
+  filter(`Percent difference` < quantile(`Percent difference`, 0.25)) %>%
+  mutate(set = paste0("Difference<", round(quantile(`Percent difference`, 0.25), 1), "%"))
+)
+
+boxplot_n_labels <- figure1_data_v2 %>%
+   group_by(set, Type) %>%
+   summarize(set_type_label = paste0("n=", scales::label_comma()(n())))
+
+all_boxplots <- ggplot(figure1_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)) +
+  geom_boxplot(outlier.size = 0.5) +
+  geom_text(data = boxplot_n_labels, 
+            #aes(x=0.50, y=set, label = set_type_label), vjust = -1, size = 3) +
+            aes(x=0, y=set, label = set_type_label), vjust = -0.5, hjust = 0, size = 3) +
+  theme_bw() +
+  scale_fill_manual(values = type_colors) +
+  scale_color_manual(values = type_colors) +
+  facet_wrap(~Type, ncol = 2) +
+  theme(legend.position="none") +
+  ylab("")
+
+all_boxplots
+
+combined_image <- plot_grid(acc_overview, all_boxplots, ncol = 1, rel_heights = c(1,2), align = "v",
+                  labels = "AUTO")
+combined_image
+
+ggsave("../figures/fig1.png", combined_image)
+
+```
+## Where does the small peak in the left tail for up outliers in fig 2A come from?
+
+```{r}
+
+# Outliers with probability < 0.05
+low_acc_ups <- subset(bulk_results, Mean_Accuracy < 0.05)
+
+# How many are there?
+nrow(low_acc_ups)
+
+# What percent are short & low exp?
+100*length(which(low_acc_ups$Expression_bin == "0-1" & low_acc_ups$length_bin == "0-100"))/nrow(low_acc_ups)
+
+```
+
+# Why are accuracies lower for upper percent difference quartile than lower percent difference quartile?
+
+```{r}
+
+pd2 <- figure1_data_v2 %>%
+  filter(set == "Difference<2.2%")
+
+pd100 <- figure1_data_v2 %>%
+  filter(set == "Difference>100%")
+
+print("pd2 up summary of expression & accuracy")
+summary(pd2$Mean_Accuracy[pd2$Type == "Up"])
+summary(pd2$Expression[pd2$Type == "Up"])
+
+print("pd2 down summary of expression & accuracy")
+summary(pd2$Mean_Accuracy[pd2$Type == "Down"])
+summary(pd2$Expression[pd2$Type == "Down"])
+
+print("pd100 up summary of expression & accuracy")
+summary(pd100$Mean_Accuracy[pd100$Type == "Up"])
+summary(pd100$Expression[pd100$Type == "Up"])
+
+print("pd100 down summary of expression & accuracy")
+summary(pd100$Mean_Accuracy[pd100$Type == "Down"])
+summary(pd100$Expression[pd100$Type == "Down"])
+
+```
+
+## Why are the accuracies lower for longer down outliers?
+
+```{r}
+
+long_downs <- figure1_data_v2 %>%
+  filter(Type == "Down" & set == "Length>5.7kb")
+
+short_downs <- figure1_data_v2 %>%
+  filter(Type == "Down" & set == "Length<0kb")
+
+print("long down summarys")
+summary(long_downs$Expression)
+summary(long_downs$`Percent difference`)
+summary(long_downs$MEND_depth)
+
+print("short down summarys")
+summary(short_downs$Expression)
+summary(short_downs$`Percent difference`)
+summary(short_downs$MEND_depth)
+
+```
+## Why does fig 2A look like sunshine & rainbows, while fig 2B looks like tornadoes & hailstorms?
+
+```{r}
+
+ggplot(figure1_data_v2, aes(y=Type, x=Mean_Accuracy, fill = Type)) +
+  geom_boxplot(outlier.size = 0.5) +
+  theme_bw() +
+  scale_fill_manual(values = type_colors) +
+  scale_color_manual(values = type_colors) +
+  facet_wrap(~Type, ncol = 2) +
+  theme(legend.position="none") +
+  ylab("")
+
+ggplot(figure1_data_v2, aes(y=Type, x=Mean_Accuracy, fill = Type)) +
+  geom_violin(outlier.size = 0.5) +
+  theme_bw() +
+  scale_fill_manual(values = type_colors) +
+  scale_color_manual(values = type_colors) +
+  facet_wrap(~Type, ncol = 2) +
+  theme(legend.position="none") +
+  ylab("")
+
+```
+
+
+

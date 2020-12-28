@@ -88,7 +88,7 @@ ggsave("../../figures/concordance.png")
 
 ```
 
-# Dec 16: further investigation
+# Compare to old results
 
 ```{r}
 

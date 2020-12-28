@@ -88,3 +88,13 @@ sum(bin_check$n_entries_per_bin < 20) #14
 sum(bin_check$n_samples < 5) #13
 
 ```
+
+### Look into insufficient bins
+
+```{r}
+
+insufficient_bins <- bin_check[which(bin_check$n_entries_per_bin < 100),]
+
+length(which(insufficient_bins$length_bin == "0-100"))
+
+```
