@@ -1,2 +1,2 @@
 Sample	Gene	Type	Expression	Threshold	Mend depth	Gene length	Percent difference	Probability >= 0.95	Probability of being an outlier	Minimum Probability	Maximum Probability	Sample 1 Probability	Sample 2 Probability	Sample 3 Probability	Sample 4 Probability	Sample 5 Probability
-TH_Eval_014_est10M_UMEND_seqtk_seed_8652	SGCA	Up	3.6	3.5	1000000	100	2.77777777777778	FALSE	NA	0	0.07407407407407407	0	0.02040816326530612	0	0.07407407407407407	0.022727272727272728
+TH_Eval_014_est10M_UMEND_seqtk_seed_8652	SGCA	Up	3.6	3.5	1000000	100	2.77777777777778	FALSE	0.023441902013330584	0	0.07407407407407407	0	0.02040816326530612	0	0.07407407407407407	0.022727272727272728

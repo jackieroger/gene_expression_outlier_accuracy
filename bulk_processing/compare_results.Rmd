@@ -1,0 +1,118 @@
+---
+title: "compare_sept_dec_results.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+library(ggplot2)
+
+```
+
+### Load results from both runs
+
+```{r}
+
+sept_results <- read_tsv("2020_09_29/outlier_probability_output_CKCC_2020_09_28.tsv.gz")
+dec_results <- read_tsv("2020_12_03/outlier_probability_output_CKCC_2020_12_04.tsv.gz")
+
+```
+
+### Compare distributions
+
+```{r}
+
+# Dec has a bit more ups and less downs
+table(sept_results$Type)/nrow(sept_results)
+table(dec_results$Type)/nrow(dec_results)
+
+# Dec has higher expression
+summary(sept_results$Expression)
+summary(dec_results$Expression)
+
+# Dec has slightly lower depth
+summary(sept_results$`Mend depth`)/1000000
+summary(dec_results$`Mend depth`)/1000000
+
+# Dec has shorter genes
+summary(sept_results$`Gene length`)
+summary(dec_results$`Gene length`)
+
+# Dec has higher percent differences
+summary(sept_results$`Percent difference`)
+summary(dec_results$`Percent difference`)
+
+# Dec has slightly lower probabilities
+summary(sept_results$`Probability of being an outlier`)
+summary(dec_results$`Probability of being an outlier`)
+
+```
+
+### Visualize distributions
+
+```{r}
+
+ggplot(sept_results) +
+  geom_boxplot(aes(Type, `Probability of being an outlier`))
+
+ggplot(dec_results) +
+  geom_boxplot(aes(Type, `Probability of being an outlier`))
+
+```
+
+I generated a version of figure 2 using the sept data (in figures folder).
+I did this by replacing the dec data with the sept data on line 95 of
+summarize_results_v7.Rmd and re-running that code. The two versions of figure 2
+are extremely similar.
+
+Later - I went back and looked at the results from processing the July data in
+summarize_results_v4.Rmd. I reran that with the July data and with the December
+data and compared the figure 2s for each (both in figures folder). It would
+seem perhaps that the July data and the December data is different from each
+other, and that the September data and December data are similar to each other.
+
+### Compare july and september and december
+
+```{r}
+
+# Load results
+july_results <- read_tsv(paste0("bulk_results.CKCC_outlier_lead_accuracy.results.2020_07_17.tsv.gz")) %>%
+  rename(Mean_Accuracy = `Mean Accuracy`) %>%
+  mutate(Mean_Accuracy = Mean_Accuracy/100)
+sept_results <- read_tsv("2020_09_29/outlier_probability_output_CKCC_2020_09_28.tsv.gz") %>%
+  rename(Mean_Accuracy = `Probability of being an outlier`)
+
+# Summary stats
+summary(july_results$Mean_Accuracy)
+summary(sept_results$Mean_Accuracy)
+
+# Split by up/down
+summary(subset(july_results, Type == "Up")$Mean_Accuracy)
+summary(subset(sept_results, Type == "Up")$Mean_Accuracy)
+summary(subset(july_results, Type == "Down")$Mean_Accuracy)
+summary(subset(sept_results, Type == "Down")$Mean_Accuracy)
+
+# Distribution of gene lengths
+summary(july_results$effective_length)
+summary(sept_results$`Gene length`)
+summary(dec_results$`Gene length`)
+
+ggplot(july_results) +
+  geom_histogram(aes(effective_length)) +
+  xlim(0,4000) +
+  theme_minimal()
+
+ggplot(sept_results) +
+  geom_histogram(aes(`Gene length`)) +
+  xlim(0,4000) +
+  theme_minimal()
+
+ggplot(dec_results) +
+  geom_histogram(aes(`Gene length`)) +
+  xlim(0,4000) +
+  theme_minimal()
+
+```

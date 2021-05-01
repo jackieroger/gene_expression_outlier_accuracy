@@ -94,7 +94,7 @@ bulk_results_with_nas <- gathered_results_with_nas %>%
 ```{r}
 
 print("How many detected outlier genes total are being analyzed?")
-sum(bin_check$n_entries_per_bin)
+nrow(bulk_results)
 
 print("How many bins are possible?")
 (length(expression_bin_boundaries)-1) * (length(mend_depth_bin_boundaries)-1) * (length(length_bin_boundaries)-1)
@@ -215,12 +215,11 @@ StatBin2 <- ggproto(
     res
   })
 
-
 ```
 
 # Figure 2
 
-```{r figure-1}
+```{r figure-2}
 
 # to get hex codes from palette
 # library(RColorBrewer)
@@ -228,7 +227,53 @@ StatBin2 <- ggproto(
 
 type_colors = c(Up = "#E41A1C", Down = "#377EB8")
 
-bulk_results$Type <- factor(bulk_results$Type, levels = c("Up", "Down"))
+split_by_quartile <- function(bulk_results_in_fn, col_name_fn = Expression, this_suffix = " Log2(TPM+1)"){
+  #  bulk_results_in_fn <- bulk_results_for_ckcc_accuracy_figure; col_name_text = "Depth"; this_suffix = "M MEND reads"
+  col_name_text <- rlang::ensym(col_name_fn)
+  # Upper quartile
+ bulk_results_bit <- lapply(c("Up", "Down"), function(this_type){
+    these_bulk_results <- bulk_results_in_fn %>% filter(Type == this_type)
+    this_threshold <- these_bulk_results %>% summarize(this_q = quantile(!!col_name_text, 0.75)) %>% pull(this_q) %>% unique
+    bulk_results_upper_bit <- these_bulk_results %>% 
+      filter(!!col_name_text >= this_threshold) %>%
+      mutate(set = paste0(rlang::as_label(col_name_text),  "_UQ"),
+             set_type_label = paste0(">=", round(this_threshold, 1), this_suffix, ", n=", label_comma()(n())))
+  # Lower quartile
+    this_threshold <- these_bulk_results %>% summarize(this_q = quantile(!!col_name_text, 0.25)) %>% pull(this_q) %>% unique
+    bulk_results_lower_bit <- these_bulk_results %>% 
+      filter(!!col_name_text <= this_threshold) %>%
+      mutate(set = paste0(rlang::as_label(col_name_text), "_LQ"),
+             set_type_label = paste0("<=", round(this_threshold, 1), this_suffix, ", n=", label_comma()(n())))
+   these_bits <- bind_rows(bulk_results_upper_bit, bulk_results_lower_bit) 
+  }) %>% bind_rows()
+  return(bulk_results_bit)
+}
+
+bulk_results_for_ckcc_accuracy_figure <- 
+  bulk_results %>% 
+  mutate(Depth = MEND_depth/1e6,
+         Length = effective_length/1e3,
+         Difference = `Percent difference`)
+
+ckcc_accuracy_figure_data_v2 <- bind_rows(
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Expression, this_suffix = " Log2(TPM+1)") %>% mutate(fac1 = "Expression"),
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Depth, this_suffix = "M MEND reads") %>% mutate(fac1 = "Depth"),
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Length, this_suffix = "kb") %>% mutate(fac1 = "Length"),
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Difference, this_suffix = "%") %>% mutate(fac1 = "Difference")
+)
+
+tabyl(bulk_results_for_ckcc_accuracy_figure$Type)
+
+```
+
+
+```{r figure-2}
+
+# to get hex codes from palette
+# library(RColorBrewer)
+# brewer.pal(12, "Set1")
+
+type_colors = c(Up = "#E41A1C", Down = "#377EB8")
 
 acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
   geom_histogram(fill="white", stat = StatBin2) +
@@ -239,58 +284,49 @@ acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
   xlab("") +
   ylab("Gene\nexpression\nmeasurements")
 
-figure1_data_v2 <- bind_rows(
-bulk_results %>%
-  filter(Expression > quantile(Expression, 0.75)) %>%
-  mutate(set = paste0("Expression>", round(quantile(Expression, 0.75), 1), " Log2(TPM+1)")),
-bulk_results %>%
-  filter(Expression < quantile(Expression, 0.25)) %>%
-  mutate(set = paste0("Expression<", round(quantile(Expression, 0.25), 1), " Log2(TPM+1)")),
-bulk_results %>%
-  filter(MEND_depth > quantile(MEND_depth, 0.75)) %>%
-  mutate(set = paste0("Depth>", round(quantile(MEND_depth, 0.75)/1e6), "M MEND reads")),
-bulk_results %>%
-  filter(MEND_depth < quantile(MEND_depth, 0.25)) %>%
-  mutate(set = paste0("Depth<", round(quantile(MEND_depth, 0.25)/1e6), "M MEND reads")),
-bulk_results %>%
-  filter(effective_length > quantile(effective_length, 0.75)) %>%
-  mutate(set = paste0("Length>", round(quantile(effective_length, 0.75)/1000, 1), "kb")),
-bulk_results %>%
-  filter(effective_length < quantile(effective_length, 0.25)) %>%
-  mutate(set = paste0("Length<", round(quantile(effective_length, 0.25)/1000, 1), "kb")),
-bulk_results %>%
-  filter(`Percent difference` > quantile(`Percent difference`, 0.75)) %>%
-  mutate(set = paste0("Difference>", round(quantile(`Percent difference`, 0.75), 1), "%")),
-bulk_results %>%
-  filter(`Percent difference` < quantile(`Percent difference`, 0.25)) %>%
-  mutate(set = paste0("Difference<", round(quantile(`Percent difference`, 0.25), 1), "%"))
-)
+```
 
-boxplot_n_labels <- figure1_data_v2 %>%
-   group_by(set, Type) %>%
-   summarize(set_type_label = paste0("n=", scales::label_comma()(n())))
+## Generate figures
 
-all_boxplots <- ggplot(figure1_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)) +
-  geom_boxplot(outlier.size = 0.5) +
+```{r figure-2g}
+
+boxplot_n_labels <- ckcc_accuracy_figure_data_v2 %>%
+   select(set, set_type_label, Type, set_type_label, fac1) %>%
+  distinct()
+
+
+all_boxplots <- ggplot(ckcc_accuracy_figure_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)) +
+  geom_boxplot(outlier.size = 0.5, width = 0.5) +
   geom_text(data = boxplot_n_labels, 
-            #aes(x=0.50, y=set, label = set_type_label), vjust = -1, size = 3) +
-            aes(x=0, y=set, label = set_type_label), vjust = -0.5, hjust = 0, size = 3) +
+            aes(x=0.05, y=set, label = set_type_label), hjust = 0, vjust = -1.5, size = 3) +
   theme_bw() +
   scale_fill_manual(values = type_colors) +
   scale_color_manual(values = type_colors) +
-  facet_wrap(~Type, ncol = 2) +
+  facet_grid(fac1~Type, scales = "free_y") +
+#    facet_wrap(~Type_label, ncol = 2) +
   theme(legend.position="none") +
-  ylab("")
+  ylab("") +
+  xlab("Probability")
 
 all_boxplots
 
-combined_image <- plot_grid(acc_overview, all_boxplots, ncol = 1, rel_heights = c(1,2), align = "v",
-                  labels = "AUTO")
+```
+
+
+```{r figure-2f, fig.height=7, fig.width=7}
+
+combined_image <- plot_grid(acc_overview, all_boxplots, 
+                            ncol = 1, 
+                            rel_heights = c(1,2), 
+                            align = "v",
+                            axis = "lr",
+                            labels = "AUTO")
 combined_image
 
-ggsave("../figures/fig1.png", combined_image)
+ggsave("../figures/ckcc_accuracy_figure.png", combined_image, height=7, width=7)
 
 ```
+
 ## Where does the small peak in the left tail for up outliers in fig 2A come from?
 
 ```{r}
@@ -376,6 +412,10 @@ ggplot(figure1_data_v2, aes(y=Type, x=Mean_Accuracy, fill = Type)) +
   facet_wrap(~Type, ncol = 2) +
   theme(legend.position="none") +
   ylab("")
+
+ggplot(subset(figure1_data_v2, set == "Expression<0.1 Log2(TPM+1)" & Type == "Up")) +
+  geom_histogram(aes(Mean_Accuracy)) +
+  theme_bw()
 
 ```
 

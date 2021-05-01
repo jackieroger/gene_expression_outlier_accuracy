@@ -1,0 +1,294 @@
+---
+title: "summarize_results_v7.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo=TRUE, message=FALSE, warning=FALSE)
+
+library(readr)
+
+```
+
+This R markdown contains all of the calculations and figures in the manuscript
+except figure 1. I computed the probabilities in figure 1 by manually running
+each combination of factors through the probability calculating code.
+
+### Size of database
+
+```{r}
+
+# Read in database
+pge <- read_tsv("../accuracy_calculation/data/in/per_gene_expression.tsv.gz")
+
+# Number of gene expression measurements
+nrow(pge)
+
+# Number of genes
+length(unique(pge$gene))
+
+# Number of depths
+length(unique(subset(pge, target_UMEND_count <= 44)$target_UMEND_count))
+
+```
+
+### Bin sizes in database
+
+```{r}
+
+# Make bins
+expression_bin_boundaries <- c(0, 1, 3, 5, 7, 10, 20)
+mend_depth_bin_boundaries <- c(0, seq(2, 46, 4), Inf)*1E6
+length_bin_boundaries <- c(0, 100, 450, 800, 1500, 4000, Inf)
+
+make_bin_names <- function(boundaries = 1:10){
+  raw_names <- paste0(boundaries, "-", lead(boundaries)) %>% str_replace("-Inf", "+")
+  raw_names[1:(length(boundaries)-1)]
+}
+  
+expression_bin_names <- make_bin_names(expression_bin_boundaries)
+mend_depth_bin_names <- make_bin_names(mend_depth_bin_boundaries/1e6)
+length_bin_names <- make_bin_names(length_bin_boundaries)
+
+# Get bin info for pge data
+pge_with_bins <- pge %>%
+  mutate(Expression_bin = cut(expression_at_max_depth, expression_bin_boundaries,
+                              labels = expression_bin_names, include.lowest = TRUE),
+         MEND_bin = cut(UMEND, mend_depth_bin_boundaries,
+                        labels = mend_depth_bin_names, include.lowest = TRUE),
+         length_bin = cut(effective_gene_length, length_bin_boundaries,
+                          labels = length_bin_names, include.lowest = TRUE))
+
+# Size of each expression/mend/length bin
+bin_check <- pge_with_bins %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n(),
+            n_samples = length(unique(parent_id)))
+
+# Total number of possible bins
+nrow(bin_check)
+
+# Check how many bins have fewer than 100 values
+sum(bin_check$n_entries_per_bin < 100)
+
+# Check how many bins have fewer than 5 samples represented
+sum(bin_check$n_samples < 5)
+
+# Check how many bins have fewer than 100 values and fewer than 5 samples represented
+sum(bin_check$n_entries_per_bin < 100 & bin_check$n_samples < 5)
+
+# Look at expression & length for the insufficient bins
+insufficient_bins <- subset(bin_check, n_entries_per_bin < 100)
+unique(insufficient_bins$Expression_bin)
+table(insufficient_bins$length_bin)
+super_insufficient_bins <- subset(insufficient_bins, n_samples < 5)
+table(super_insufficient_bins$Expression_bin, super_insufficient_bins$length_bin)
+
+```
+
+### Bin sizes in bulk processing of CKCC data
+
+```{r}
+
+# Load results
+gathered_results_raw <- read_tsv("2020_12_03/outlier_probability_output_CKCC_2020_12_04.tsv.gz") 
+
+# Get bin info
+gathered_results <- gathered_results_raw %>%
+  select(Sample, Gene, Type, Expression, 
+         Threshold, MEND_depth = `Mend depth`,
+         effective_length = `Gene length`,
+         Mean_Accuracy = `Probability of being an outlier`) %>%
+  mutate(`Percent difference` = 100 * ((abs(Expression - Threshold)) / Expression))
+
+bulk_results <- gathered_results %>%
+  mutate(Expression_bin = cut(Expression, expression_bin_boundaries, 
+                              labels = expression_bin_names,
+                        include.lowest = TRUE),
+         MEND_bin = cut(MEND_depth, mend_depth_bin_boundaries, labels = mend_depth_bin_names),
+         length_bin = cut(effective_length, length_bin_boundaries, labels = length_bin_names,
+                                      include.lowest = TRUE)
+         )
+
+# Look at bin info for CKCC data
+bin_check_ckcc <- bulk_results %>%
+  group_by(Expression_bin, MEND_bin, length_bin) %>%
+  summarize(n_entries_per_bin = n())
+
+# Number of bins with outliers in them
+nrow(bin_check_ckcc)
+
+# Number of bins with 1-99 outliers
+length(which(bin_check_ckcc$n_entries_per_bin > 0 & bin_check_ckcc$n_entries_per_bin < 100))
+
+# Drop NAs (outliers with insufficient comparison data)
+bulk_results <- drop_na(bulk_results, Mean_Accuracy)
+
+# Percent of outliers with >=95% accuracy?
+100*length(which(bulk_results$Mean_Accuracy > 0.95))/nrow(bulk_results)
+
+```
+
+### Figure 2
+
+```{r}
+
+# StatBin2 allows depiction of empty bins as blank instead of a horizontal line:
+# https://stackoverflow.com/questions/57128090/remove-baseline-color-for-geom-histogram
+StatBin2 <- ggproto(
+  "StatBin2", 
+  StatBin,
+  compute_group = function (data, scales, binwidth = NULL, bins = NULL, 
+                            center = NULL, boundary = NULL, 
+                            closed = c("right", "left"), pad = FALSE, 
+                            breaks = NULL, origin = NULL, right = NULL, 
+                            drop = NULL, width = NULL) {
+    if (!is.null(breaks)) {
+      if (!scales$x$is_discrete()) {
+        breaks <- scales$x$transform(breaks)
+      }
+      bins <- ggplot2:::bin_breaks(breaks, closed)
+    }
+    else if (!is.null(binwidth)) {
+      if (is.function(binwidth)) {
+        binwidth <- binwidth(data$x)
+      }
+      bins <- ggplot2:::bin_breaks_width(scales$x$dimension(), binwidth, 
+                                         center = center, boundary = boundary, 
+                                         closed = closed)
+    }
+    else {
+      bins <- ggplot2:::bin_breaks_bins(scales$x$dimension(), bins, 
+                                        center = center, boundary = boundary, 
+                                        closed = closed)
+    }
+    res <- ggplot2:::bin_vector(data$x, bins, weight = data$weight, pad = pad)
+
+    # drop 0-count bins completely before returning the dataframe
+    res <- res[res$count > 0, ] 
+
+    res
+  })
+
+# Set colors for plot
+type_colors = c(Up = "#E41A1C", Down = "#377EB8")
+
+# Scale data and rename columns
+bulk_results_for_ckcc_accuracy_figure <- 
+  bulk_results %>% 
+  mutate(Depth = MEND_depth/1e6,
+         Length = effective_length/1e3,
+         Difference = `Percent difference`)
+
+# Figure 2A
+acc_overview <- ggplot(bulk_results, aes(x=Mean_Accuracy, color=Type)) +
+  geom_histogram(fill="white", stat = StatBin2) +
+  facet_wrap(~Type, scales="free") +
+  theme_bw() +
+  scale_color_manual(values = type_colors) +
+  theme(legend.position="none") +
+  xlab("") +
+  ylab("Gene\nexpression\nmeasurements")
+
+# Make function to split data by quartile
+split_by_quartile <- function(bulk_results_in_fn, col_name_fn = Expression, this_suffix = " Log2(TPM+1)"){
+  #  bulk_results_in_fn <- bulk_results_for_ckcc_accuracy_figure; col_name_text = "Depth"; this_suffix = "M MEND reads"
+  col_name_text <- rlang::ensym(col_name_fn)
+  # Upper quartile
+ bulk_results_bit <- lapply(c("Up", "Down"), function(this_type){
+    these_bulk_results <- bulk_results_in_fn %>% filter(Type == this_type)
+    this_threshold <- these_bulk_results %>% summarize(this_q = quantile(!!col_name_text, 0.75)) %>% pull(this_q) %>% unique
+    bulk_results_upper_bit <- these_bulk_results %>% 
+      filter(!!col_name_text >= this_threshold) %>%
+      mutate(set = paste0(rlang::as_label(col_name_text),  "_UQ"),
+             set_type_label = paste0(">=", round(this_threshold, 1), this_suffix, ", n=", label_comma()(n())))
+  # Lower quartile
+    this_threshold <- these_bulk_results %>% summarize(this_q = quantile(!!col_name_text, 0.25)) %>% pull(this_q) %>% unique
+    bulk_results_lower_bit <- these_bulk_results %>% 
+      filter(!!col_name_text <= this_threshold) %>%
+      mutate(set = paste0(rlang::as_label(col_name_text), "_LQ"),
+             set_type_label = paste0("<=", round(this_threshold, 1), this_suffix, ", n=", label_comma()(n())))
+   these_bits <- bind_rows(bulk_results_upper_bit, bulk_results_lower_bit) 
+  }) %>% bind_rows()
+  return(bulk_results_bit)
+}
+
+# Data for figure 2B
+ckcc_accuracy_figure_data_v2 <- bind_rows(
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Expression, this_suffix = " Log2(TPM+1)") %>% mutate(fac1 = "Expression"),
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Depth, this_suffix = "M MEND reads") %>% mutate(fac1 = "Depth"),
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Length, this_suffix = "kb") %>% mutate(fac1 = "Length"),
+split_by_quartile(bulk_results_for_ckcc_accuracy_figure, col_name = Difference, this_suffix = "%") %>% mutate(fac1 = "Difference")
+)
+
+# Figure 2B
+boxplot_n_labels <- ckcc_accuracy_figure_data_v2 %>%
+   select(set, set_type_label, Type, set_type_label, fac1) %>%
+  distinct()
+
+all_boxplots <- ggplot(ckcc_accuracy_figure_data_v2, aes(y=set, x=Mean_Accuracy, fill = Type)) +
+  geom_boxplot(outlier.size = 0.5, width = 0.5) +
+  geom_text(data = boxplot_n_labels, 
+            aes(x=0.05, y=set, label = set_type_label), hjust = 0, vjust = -1.5, size = 3) +
+  theme_bw() +
+  scale_fill_manual(values = type_colors) +
+  scale_color_manual(values = type_colors) +
+  facet_grid(fac1~Type, scales = "free_y") +
+  theme(legend.position="none") +
+  ylab("") +
+  xlab("Probability")
+
+# Figure 2 (both parts combined)
+combined_image <- plot_grid(acc_overview, all_boxplots, 
+                            ncol = 1, 
+                            rel_heights = c(1,2), 
+                            align = "v",
+                            axis = "lr",
+                            labels = "AUTO")
+combined_image
+
+ggsave("../figures/ckcc_accuracy_figure.png", combined_image, height=7, width=7)
+
+```
+
+### Stats about results in figure 2
+
+```{r}
+
+# Percent of outliers had >= 0.95 probability
+100*length(which(bulk_results$Mean_Accuracy > 0.95))/nrow(bulk_results)
+
+# Outliers with probability < 0.05
+low_acc_ups <- subset(bulk_results, Mean_Accuracy < 0.05)
+
+# How many there are
+nrow(low_acc_ups)
+
+# Their expression levels and gene lengths
+summary(low_acc_ups$Expression)
+summary(low_acc_ups$effective_length)
+
+# Long and short down outliers
+long_downs <- ckcc_accuracy_figure_data_v2 %>%
+  filter(Type == "Down" & set == "Length_UQ")
+
+short_downs <- ckcc_accuracy_figure_data_v2 %>%
+  filter(Type == "Down" & set == "Length_LQ")
+
+# Their expression levels
+summary(long_downs$Expression)
+summary(short_downs$Expression)
+
+# High and low PD up outliers
+highPD_ups <- ckcc_accuracy_figure_data_v2 %>%
+  filter(Type == "Up" & set == "Difference_UQ")
+
+lowPD_ups <- ckcc_accuracy_figure_data_v2 %>%
+  filter(Type == "Up" & set == "Difference_LQ")
+
+# Their expression levels
+summary(highPD_ups$Expression)
+summary(lowPD_ups$Expression)
+
+```
